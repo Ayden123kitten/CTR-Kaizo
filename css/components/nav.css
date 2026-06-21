@@ -10,10 +10,11 @@
     column-gap: 2rem;
 }
 .nav .nav__tab {
-    padding-top: 4px;
-    border-bottom: 4px solid transparent;
+    height: 100%;
     display: flex;
     align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
     padding-inline: 0.5rem;
     transition: border-color 100ms ease;
 }
