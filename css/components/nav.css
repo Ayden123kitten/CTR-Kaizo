@@ -10,12 +10,14 @@
     column-gap: 2rem;
 }
 .nav__tab {
-    height: 100%;
+    height: 100%; /* Fills the full height of the header */
     display: flex;
-    align-items: center;
-    padding-top: 0;
-    padding-bottom: 0;
-    box-sizing: border-box; /* Added to keep the border inside the tab */
+    align-items: center; /* Centers the text vertically */
+    justify-content: center; /* Centers the text horizontally */
+    padding: 0; /* Removes all padding so the text is truly centered */
+    position: relative; /* Needed for the underline */
+    text-decoration: none;
+    color: var(--color-on-primary);
 }
 .nav__tab::after {
     content: '';
@@ -23,7 +25,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 3px; /* This is the thickness of the line */
+    height: 3px; /* Thickness of the white line */
     background-color: white;
 }
 .nav .nav__tab.router-link-active {
