@@ -1,10 +1,3 @@
-:root {
-    --color-background-hover: #eee;
-    --color-on-background-hover: black;
-    --color-error: #de0000;
-    --color-on-error: white;
-}
-
 main.dark,
 header.dark {
     color-scheme: dark;
