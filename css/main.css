@@ -35,8 +35,8 @@ main {
 
 header {
     display: grid;
-    grid-template-columns: 1fr auto 1fr; /* This guarantees the nav is perfectly centered! */
-    align-items: center;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: stretch; /* Changed from center */
     padding: 0 2rem;
     height: 4rem;
     background-color: var(--color-primary);
