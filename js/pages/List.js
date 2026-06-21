@@ -47,7 +47,7 @@ export default {
                             <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">DownloadLink</div>
+                            <div class="type-title-sm">Download Link</div>
                             <a target="_blank" :href="level.download">{{ 'Download Link' }}</a>
                         </li>
                     </ul>
