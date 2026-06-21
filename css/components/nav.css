@@ -10,16 +10,15 @@
     column-gap: 2rem;
 }
 .nav__tab {
+    height: 100%; /* Fills the height of the nav container */
     display: flex;
-    align-items: center;
+    align-items: center; /* Centers the text vertically */
     justify-content: center;
-    align-self: stretch; /* Forces the tab to fill the 4rem height of the header */
     padding: 0 1rem;
     text-decoration: none;
     color: var(--color-on-primary);
-
-    /* THE CHEAT CODE: Paints a 3px white line on the inside bottom edge */
-    box-shadow: inset 0 -3px 0 0 white;
+    box-sizing: border-box;
+    border-bottom: 3px solid white; /* The clean, simple underline */
 }
 .nav .nav__tab.router-link-active {
     border-color: var(--color-on-primary);
