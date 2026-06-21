@@ -10,23 +10,15 @@
     column-gap: 2rem;
 }
 .nav__tab {
-    height: 100%; /* Fills the full height of the header */
+    height: 100%;
     display: flex;
-    align-items: center; /* Centers the text vertically */
-    justify-content: center; /* Centers the text horizontally */
-    padding: 0; /* Removes all padding so the text is truly centered */
-    position: relative; /* Needed for the underline */
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
     text-decoration: none;
     color: var(--color-on-primary);
-}
-.nav__tab::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 3px; /* Thickness of the white line */
-    background-color: white;
+    box-sizing: border-box;
+    border-bottom: 3px solid white; /* THE BULLETPROOF UNDERLINE */
 }
 .nav .nav__tab.router-link-active {
     border-color: var(--color-on-primary);
