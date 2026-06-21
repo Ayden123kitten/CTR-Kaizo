@@ -62,8 +62,9 @@ header .logo img {
 header .nav {
     grid-column: 2;
     display: flex;
-    align-items: center;
+    align-items: stretch; /* Changed from center */
     column-gap: 2rem;
+    height: 100%; /* Added to fill the header height */
 }
 
 header .nav__actions {
