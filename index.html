@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=1024" />
         <title>Cut The Rope Kaizo Levels List</title>
 
-        <!-- Replace your server icon by uploading an image file named "list_icon.png"-->
         <link rel="icon" href="/list_icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,7 +21,7 @@
             type="text/css"
             href="/css/pages/leaderboard.css"
         />
-        <link rel="stylesheet" type="text/css" href="/css/components/nav.css" />
+        <link rel="stylesheet" type="text/css" href="/css/nav.css" />
         <link rel="stylesheet" type="text/css" href="/css/components/btn.css" />
         <link
             rel="stylesheet"
@@ -33,7 +32,8 @@
         <script src="https://unpkg.com/vue-router@4.0.14/dist/vue-router.global.prod.js"></script>
         <script type="module" src="/js/main.js"></script>
     </head>
-    <body id="app">        <header :class="{ dark: store.dark }">
+    <body id="app">
+        <header :class="{ dark: store.dark }">
             <div class="logo">
                 <img src="/list_icon.png" alt="Icon" class="logo__icon" />
                 <h2>Cut The Rope Kaizo Levels List</h2>
