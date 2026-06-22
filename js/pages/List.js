@@ -46,9 +46,9 @@ export default {
                             <div class="type-title-sm">Points when completed</div>
                             <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
                         </li>
-                        <li>
+                        <li v-if="level.download">
                             <div class="type-title-sm">Download Link</div>
-                            <a target="_blank" :href="level.download">{{ 'Download Link' }}</a>
+                            <a :href="level.download" download class="type-label-lg">{{ level.download }}</a>
                         </li>
                     </ul>
                     <h2>Records</h2>
