@@ -48,7 +48,11 @@ export default {
                         </li>
                         <li v-if="level.download">
                             <div class="type-title-sm">Download Link</div>
-                            <a :href="level.download" download class="type-label-lg">{{ level.download }}</a>
+
+                            <!-- Added style="font-family: inherit !important;" to force the font to match -->
+                            <a :href="level.download" download class="type-label-lg" style="font-family: inherit !important; text-decoration: underline;">
+                                {{ level.download }}
+                            </a>
                         </li>
                     </ul>
                     <h2>Records</h2>
