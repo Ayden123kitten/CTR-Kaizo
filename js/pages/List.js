@@ -40,8 +40,8 @@ export default {
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
-                    <ul class="stats">
-                        <li v-if="level.description">
+                    <ul class="stats" v-if="level.description">
+                        <li>
                             <p class="type-label-lg" style="white-space: pre-wrap;">{{ level.description }}</p>
                         </li>
                     </ul>
