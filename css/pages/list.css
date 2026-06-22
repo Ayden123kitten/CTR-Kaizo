@@ -60,6 +60,11 @@
 .page-list .level-container .level .video {
     aspect-ratio: 16/9;
 }
+.page-list .level-container .level .image {
+    display: block;
+    margin-top: 1rem;
+    max-width: 100%;
+}
 .page-list .level-container .level .stats {
     display: flex;
     justify-content: space-evenly;

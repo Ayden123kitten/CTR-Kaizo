@@ -6,11 +6,6 @@ export function getYoutubeIdFromUrl(url) {
 }
 
 export function embed(video) {
-    // Check if the URL is from catbox.moe (image)
-    if (video.includes('catbox.moe')) {
-        return video;
-    }
-    
     return `https://www.youtube.com/embed/${getYoutubeIdFromUrl(video)}`;
 }
 
