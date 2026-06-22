@@ -10,15 +10,15 @@
     column-gap: 2rem;
 }
 .nav__tab {
-    height: 100%; /* Fills the height of the nav container */
+    height: 100%; /* Fills the pinned nav container */
     display: flex;
-    align-items: center; /* Centers the text vertically */
+    align-items: center;
     justify-content: center;
     padding: 0 1rem;
     text-decoration: none;
     color: var(--color-on-primary);
     box-sizing: border-box;
-    border-bottom: 3px solid white; /* The clean, simple underline */
+    border-bottom: 3px solid white; /* The simple, guaranteed underline */
 }
 .nav .nav__tab.router-link-active {
     border-color: var(--color-on-primary);
