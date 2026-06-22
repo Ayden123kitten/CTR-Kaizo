@@ -40,19 +40,21 @@ export default {
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+                    <ul class="stats">
+                        <li v-if="level.description">
+                            <div class="type-title-sm">Description</div>
+                            <p class="type-label-lg" style="white-space: pre-wrap;">{{ level.description }}</p>
+                        </li>
+                    </ul>
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
                             <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
                         </li>
-                        <li v-if="level.description">
-                            <div class="type-title-sm">Description</div>
-                            <p class="type-label-lg" style="white-space: pre-wrap;">{{ level.description }}</p>
-                        </li>
                         <li v-if="level.download">
                             <div class="type-title-sm">Download</div>
-                            <a :href="level.download" download class="type-label-lg">{{ level.download }}</a>
+                            <a :href="level.download" download class="type-label-lg">Download Link</a>
                         </li>
                     </ul>
                     <h2>Records</h2>
