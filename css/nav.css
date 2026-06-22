@@ -1,0 +1,63 @@
+:root {
+    --color-background: white;
+    --color-on-background: black;
+    --color-primary: #3f6509;
+    --color-on-primary: white;
+}
+
+.nav {
+    display: flex;
+    column-gap: 2rem;
+}
+.nav__tab {
+    height: 100%; /* Fills the pinned nav container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem; /* Fixed typo from 01rem */
+    text-decoration: none;
+    color: var(--color-on-primary);
+    box-sizing: border-box;
+    border-bottom: 3px solid transparent; /* Reserves space for the underline */
+}
+.nav .nav__tab.router-link-active {
+    border-bottom-color: var(--color-on-primary);
+}
+.nav .nav__tab:hover {
+    border-bottom-color: var(--color-on-primary);
+}
+}.nav__actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.nav__icon {
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 100ms ease;
+}
+
+.nav__icon:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.nav__icon img {
+    height: 1.5rem;
+}
+.nav__cta {
+    padding: 1rem;
+    background-color: var(--color-on-primary);
+    color: var(--color-primary);
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 0.5rem 0 rgba(63, 101, 9, 0.5);
+    transition: transform 100ms ease;
+}
+.nav__cta:hover:not(:active) {
+    transform: translateY(-2px);
+}
