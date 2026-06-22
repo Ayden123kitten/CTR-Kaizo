@@ -90,12 +90,15 @@ export default {
                         </ol>
                     </template>
                     <h3>Submission Requirements</h3>
-                    <p>
-                        Achieved the record without using hacks
-                    </p>
-                    <p>
-                        Have either source audio or clicks/taps in the video. Edited audio only does not count
-                    </p>
+                        <p>
+                        Achieved the record without using hacks/TAS.
+                        </p>
+                        <p>
+                        Have either source audio or clicks/taps in the video. Edited audio only does not count.
+                        </p>
+                        <p>
+                        No methods for making the level easier were used.
+                        </p>
                 </div>
             </div>
         </main>
