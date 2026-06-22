@@ -38,10 +38,6 @@ export default {
             </div>
             <div class="level-container">
                 <div class="level" v-if="level">
-                    <!-- ADD THIS TEMPORARILY TO SEE THE RAW DATA -->
-                    <pre style="background: black; color: white; padding: 10px; font-size: 12px;">
-                        {{ JSON.stringify(level, null, 2) }}
-                    </pre>
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
