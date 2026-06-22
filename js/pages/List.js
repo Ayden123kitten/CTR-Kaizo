@@ -42,7 +42,6 @@ export default {
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <ul class="stats">
                         <li v-if="level.description">
-                            <div class="type-title-sm">Description</div>
                             <p class="type-label-lg" style="white-space: pre-wrap;">{{ level.description }}</p>
                         </li>
                     </ul>
