@@ -23,13 +23,13 @@
     transition: border-bottom-color 0.2s ease;
 }
 
-/* White underline for the selected tab - always visible */
+/* White underline for the selected tab - always visible when on the associated page */
 .nav__tab.is-active {
     border-bottom-color: white !important;
 }
 
-/* White underline on hover for non-active tabs */
-.nav__tab:not(.is-active):hover {
+/* White underline on hover for all tabs */
+.nav__tab:hover {
     border-bottom-color: white;
 }
 

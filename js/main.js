@@ -14,6 +14,7 @@ const app = Vue.createApp({
 const router = VueRouter.createRouter({
     history: VueRouter.createWebHashHistory(),
     routes,
+    linkActiveClass: 'is-active',
 });
 
 // Function to update the active tab underline
