@@ -41,31 +41,25 @@ export default {
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
-                    <!-- ADD THIS RIGHT BELOW THE VERIFIER BLOCK -->
-                    <li v-if="level.description">
-                        <div class="type-title-sm">Description</div>
-                        <!-- Using a <p> tag with inline line-height so long descriptions are easy to read -->
-                        <p class="type-label-lg" style="margin: 0; line-height: 1.5; white-space: pre-wrap;">
-                            {{ level.description }}
-                        </p>
-                    </li>
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
                             <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
                         </li>
+                        <li v-if="level.description">
+                            <div class="type-title-sm">Description</div>
+                            <p class="type-label-lg" style="white-space: pre-wrap;">{{ level.description }}</p>
+                        </li>
                         <li v-if="level.download">
-                            <div class="type-title-sm">Download Link</div>
-
-                            <!-- Added style="font-family: inherit !important;" to force the font to match -->
-                            <a :href="level.download" download class="type-label-lg" style="font-family: inherit !important; text-decoration: underline;">
-                                {{ level.download }}
-                            </a>
+                            <div class="type-title-sm">Download</div>
+                            <a :href="level.download" download class="type-label-lg">{{ level.download }}</a>
                         </li>
                     </ul>
                     <h2>Records</h2>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
+                            <td class="percent">
+                                <p class="type-label-lg">{{ record.percent }}%</p>
                             </td>
                             <td class="user">
                                 <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
