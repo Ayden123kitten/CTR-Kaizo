@@ -41,6 +41,14 @@ export default {
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+                    <!-- ADD THIS RIGHT BELOW THE VERIFIER BLOCK -->
+                    <li v-if="level.description">
+                        <div class="type-title-sm">Description</div>
+                        <!-- Using a <p> tag with inline line-height so long descriptions are easy to read -->
+                        <p class="type-label-lg" style="margin: 0; line-height: 1.5; white-space: pre-wrap;">
+                            {{ level.description }}
+                        </p>
+                    </li>
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
