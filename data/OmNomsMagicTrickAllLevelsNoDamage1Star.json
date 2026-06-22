@@ -1,24 +1,21 @@
 {
-    "name": "Om Nom's Magic Trick | All Levels, No Damage 1 Star",
-    "creators": ["Ggando12"],
-    "verifier": "Ggando12",
-    "verification": "",
-    "percentToQualify": 100,
+    "name": "Om Nom's Magic Trick | All Levels, No Damage 1 Star"
+    "creators": ["Ggando12"]
+    "verifier": "Ggando12"
+    "verification": ""
+    "percentToQualify": 100
     "records": [
         {
-            "user": "Ayden",
-            "link": "https://www.youtube.com/watch?v=0hya3ZDMDis",
-            "percent": 100
-        },
+            "user": "Ayden"
+            "link": "https://www.youtube.com/watch?v=0hya3ZDMDis"
+        }
         {
-            "user": "pippypips",
-            "link": "",
-            "percent": 100
-        },
+            "user": "pippypips"
+            "link": ""
+        }
         {
-            "user": "KONDUCKTOR",
-            "link": "",
-            "percent": 100
+            "user": "KONDUCKTOR"
+            "link": ""
         }
     ]
 }

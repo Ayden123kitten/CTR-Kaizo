@@ -1,14 +1,13 @@
 {
-    "name": "Bath time",
-    "creators": ["max1804sim"],
-    "verifier": "Ggando12",
-    "verification": "",
-    "percentToQualify": 100,
+    "name": "Bath time"
+    "creators": ["max1804sim"]
+    "verifier": "Ggando12"
+    "verification": ""
+    "percentToQualify": 100
     "records": [
         {
-            "user": "MinhPi",
-            "link": "https://youtube.com/watch?v=DBWbUmq_jg0",
-            "percent": 100
+            "user": "MinhPi"
+            "link": "https://youtube.com/watch?v=DBWbUmq_jg0"
         }
     ]
 }

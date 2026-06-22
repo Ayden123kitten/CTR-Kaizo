@@ -1,14 +1,13 @@
 {
-    "name": "Path of pain 2 Stars",
-    "creators": ["Sneaky_"],
-    "verifier": "Sneaky_",
-    "verification": "",
-    "percentToQualify": 100,
+    "name": "Path of pain 2 Stars"
+    "creators": ["Sneaky_"]
+    "verifier": "Sneaky_"
+    "verification": ""
+    "percentToQualify": 100
     "records": [
         {
-            "user": "KONDUCKTOR",
-            "link": "https://www.youtube.com/watch?v=C9gOQJWl3go",
-            "percent": 100
+            "user": "KONDUCKTOR"
+            "link": "https://www.youtube.com/watch?v=C9gOQJWl3go"
         }
     ]
 }

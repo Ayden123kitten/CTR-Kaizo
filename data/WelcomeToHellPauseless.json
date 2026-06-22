@@ -1,9 +1,9 @@
 {
-    "name": "Welcome To Hell (Pauseless)",
-    "creators": ["playstationrb"],
-    "verifier": "Limeapple",
-    "verification": "https://www.youtube.com/watch?v=8XHf0S1C29Y",
-    "percentToQualify": 100,
+    "name": "Welcome To Hell (Pauseless)"
+    "creators": ["playstationrb"]
+    "verifier": "Limeapple"
+    "verification": "https://www.youtube.com/watch?v=8XHf0S1C29Y"
+    "percentToQualify": 100
     "records": [
     ]
 }
