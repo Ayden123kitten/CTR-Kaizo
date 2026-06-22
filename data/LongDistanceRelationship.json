@@ -1,14 +1,13 @@
 {
-    "name": "Long Distance Relationship",
-    "creators": ["DarkTheCreature"],
-    "verifier": "DarkTheCreature",
-    "verification": "",
-    "percentToQualify": 100,
+    "name": "Long Distance Relationship"
+    "creators": ["DarkTheCreature"]
+    "verifier": "DarkTheCreature"
+    "verification": ""
+    "percentToQualify": 100
     "records": [
         {
-            "user": "KONDUCKTOR",
-            "link": "",
-            "percent": 100
+            "user": "KONDUCKTOR"
+            "link": ""
         }
     ]
 }

@@ -1,9 +1,9 @@
 {
-    "name": "Crossing Border",
-    "creators": ["KONDUCKTOR"],
-    "verifier": "KONDUCKTOR",
-    "verification": "",
-    "percentToQualify": 100,
+    "name": "Crossing Border"
+    "creators": ["KONDUCKTOR"]
+    "verifier": "KONDUCKTOR"
+    "verification": ""
+    "percentToQualify": 100
     "records": [
     ]
 }

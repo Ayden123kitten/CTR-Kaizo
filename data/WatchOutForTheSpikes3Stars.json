@@ -1,19 +1,17 @@
 {
-    "name": "Watch out for the spikes! 3 Stars",
-    "creators": ["mirko545454"],
-    "verifier": "mirko545454",
-    "verification": "",
-    "percentToQualify": 100,
+    "name": "Watch out for the spikes! 3 Stars"
+    "creators": ["mirko545454"]
+    "verifier": "mirko545454"
+    "verification": ""
+    "percentToQualify": 100
     "records": [
         {
-            "user": "Ayden",
-            "link": "https://www.youtube.com/watch?v=V01ZmbkqIXE",
-            "percent": 100
-        },
+            "user": "Ayden"
+            "link": "https://www.youtube.com/watch?v=V01ZmbkqIXE"
+        }
         {
-            "user": "KONDUCKTOR",
-            "link": "",
-            "percent": 100
+            "user": "KONDUCKTOR"
+            "link": ""
         }
     ]
 }

@@ -1,9 +1,9 @@
 {
-    "name": "Welcome To Hell",
-    "creators": ["playstationrb"],
-    "verifier": "Limeapple",
-    "verification": "https://www.youtube.com/watch?v=emGzaN1v3HM",
-    "percentToQualify": 100,
+    "name": "Welcome To Hell"
+    "creators": ["playstationrb"]
+    "verifier": "Limeapple"
+    "verification": "https://www.youtube.com/watch?v=emGzaN1v3HM"
+    "percentToQualify": 100
     "records": [
     ]
 }

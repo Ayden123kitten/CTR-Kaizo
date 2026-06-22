@@ -49,7 +49,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
-                            <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
+                            <p>{{ score(selected + 1, level.percentToQualify) }}</p>
                         </li>
                         <li v-if="level.download">
                             <div class="type-title-sm">Download</div>
@@ -59,9 +59,6 @@ export default {
                     <h2>Records</h2>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
-                            <td class="percent">
-                                <p class="type-label-lg">{{ record.percent }}%</p>
-                            </td>
                             <td class="user">
                                 <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
                             </td>
