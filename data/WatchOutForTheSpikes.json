@@ -1,0 +1,18 @@
+{
+    "name": "Watch out for the spikes!",
+    "creators": ["mirko545454"],
+    "verifier": "mirko545454",
+    "verification": "",
+    "records": [
+        {
+            "user": "Ayden",
+            "link": "https://www.youtube.com/watch?v=V01ZmbkqIXE",
+            "percent": 100
+        },
+        {
+            "user": "KONDUCKTOR",
+            "link": "",
+            "percent": 100
+        }
+    ]
+}
