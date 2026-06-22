@@ -45,7 +45,8 @@ export default {
                             <p class="type-label-lg" style="white-space: pre-wrap;">{{ level.description }}</p>
                         </li>
                     </ul>
-                    <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+                    <iframe v-if="level.verification" class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+                    <img v-if="level.image" class="image" :src="level.image" alt="Level image">
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
