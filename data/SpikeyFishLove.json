@@ -1,11 +1,12 @@
 {
     "name": "Spikey Fish Love",
-    "creators": ["Ggando12"],
+    "creators": [
+        "Ggando12"
+    ],
     "verifier": "Ggando12",
     "verification": "https://www.youtube.com/watch?v=7CI3KRG9i80",
     "description": "Part of the Ascension to Heaven Mod",
     "download": "https://fixcdn.hyonsu.com/attachments/1518684447925338342/1518687501693485238/Spikey_Fish_Love.xml?ex=6a3ad374&is=6a3981f4&hm=b7c219aea3b45bf0a5359a9002f1a4e0c9f3f71c7b58f85e9877b2b2d1facb5c&",
     "image": "https://files.catbox.moe/h45iwj.png",
-    "records": [
-    ]
+    "records": []
 }

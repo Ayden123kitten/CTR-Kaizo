@@ -1,10 +1,11 @@
 {
     "name": "Untitled saw level",
-    "creators": ["max1804sim"],
+    "creators": [
+        "max1804sim"
+    ],
     "verifier": "Ggando12",
     "verification": "",
     "download": "https://cdn.discordapp.com/attachments/1518684447925338342/1518748358955765871/Untitled_saw_level.xml?ex=6a3b0c21&is=6a39baa1&hm=bec4a0868e3c962c813762b34610613955bfc2be1905273f0764b5be48c49b87&",
     "image": "https://files.catbox.moe/2vtsi1.png",
-    "records": [
-    ]
+    "records": []
 }

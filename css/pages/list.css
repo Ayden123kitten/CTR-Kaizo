@@ -83,7 +83,6 @@
 .page-list .level-container .level .records tr td:not(:last-child) {
     padding-right: 1rem;
 }
-.page-list .level-container .level .records .percent,
 .page-list .level-container .level .records .user,
 .page-list .level-container .level .records .hz {
     padding-block: 1rem;

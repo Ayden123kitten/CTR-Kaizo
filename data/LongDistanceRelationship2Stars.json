@@ -1,18 +1,18 @@
 {
     "name": "Long Distance Relationship 2 Stars",
-    "creators": ["DarkTheCreature"],
+    "creators": [
+        "DarkTheCreature"
+    ],
     "verifier": "DarkTheCreature",
     "verification": "",
     "records": [
         {
             "user": "KONDUCKTOR",
-            "link": "",
-            "percent": 100
+            "link": ""
         },
         {
             "user": "Ayden",
-            "link": "https://www.youtube.com/watch?v=0hYbUTZ9MkU",
-            "percent": 100
+            "link": "https://www.youtube.com/watch?v=0hYbUTZ9MkU"
         }
     ]
 }

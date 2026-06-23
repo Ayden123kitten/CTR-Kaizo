@@ -1,11 +1,12 @@
 {
     "name": "Glass Cannon 2 Stars",
-    "creators": ["Melted"],
+    "creators": [
+        "Melted"
+    ],
     "verifier": "Melted",
     "verification": "https://www.youtube.com/watch?v=vUhrjv6E66E",
     "description": "Buffed version of Kaizo air cushion level.",
     "download": "https://fixcdn.hyonsu.com/attachments/1518684447925338342/1518689346671083791/Glass_Cannon.xml?ex=6a3ad52c&is=6a3983ac&hm=8b8c10a3fa1354945d29ab325f90e0bddf87440ee804dd4e8fd00eacd94220ef&",
     "image": "https://files.catbox.moe/b9nso9.png",
-    "records": [
-    ]
+    "records": []
 }

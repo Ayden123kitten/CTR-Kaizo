@@ -50,7 +50,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
-                            <p>{{ score(selected + 1, level.percentToQualify) }}</p>
+                            <p>{{ score(selected + 1) }}</p>
                         </li>
                         <li v-if="level.download">
                             <div class="type-title-sm">Download</div>

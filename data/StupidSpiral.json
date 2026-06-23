@@ -1,13 +1,14 @@
 {
     "name": "Stupid Spiral",
-    "creators": ["DarkTheCreature"],
+    "creators": [
+        "DarkTheCreature"
+    ],
     "verifier": "DarkTheCreature",
     "verification": "",
     "records": [
         {
             "user": "KONDUCKTOR",
-            "link": "",
-            "percent": 100
+            "link": ""
         }
     ]
 }

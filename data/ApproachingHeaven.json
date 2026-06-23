@@ -1,11 +1,12 @@
 {
     "name": "Approaching Heaven",
-    "creators": ["Ggando12"],
+    "creators": [
+        "Ggando12"
+    ],
     "verifier": "Ggando12",
     "verification": "https://www.youtube.com/watch?v=inu2WvukHNc",
     "description": "Part of the Ascension to Heaven Mod (Heaven's Gate Beta).",
     "download": "https://fixcdn.hyonsu.com/attachments/1518684447925338342/1518697566332518430/Approaching_Heaven.xml?ex=6a3adcd3&is=6a398b53&hm=2be9e7bbd34ad59636faf530e7c623c7303c6e65598e370509648f861260973d&",
     "image": "https://files.catbox.moe/fvvx0d.png",
-    "records": [
-    ]
+    "records": []
 }

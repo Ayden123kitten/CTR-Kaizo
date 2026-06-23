@@ -1,6 +1,8 @@
 {
     "name": "Path of pain 3 Stars",
-    "creators": ["Sneaky_"],
+    "creators": [
+        "Sneaky_"
+    ],
     "verifier": "Sneaky_",
     "verification": "https://www.youtube.com/watch?v=vBg2dCjhwDs",
     "description": "Made for the Community Package Mod.",
@@ -9,8 +11,7 @@
     "records": [
         {
             "user": "KONDUCKTOR",
-            "link": "https://www.youtube.com/watch?v=C9gOQJWl3go",
-            "percent": 100
+            "link": "https://www.youtube.com/watch?v=C9gOQJWl3go"
         }
     ]
 }

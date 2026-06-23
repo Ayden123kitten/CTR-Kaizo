@@ -1,10 +1,11 @@
 {
     "name": "thingamajig factory",
-    "creators": ["cvgd"],
+    "creators": [
+        "cvgd"
+    ],
     "verifier": "cvgd",
     "verification": "",
     "download": "https://fixcdn.hyonsu.com/attachments/1518684447925338342/1518722580339753111/thingamajig_factory.xml?ex=6a3af41f&is=6a39a29f&hm=05b2d81fd0b82dc33b6e477a04274d1c5836ebd579cef6c827309ca0eabc4c9d&",
     "image": "https://files.catbox.moe/wuartg.png",
-    "records": [
-    ]
+    "records": []
 }

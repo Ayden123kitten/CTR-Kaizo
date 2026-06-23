@@ -1,8 +1,9 @@
 {
     "name": "Crossing Border",
-    "creators": ["KONDUCKTOR"],
+    "creators": [
+        "KONDUCKTOR"
+    ],
     "verifier": "KONDUCKTOR",
     "verification": "",
-    "records": [
-    ]
+    "records": []
 }
