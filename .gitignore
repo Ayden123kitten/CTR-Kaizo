@@ -1,25 +1,22 @@
-```css
+```gitignore
 # Compiled and build artifacts
 *.pyc
-*.class
+__pycache__/
 *.o
+*.obj
 *.exe
 *.dll
 *.so
 *.a
-*.obj
 *.out
-dist/
-build/
-target/
 
 # Dependencies
 node_modules/
 venv/
 .venv/
-__pycache__/
 .mypy_cache/
 .pytest_cache/
+target/
 .gradle/
 
 # Logs and temp files
@@ -37,11 +34,11 @@ __pycache__/
 .vscode/
 .idea/
 
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Coverage
+# Coverage reports
 coverage/
 htmlcov/
 .coverage

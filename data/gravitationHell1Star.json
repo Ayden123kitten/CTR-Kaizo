@@ -1,18 +1,18 @@
 {
     "name": "gravitation hell 1 Star",
-    "creators": ["cvgd"],
+    "creators": [
+        "cvgd"
+    ],
     "verifier": "Sami9",
     "verification": "",
     "records": [
         {
             "user": "MinhPi",
-            "link": "https://youtube.com/watch?v=v0BEQ7XkKm8",
-            "percent": 100
+            "link": "https://youtube.com/watch?v=v0BEQ7XkKm8"
         },
         {
             "user": "KONDUCKTOR",
-            "link": "",
-            "percent": 100
+            "link": ""
         }
     ]
 }

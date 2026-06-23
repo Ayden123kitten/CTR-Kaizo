@@ -1,8 +1,9 @@
 {
     "name": "Level 1-2 Hard 3 Stars",
-    "creators": ["hoang bac"],
+    "creators": [
+        "hoang bac"
+    ],
     "verifier": "hoang bac",
     "verification": "",
-    "records": [
-    ]
+    "records": []
 }

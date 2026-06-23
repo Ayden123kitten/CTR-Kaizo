@@ -1,10 +1,11 @@
 {
     "name": "sunnymako 2 Stars",
-    "creators": ["Ggando12"],
+    "creators": [
+        "Ggando12"
+    ],
     "verifier": "Ggando12",
     "verification": "",
     "download": "https://fixcdn.hyonsu.com/attachments/1518684447925338342/1518730511256916149/sunnymako.xml?ex=6a3afb82&is=6a39aa02&hm=dead944ed90256cd593d7e07e22efb2d108f7f215bb27e7ec54432b23b6f9293&",
     "image": "https://files.catbox.moe/sy9dth.png",
-    "records": [
-    ]
+    "records": []
 }

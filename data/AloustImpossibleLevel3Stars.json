@@ -1,8 +1,9 @@
 {
     "name": "Aloust impossible level 3 Stars",
-    "creators": ["GDDreamSlenderman"],
+    "creators": [
+        "GDDreamSlenderman"
+    ],
     "verifier": "cvgd",
     "verification": "",
-    "records": [
-    ]
+    "records": []
 }

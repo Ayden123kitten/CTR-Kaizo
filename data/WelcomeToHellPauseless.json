@@ -1,10 +1,11 @@
 {
     "name": "Welcome To Hell (Pauseless)",
-    "creators": ["playstationrb"],
+    "creators": [
+        "playstationrb"
+    ],
     "verifier": "Limeapple",
     "verification": "https://www.youtube.com/watch?v=8XHf0S1C29Y",
     "download": "https://fixcdn.hyonsu.com/attachments/1518684447925338342/1518743763424510113/Welcome_To_Hell.xml?ex=6a3b07da&is=6a39b65a&hm=b748e8268fc3f2489c1c05ad5b8d85efb0859000aeb6566be45cc3b823143d2e&",
     "image": "https://files.catbox.moe/sbvl3u.png",
-    "records": [
-    ]
+    "records": []
 }

@@ -1,8 +1,9 @@
 {
     "name": "bouncy castle!",
-    "creators": ["cvgd"],
+    "creators": [
+        "cvgd"
+    ],
     "verifier": "cvgd",
     "verification": "",
-    "records": [
-    ]
+    "records": []
 }

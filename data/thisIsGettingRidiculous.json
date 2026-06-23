@@ -1,8 +1,9 @@
 {
     "name": "this is getting ridiculous",
-    "creators": ["andremake"],
+    "creators": [
+        "andremake"
+    ],
     "verifier": "andremake",
     "verification": "https://www.youtube.com/watch?v=6L7QqKZ-9RU",
-    "records": [
-    ]
+    "records": []
 }

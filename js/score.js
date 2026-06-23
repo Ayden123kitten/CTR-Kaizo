@@ -6,10 +6,9 @@ const scale = 3;
 /**
  * Calculate the score awarded when completing a list level
  * @param {Number} rank Position on the list
- * @param {Number} minPercent Minimum percentage required to qualify
  * @returns {Number}
  */
-export function score(rank, minPercent) {
+export function score(rank) {
     if (rank > 150) {
         return 0;
     }
