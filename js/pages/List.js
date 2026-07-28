@@ -90,13 +90,19 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                         <p>
-                        Achieved the record without using hacks/TAS.
+                        Submissions must be done on video and uploaded to YouTube (no other video sharing platform is currently supported). Video must at least be 480p at 30fps. Though we'd ideally like much higher resolutions
                         </p>
                         <p>
-                        Have either source audio or clicks/taps in the video. Edited audio only does not count.
+                        Have either source audio or clicks/taps in the video. Editing the audio without these will not count
                         </p>
                         <p>
-                        No methods for making the level easier were used.
+                        No forms of external software or tools are to be used during the verification. This also includes any practice or debug options that the mod itself may provide
+                        </p>
+                        <p>
+                        Any form of cheesing the level (that is, completing the level not intended from the creator) are allowed. But may be reranked and all submissions obsolete if a verification more intentional to the level creator's vision is completed. As to how we determine whether a completion has less cheese is subjective
+                        </p>
+                        <p>
+                        Paused and Pauseless completions are to be ranked separately in two different entries
                         </p>
                 </div>
             </div>
