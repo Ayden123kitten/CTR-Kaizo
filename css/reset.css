@@ -1,57 +1,57 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body,
 ol,
 ul {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
 }
 
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 td {
-    padding: 0;
+  padding: 0;
 }
 
 blockquote,
 q {
-    quotes: none;
+  quotes: none;
 }
 
 blockquote::before,
 blockquote::after,
 q::before,
 q::after {
-    content: none;
+  content: none;
 }
 
 a {
-    color: inherit;
-    text-decoration: inherit;
+  color: inherit;
+  text-decoration: inherit;
 }
 
 img {
-    display: block;
+  display: block;
 }
 
 input,
 button {
-    color: inherit;
+  color: inherit;
 }
 
 h1,
@@ -63,10 +63,10 @@ h6,
 p,
 dl,
 dd {
-    margin: 0;
-    font-weight: normal;
+  margin: 0;
+  font-weight: normal;
 }
 
 iframe {
-    border: none;
+  border: none;
 }

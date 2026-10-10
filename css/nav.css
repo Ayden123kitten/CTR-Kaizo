@@ -1,70 +1,70 @@
 :root {
-    --color-background: white;
-    --color-on-background: black;
-    --color-primary: #3f6509;
-    --color-on-primary: white;
+  --color-background: white;
+  --color-on-background: black;
+  --color-primary: #3f6509;
+  --color-on-primary: white;
 }
 
 .nav {
-    display: flex;
-    column-gap: 2rem;
+  display: flex;
+  column-gap: 2rem;
 }
 
 .nav__tab {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 1rem;
-    text-decoration: none;
-    color: var(--color-on-primary);
-    box-sizing: border-box;
-    border-bottom: 3px solid transparent;
-    transition: border-bottom-color 0.2s ease;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  text-decoration: none;
+  color: var(--color-on-primary);
+  box-sizing: border-box;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom-color 0.2s ease;
 }
 
 /* White underline for the selected tab - always visible when on the associated page */
 .nav__tab.is-active {
-    border-bottom-color: white !important;
+  border-bottom-color: white !important;
 }
 
 /* White underline on hover for all tabs */
 .nav__tab:hover {
-    border-bottom-color: white;
+  border-bottom-color: white;
 }
 
 .nav__actions {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 .nav__icon {
-    height: 3rem;
-    width: 3rem;
-    border: none;
-    background-color: transparent;
-    border-radius: 50%;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 100ms ease;
+  height: 3rem;
+  width: 3rem;
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 100ms ease;
 }
 
 .nav__icon:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 .nav__icon img {
-    height: 1.5rem;
+  height: 1.5rem;
 }
 .nav__cta {
-    padding: 1rem;
-    background-color: var(--color-on-primary);
-    color: var(--color-primary);
-    border-radius: 0.5rem;
-    box-shadow: 0 1px 0.5rem 0 rgba(63, 101, 9, 0.5);
-    transition: transform 100ms ease;
+  padding: 1rem;
+  background-color: var(--color-on-primary);
+  color: var(--color-primary);
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 0.5rem 0 rgba(63, 101, 9, 0.5);
+  transition: transform 100ms ease;
 }
 .nav__cta:hover:not(:active) {
-    transform: translateY(-2px);
+  transform: translateY(-2px);
 }

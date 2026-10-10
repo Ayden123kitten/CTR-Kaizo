@@ -1,15 +1,15 @@
 export default {
-    props: {
-        creators: {
-            type: Array,
-            required: true,
-        },
-        verifier: {
-            type: String,
-            required: true,
-        },
+  props: {
+    creators: {
+      type: Array,
+      required: true
     },
-    template: `
+    verifier: {
+      type: String,
+      required: true
+    }
+  },
+  template: `
         <div class="level-authors">
             <template v-if="selfVerified">
                 <div class="type-title-sm">Creator & Verifier</div>
@@ -43,9 +43,9 @@ export default {
         </div>
     `,
 
-    computed: {
-        selfVerified() {
-            return this.verifier == this.creators.length;
-        },
-    },
+  computed: {
+    selfVerified() {
+      return this.verifier == this.creators.length;
+    }
+  }
 };

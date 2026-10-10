@@ -1,19 +1,19 @@
-import { fetchLeaderboard } from '../content.js';
-import { localize } from '../util.js';
+import { fetchLeaderboard } from "../content.js";
+import { localize } from "../util.js";
 
-import Spinner from '../components/Spinner.js';
+import Spinner from "../components/Spinner.js";
 
 export default {
-    components: {
-        Spinner,
-    },
-    data: () => ({
-        leaderboard: [],
-        loading: true,
-        selected: 0,
-        err: [],
-    }),
-    template: `
+  components: {
+    Spinner
+  },
+  data: () => ({
+    leaderboard: [],
+    loading: true,
+    selected: 0,
+    err: []
+  }),
+  template: `
         <main v-if="loading">
             <Spinner></Spinner>
         </main>
@@ -92,18 +92,18 @@ export default {
             </div>
         </main>
     `,
-    computed: {
-        entry() {
-            return this.leaderboard[this.selected];
-        },
-    },
-    async mounted() {
-        const [leaderboard, err] = await fetchLeaderboard();
-        this.leaderboard = leaderboard;
-        this.err = err;
-        this.loading = false;
-    },
-    methods: {
-        localize,
-    },
+  computed: {
+    entry() {
+      return this.leaderboard[this.selected];
+    }
+  },
+  async mounted() {
+    const [leaderboard, err] = await fetchLeaderboard();
+    this.leaderboard = leaderboard;
+    this.err = err;
+    this.loading = false;
+  },
+  methods: {
+    localize
+  }
 };
