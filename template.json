@@ -1,0 +1,14 @@
+{
+  "name": "Your Level Name",
+  "creators": ["author"],
+  "verifier": "verifier name",
+  "verification": "https://youtu.be/dQw4w9WgXcQ?si=YOabyMfv_tiXckKp",
+  "download": "xml download",
+  "image": "catbox image link",
+  "records": [
+    {
+      "user": "example",
+      "link": "link example"
+    }
+  ]
+}
