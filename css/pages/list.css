@@ -130,3 +130,31 @@
 .page-list .meta .editors li a:hover {
   text-decoration: underline;
 }
+
+.tooltip {
+  cursor: pointer;
+}
+
+.tooltiptext {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+
+  visibility: hidden;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  text-align: center;
+
+  padding: 5px;
+  border-radius: 6px;
+
+  position: absolute;
+  /* offset-position: bottom 1000px; */
+  transform: translateX(0%) translateY(-110%);
+  z-index: 1;
+}
+
+/* Show the tooltip text on hover */
+.tooltip:hover .tooltiptext {
+  transition-delay: 0.3s;
+  visibility: visible;
+}
