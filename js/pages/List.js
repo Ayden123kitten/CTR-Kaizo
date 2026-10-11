@@ -10,6 +10,7 @@ const roleIconMap = {
   owner: "crown",
   admin: "user-gear",
   moderator: "user-shield",
+  developer: "code"
 };
 
 export default {
