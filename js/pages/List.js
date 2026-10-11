@@ -1,8 +1,18 @@
-import { fetchList, fetchEditors } from "../content.js";
+import { store } from "../main.js";
+import { embed } from "../util.js";
+import { score } from "../score.js";
+import { fetchEditors, fetchList } from "../content.js";
+
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
-import { roleIconMap } from "../util.js";
-import { store } from "../main.js";
+
+const roleIconMap = {
+  owner: "crown",
+  admin: "user-gear",
+  helper: "user-shield",
+  dev: "code",
+  trial: "user-lock"
+};
 
 export default {
   components: { Spinner, LevelAuthors },
@@ -11,6 +21,58 @@ export default {
             <Spinner></Spinner>
         </main>
         <main v-else class="page-list">
+            <div class="list-container">
+                <table class="list" v-if="list">
+                    <tr v-for="([level, err], i) in list">
+                        <td class="rank">
+                            <p v-if="i + 1 <= 150" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-else class="type-label-lg">Legacy</p>
+                        </td>
+                        <td class="level" :class="{ 'active': selected == i, 'error': !level }">
+                            <button @click="selected = i">
+                                <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="level-container">
+                <div class="level" v-if="level">
+                    <h1>{{ level.name }}</h1>
+                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+                    <ul class="stats" v-if="level.description">
+                        <li>
+                            <p class="type-label-lg" style="white-space: pre-wrap;">{{ level.description }}</p>
+                        </li>
+                    </ul>
+                    <iframe v-if="level.verification" class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+                    <img v-if="level.image" class="image" :src="level.image" alt="Level image">
+                    <ul class="stats">
+                        <li>
+                            <div class="type-title-sm">Points when completed</div>
+                            <p>{{ score(selected + 1) }}</p>
+                        </li>
+                        <li v-if="level.download">
+                            <div class="type-title-sm">Download</div>
+                            <a :href="level.download" download class="type-label-lg">Download Link</a>
+                        </li>
+                    </ul>
+                    <h2>Records</h2>
+                    <table class="records">
+                        <tr v-for="record in level.records" class="record">
+                            <td class="user">
+                                <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
+                            </td>
+                            <td class="mobile">
+                                <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
+                    <p>(ノಠ益ಠ)ノ彡┻━┻</p>
+                </div>
+            </div>
             <div class="meta-container">
                 <div class="meta">
                     <div class="errors" v-show="errors.length > 0">
@@ -19,20 +81,29 @@ export default {
                     <template v-if="editors">
                         <h3>List Editors</h3>
                         <ol class="editors">
-                            <li v-for="editor in editors" :key="editor.name">
+                            <li v-for="editor in editors">
                                 <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
-                                
-                                <!-- Tooltip added here via :title -->
-                                <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link" :title="editor.role">
-                                    {{ editor.name }}
-                                </a>
-                                <p v-else :title="editor.role">
-                                    {{ editor.name }}
-                                </p>
-                                
+                                <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
+                                <p v-else>{{ editor.name }}</p>
                             </li>
                         </ol>
                     </template>
+                    <h3>Submission Requirements</h3>
+                        <p>
+                        Submissions must be done on video and uploaded to YouTube. Video must at least be 480p at 30fps. However, higher resolutions are preferred.
+                        </p>
+                        <p>
+                        Have either source audio or clicks/taps in the video. Editing the audio without these will not count.
+                        </p>
+                        <p>
+                        No forms of external software or tools are to be used during the verification. This also includes any practice or debug options that the mod itself may provide.
+                        </p>
+                        <p>
+                        Any form of cheesing the level (that is, completing the level not intended from the creator) are allowed, but may be reranked and all submissions obsolete if a verification more intentional to the level creator's vision is completed. As to how we determine whether a completion has less cheese is subjective.
+                        </p>
+                        <p>
+                        Paused and Pauseless completions are to be ranked separately in two different entries if both have been completed separately.
+                        </p>
                 </div>
             </div>
         </main>
@@ -46,6 +117,20 @@ export default {
     roleIconMap,
     store
   }),
+  computed: {
+    level() {
+      return this.list[this.selected][0];
+    },
+    video() {
+      if (!this.level.showcase) {
+        return embed(this.level.verification);
+      }
+
+      return embed(
+        this.toggledShowcase ? this.level.showcase : this.level.verification
+      );
+    }
+  },
   async mounted() {
     // Hide loading spinner
     this.list = await fetchList();
@@ -70,5 +155,9 @@ export default {
     }
 
     this.loading = false;
+  },
+  methods: {
+    embed,
+    score
   }
 };
