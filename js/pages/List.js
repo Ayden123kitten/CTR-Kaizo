@@ -6,11 +6,23 @@ import { fetchEditors, fetchList } from "../content.js";
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
 
-const roleIconMap = {
-  owner: "crown",
-  admin: "user-gear",
-  moderator: "user-shield",
-  developer: "code"
+const roleMap = {
+  owner: {
+    icon: "crown",
+    tooltip: "Owner"
+  },
+  admin: {
+    icon: "user-gear",
+    tooltip: "Admin"
+  },
+  moderator: {
+    icon: "user-shield",
+    tooltip: "Moderator"
+  },
+  developer: {
+    icon: "code",
+    tooltip: "Developer"
+  }
 };
 
 export default {
@@ -81,7 +93,10 @@ export default {
                         <h3>List Editors</h3>
                         <ol class="editors">
                             <li v-for="editor in editors">
-                                <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
+                                <div class="tooltip">
+                                    <span class="tooltiptext">{{ roleMap[editor.role].tooltip }}</span>
+                                    <img :src="\`/assets/\${roleMap[editor.role].icon}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
+                                </div>
                                 <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
                                 <p v-else>{{ editor.name }}</p>
                             </li>
@@ -113,7 +128,7 @@ export default {
     loading: true,
     selected: 0,
     errors: [],
-    roleIconMap,
+    roleMap,
     store
   }),
   computed: {
