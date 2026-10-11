@@ -1,0 +1,167 @@
+<map>
+<layer name="settings">
+<map gridSize="32" width="853" height="960" />
+<gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+</layer>
+<layer name="Objects">
+<target x="788" y="131" />
+<pump x="450" y="428" angle="0" />
+<pump x="300" y="822" angle="0" />
+<spike2 x="727" y="106" angle="90" size="1" path="1,83" moveSpeed="50" />
+<spike2 x="639" y="199" angle="180" size="4" />
+<spike2 x="634" y="76" angle="0" size="4" />
+<spike2 x="591" y="174" angle="165" size="2" />
+<spike2 x="648" y="178" angle="-120" size="1" />
+<spike2 x="563" y="109" angle="150" size="2" />
+<spike2 x="503" y="106" angle="-120" size="1" />
+<spike2 x="492" y="75" angle="180" size="2" />
+<sock x="603" y="238" group="0" angle="0" />
+<spike2 x="549" y="235" angle="90" size="1" />
+<spike2 x="605" y="264" angle="180" size="2" />
+<spike2 x="628" y="283" angle="150" size="1" />
+<spike2 x="576" y="282" angle="-150" size="1" />
+<pump x="797" y="270" angle="180" />
+<spike2 x="778" y="72" angle="180" size="2" />
+<spike2 x="834" y="131" angle="90" size="2" />
+<spike2 x="784" y="200" angle="180" size="2" />
+<star x="575" y="312" timeout="25" />
+<spike2 x="549" y="304" angle="90" size="1" />
+<spike2 x="603" y="342" angle="180" size="2" />
+<spike2 x="700" y="304" angle="135" size="2" />
+<spike2 x="734" y="232" angle="90" size="1" />
+<pump x="501" y="312" angle="0" />
+<spike2 x="418" y="165" angle="105" size="4" />
+<spike2 x="508" y="237" angle="135" size="2" />
+<spike2 x="459" y="323" angle="105" size="2" />
+<spike2 x="393" y="312" angle="90" size="2" />
+<spike4 x="467" y="169" angle="150" size="3" toggled="1" />
+<spike4 x="470" y="264" angle="180" size="1" toggled="1" />
+<spike4 x="395" y="267" angle="0" size="1" toggled="1" />
+<bouncer1 x="481" y="381" angle="180" size="1" />
+<bouncer1 x="362" y="379" angle="180" size="1" />
+<pump x="327" y="228" angle="0" />
+<candy x="395" y="822" />
+<grab x="394" y="784" length="20" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="true" part="L" hidePath="false" />
+<gravitySwitch x="512" y="493" />
+<bubble x="405" y="683" />
+<spike2 x="444" y="814" angle="120" size="2" />
+<spike2 x="500" y="762" angle="165" size="1" />
+<spike2 x="369" y="854" angle="180" size="2" />
+<spike2 x="359" y="821" angle="90" size="1" />
+<spike2 x="382" y="747" angle="120" size="2" />
+<spike2 x="460" y="706" angle="180" size="2" />
+<spike4 x="416" y="719" angle="-135" size="1" toggled="2" />
+<spike4 x="490" y="762" angle="90" size="1" toggled="2" />
+<tutorialText x="200" y="876" locale="en" text="Faster Than a Speeding Bullet" width="200" />
+<sock x="296" y="822" group="0" angle="180" />
+<spike2 x="279" y="789" angle="180" size="3" />
+<spike2 x="261" y="854" angle="180" size="2" />
+<spike2 x="171" y="820" angle="-135" size="2" />
+<spike2 x="151" y="758" angle="120" size="1" />
+<spike2 x="192" y="720" angle="150" size="1" />
+<spike2 x="272" y="720" angle="-165" size="2" />
+<spike4 x="222" y="730" angle="180" size="2" toggled="1" />
+<spike4 x="305" y="788" angle="90" size="1" toggled="1" />
+<spike2 x="357" y="685" angle="135" size="2" />
+<pump x="94" y="812" angle="0" />
+<pump x="292" y="671" angle="0" />
+<spike2 x="450" y="645" angle="180" size="2" />
+<spike2 x="552" y="661" angle="-165" size="2" />
+<spike2 x="538" y="713" angle="-165" size="1" />
+<pump x="554" y="832" angle="-75" />
+<spike2 x="572" y="783" angle="-150" size="2" />
+<spike2 x="622" y="744" angle="120" size="2" />
+<pump x="702" y="712" angle="180" />
+<spike2 x="662" y="648" angle="105" size="2" />
+<sock x="653" y="764" group="1" angle="-60" />
+<spike2 x="644" y="817" angle="-165" size="1" />
+<spike2 x="687" y="771" angle="105" size="2" />
+<spike2 x="715" y="676" angle="105" size="2" />
+<spike2 x="730" y="575" angle="90" size="2" />
+<sock x="772" y="688" group="1" angle="105" />
+<pump x="540" y="574" angle="0" />
+<pump x="724" y="532" angle="105" />
+<spike4 x="786" y="744" angle="105" size="1" toggled="1" />
+<spike4 x="705" y="802" angle="-165" size="1" toggled="1" />
+<spike2 x="730" y="729" angle="105" size="2" />
+<spike2 x="699" y="800" angle="135" size="1" />
+<spike2 x="789" y="752" angle="105" size="2" />
+<spike4 x="732" y="735" angle="15" size="1" toggled="2" />
+<spike4 x="764" y="834" angle="105" size="1" toggled="2" />
+<spike2 x="765" y="845" angle="120" size="2" />
+<spike2 x="690" y="884" angle="15" size="2" />
+<star x="613" y="839" />
+<spike2 x="578" y="835" angle="90" size="1" />
+<spike2 x="606" y="872" angle="180" size="1" />
+<pump x="504" y="828" angle="0" />
+<spike2 x="812" y="676" angle="105" size="1" />
+<spike2 x="792" y="634" angle="-165" size="1" />
+<spike2 x="752" y="654" angle="105" size="1" />
+<pump x="771" y="621" angle="180" />
+<spike2 x="605" y="637" angle="105" size="1" />
+<spike2 x="613" y="578" angle="90" size="1" />
+<spike2 x="546" y="493" angle="-90" size="1" />
+<spike2 x="511" y="522" angle="180" size="1" />
+<spike2 x="479" y="491" angle="90" size="1" />
+<spike2 x="511" y="462" angle="180" size="1" />
+<star x="519" y="428" />
+<spike2 x="481" y="435" angle="90" size="1" />
+<spike2 x="598" y="470" angle="-165" size="2" />
+<spike2 x="532" y="393" angle="165" size="2" />
+<spike2 x="649" y="417" angle="-150" size="3" />
+<spike2 x="679" y="490" angle="-165" size="1" />
+<spike2 x="742" y="490" angle="165" size="1" />
+<spike2 x="797" y="433" angle="120" size="2" />
+<spike2 x="746" y="383" angle="120" size="3" />
+<sock x="782" y="378" group="3" angle="120" />
+<spike4 x="788" y="454" angle="-60" size="2" toggled="2" />
+<spike4 x="743" y="396" angle="-150" size="2" toggled="1" />
+<spike4 x="706" y="448" angle="180" size="1" toggled="1" />
+<spike4 x="636" y="485" angle="105" size="1" toggled="2" />
+<spike4 x="553" y="461" angle="90" size="1" toggled="1" />
+<spike4 x="587" y="399" angle="180" size="2" toggled="2" />
+<spike2 x="732" y="526" angle="90" size="1" />
+<spike2 x="560" y="572" angle="165" size="2" />
+<sock x="546" y="619" group="3" angle="-165" />
+<pump x="413" y="508" angle="-90" />
+<spike2 x="439" y="584" angle="180" size="3" />
+<spike2 x="427" y="506" angle="-165" size="2" />
+<spike2 x="330" y="465" angle="-150" size="2" />
+<spike2 x="374" y="534" angle="-90" size="1" path="0,0" moveSpeed="0" rotateSpeed="25" />
+<spike2 x="316" y="569" angle="-165" size="2" />
+<spike2 x="268" y="524" angle="90" size="1" />
+<spike2 x="238" y="487" angle="-165" size="1" />
+<spike2 x="187" y="435" angle="-120" size="2" />
+<spike2 x="250" y="400" angle="-135" size="2" />
+<spike2 x="329" y="622" angle="-45" size="2" />
+<spike2 x="239" y="638" angle="-165" size="2" />
+<spike2 x="171" y="676" angle="-150" size="2" />
+<spike2 x="215" y="312" angle="90" size="2" />
+<spike2 x="163" y="337" angle="90" size="2" />
+<spike2 x="163" y="255" angle="90" size="1" />
+<spike2 x="225" y="233" angle="105" size="1" />
+<spike2 x="254" y="227" angle="-135" size="1" />
+<spike2 x="247" y="295" angle="120" size="2" />
+<spike2 x="334" y="311" angle="-105" size="2" />
+<spike2 x="320" y="207" angle="90" size="2" />
+<spike2 x="239" y="152" angle="0" size="3" />
+<spike2 x="140" y="174" angle="135" size="1" />
+<spike2 x="111" y="228" angle="105" size="1" />
+<spike2 x="101" y="309" angle="90" size="2" />
+<spike2 x="123" y="434" angle="75" size="3" />
+<spike2 x="194" y="532" angle="105" size="2" />
+<spike2 x="187" y="605" angle="-105" size="1" />
+<spike2 x="128" y="556" angle="105" size="2" />
+<spike2 x="125" y="627" angle="-105" size="1" />
+<pump x="362" y="180" angle="180" />
+<pump x="71" y="184" angle="0" />
+<pump x="294" y="101" angle="90" />
+<pump x="144" y="97" angle="90" />
+<pump x="63" y="320" angle="60" />
+<pump x="224" y="428" angle="105" />
+<pump x="77" y="598" angle="30" />
+<pump x="159" y="706" angle="-15" />
+<pump x="780" y="538" angle="180" />
+<pump x="428" y="564" angle="-150" />
+</layer>
+</map>

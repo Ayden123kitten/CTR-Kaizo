@@ -1,0 +1,33 @@
+<map>
+<layer name="settings">
+<map gridSize="32" width="320" height="480" />
+<gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+</layer>
+<layer name="Objects">
+<grab x="-81" y="53" length="10" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<candy x="-81" y="118" />
+<target x="439" y="282" />
+<spike4 x="-53" y="168" angle="-135" size="2" toggled="1" />
+<spike4 x="-117" y="228" angle="45" size="2" toggled="2" />
+<spike4 x="-62" y="283" angle="-135" size="2" toggled="1" />
+<sock x="-88" y="364" group="0" angle="-90" />
+<sock x="79" y="77" group="0" angle="90" />
+<spike4 x="48" y="168" angle="45" size="2" toggled="1" />
+<spike4 x="115" y="118" angle="-135" size="2" toggled="2" />
+<spike4 x="109" y="227" angle="-135" size="2" toggled="2" />
+<spike4 x="44" y="285" angle="45" size="2" toggled="1" />
+<spike4 x="96" y="343" angle="-135" size="2" toggled="2" />
+<sock x="79" y="402" group="1" angle="-90" />
+<sock x="201" y="352" group="1" angle="-60" />
+<grab x="237" y="351" length="100" wheel="false" gun="false" radius="20" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<grab x="211" y="290" length="100" wheel="false" gun="false" radius="20" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<grab x="275" y="315" length="100" wheel="false" gun="false" radius="20" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<grab x="256" y="256" length="100" wheel="false" gun="false" radius="20" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<grab x="305" y="234" length="100" wheel="false" gun="false" radius="20" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<grab x="323" y="296" length="100" wheel="false" gun="false" radius="20" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<grab x="362" y="232" length="100" wheel="false" gun="false" radius="20" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<grab x="376" y="297" length="100" wheel="false" gun="false" radius="20" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<tutorialText x="179" y="78" locale="ru" text="Твоя мать сдохнет" width="100" />
+<tutorialText x="179" y="78" locale="en" text="skibidi epstein challenge" width="100" />
+</layer>
+</map>

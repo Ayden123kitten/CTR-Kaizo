@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <layer name="settings">
+    <map gridSize="32" width="640" height="480" levelName="Fachi´s Air Cushion´s Room" />
+    <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" useMobilePhysics="true" />
+  </layer>
+  <layer name="Objects">
+    <candy x="92" y="104" isDriven="false" candyNumber="0" />
+    <grab x="93" y="32" length="40" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" kickable="false" kicked="false" hidePath="false" invisible="false" breakable="true" />
+    <target x="575" y="424" />
+    <pump x="15" y="95" angle="0" />
+    <bouncer1 x="355" y="315" size="1" angle="-15" />
+    <pump x="237" y="290" angle="-80" />
+    <pump x="277" y="290" angle="-100" />
+    <electro x="190" y="238" initialDelay="1" offTime="2.0" onTime="5" angle="90" size="5" />
+    <pump x="190" y="292" angle="-90" />
+    <spike1 x="193" y="210" angle="0" size="1" toggled="false" />
+    <spike1 x="260" y="210" angle="0" size="1" toggled="false" />
+    <spike1 x="126" y="210" angle="0" size="1" toggled="false" />
+    <pump x="193" y="238" angle="0" />
+    <pump x="137" y="292" angle="-90" />
+    <pump x="95" y="293" angle="-90" />
+    <spike1 x="260" y="300" angle="0" size="1" toggled="false" />
+    <spike1 x="193" y="300" angle="0" size="1" toggled="false" />
+    <spike1 x="126" y="300" angle="0" size="1" toggled="false" />
+    <spike2 x="33" y="210" angle="0" size="2" toggled="false" />
+    <spike1 x="87" y="300" angle="0" size="1" toggled="false" />
+    <spike1 x="196" y="80" angle="0" size="1" toggled="false" />
+    <spike2 x="195" y="29" angle="5" size="2" toggled="false" />
+    <pump x="361" y="370" angle="-95" />
+    <star x="225" y="178" timeout="-1" />
+    <spike2 x="164" y="145" angle="90" size="2" toggled="false" />
+    <spike2 x="211" y="154" angle="0" size="2" toggled="false" />
+    <pipe x="32" y="390" angle="0" />
+    <pump x="176" y="345" angle="119" />
+    <bouncer1 x="143" y="435" size="1" angle="0" />
+    <pump x="263" y="334" angle="60" />
+    <bouncer2 x="347" y="440" size="2" angle="0" />
+    <spike1 x="223" y="406" angle="90" size="1" toggled="false" />
+    <spike1 x="223" y="476" angle="90" size="1" toggled="false" />
+    <pump x="549" y="318" angle="180" />
+    <spike4 x="402" y="216" angle="90" size="4" toggled="false" />
+    <pump x="423" y="165" angle="-81" />
+    <spike4 x="521" y="370" angle="90" size="4" toggled="false" />
+    <spike3 x="521" y="201" angle="90" size="3" toggled="false" />
+    <bubble x="449" y="354" />
+    <pump x="469" y="460" angle="-90" />
+    <star x="474" y="425" timeout="-1" />
+    <spike1 x="310" y="320" angle="90" size="1" toggled="false" />
+    <pump x="417" y="460" angle="-85" />
+    <spike1 x="473" y="427" angle="0" size="1" toggled="false" />
+    <pump x="469" y="334" angle="-90" />
+    <bouncer2 x="-23" y="288" size="2" angle="90" />
+    <spike2 x="283" y="43" angle="12" size="2" toggled="false" />
+    <spike1 x="355" y="76" angle="40" size="1" toggled="false" />
+    <spike4 x="8" y="109" angle="90" size="4" toggled="false" />
+    <spike3 x="83" y="26" angle="0" size="3" toggled="false" />
+    <spike1 x="388" y="117" angle="64" size="1" toggled="false" />
+    <pump x="29" y="248" angle="90" />
+    <pump x="469" y="236" angle="-90" />
+    <pump x="465" y="109" angle="-95" />
+    <pump x="279" y="27" angle="0" />
+    <pump x="400" y="109" angle="-90" />
+    <star x="576" y="382" timeout="25" />
+    <pump x="630" y="53" angle="180" />
+    <spike4 x="622" y="370" angle="90" size="4" toggled="false" />
+    <spike3 x="622" y="201" angle="90" size="3" toggled="false" />
+    <pump x="575" y="254" angle="-90" />
+    <electro x="577" y="198" initialDelay="0.0" offTime="2.0" onTime="2.0" angle="0" size="5" />
+    <spike3 x="622" y="57" angle="90" size="3" toggled="false" />
+    <bouncer1 x="357" y="-9" size="1" angle="180" />
+    <pump x="482" y="163" angle="-81" />
+    <bubble x="358" y="31" />
+    <spike4 x="511" y="-7" angle="0" size="4" toggled="false" />
+    <tutorialText x="444" y="3" text="Welcome to this&#xD;&#xA;trash level :D" width="118" locale="en" subject="any" />
+    <spike4 x="24" y="475" angle="0" size="4" toggled="false" />
+    <spike4 x="210" y="475" angle="0" size="4" toggled="false" />
+    <spike4 x="393" y="475" angle="0" size="4" toggled="false" />
+    <spike4 x="552" y="464" angle="0" size="4" toggled="false" />
+  </layer>
+</map>

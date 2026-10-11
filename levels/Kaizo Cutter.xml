@@ -1,0 +1,75 @@
+<map>
+<layer name="settings">
+<map gridSize="32" width="320" height="960" />
+<gameDesign special="1" ropePhysicsSpeed="1.0" />
+</layer>
+<layer name="Objects">
+<candy x="51" y="52" />
+<tutorialText x="69" y="84" locale="en" text="Hi :)" width="40" />69" y="84" locale="en" text="Hi :)" width="40" />
+<spike2 x="111" y="106" angle="90" size="3" />
+<target x="186" y="88" />
+<spike2 x="-315" y="1197" angle="90" size="4" />
+<spike2 x="-29" y="477" angle="0" size="4" />
+<spike2 x="34" y="410" angle="180" size="4" />
+<spike2 x="-205" y="473" angle="180" size="3" />
+<spike2 x="-59" y="363" angle="-90" size="1" />
+<grab x="-118" y="367" length="40" wheel="false" gun="false" radius="40" moveLength="120" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<grab x="-11" y="71" length="60" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<spike2 x="26" y="316" angle="180" size="4" />
+<spike2 x="23" y="207" angle="0" size="4" />
+<star x="-23" y="258" />
+<spike2 x="243" y="553" angle="90" size="4" />
+<spike2 x="266" y="410" angle="90" size="3" />
+<spike2 x="-25" y="670" angle="0" size="3" />
+<spike2 x="158" y="669" angle="180" size="4" />
+<spike2 x="-136" y="673" angle="180" size="1" />
+<sock x="-186" y="897" group="0" angle="-90" />
+<sock x="-118" y="794" group="0" angle="0" />
+<grab x="-196" y="532" length="100" wheel="false" gun="false" radius="40" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<spike2 x="-23" y="747" angle="180" size="4" />
+<spike2 x="65" y="967" angle="90" size="4" />
+<spike2 x="-106" y="960" angle="90" size="4" />
+<spike2 x="86" y="717" angle="90" size="1" />
+<rotatedCircle x="141" y="794" size="60" handleAngle="180" oneHandle="false"  />
+<rotatedCircle x="179" y="794" size="60" handleAngle="0" oneHandle="false"  />
+<rotatedCircle x="213" y="796" size="60" handleAngle="180" oneHandle="false"  />
+<spike2 x="267" y="765" angle="180" size="4" />
+<spike2 x="270" y="830" angle="180" size="4" />
+<rotatedCircle x="323" y="796" size="60" handleAngle="180" oneHandle="false"  />
+<rotatedCircle x="252" y="797" size="60" handleAngle="0" oneHandle="false"  />
+<rotatedCircle x="285" y="796" size="60" handleAngle="180" oneHandle="false"  />
+<rotatedCircle x="362" y="796" size="60" handleAngle="180" oneHandle="false"  />
+<spike2 x="356" y="939" angle="90" size="4" />
+<spike2 x="181" y="939" angle="90" size="4" />
+<spike2 x="176" y="720" angle="90" size="1" />
+<bubble x="419" y="937" />
+<pump x="461" y="659" angle="180" />
+<pump x="295" y="525" angle="0" />
+<spike2 x="450" y="583" angle="180" size="4" />
+<spike2 x="377" y="472" angle="180" size="4" />
+<pump x="527" y="417" angle="180" />
+<grab x="301" y="102" length="100" wheel="false" gun="false" radius="50" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<spike2 x="468" y="356" angle="180" size="4" />
+<pump x="362" y="99" angle="180" />
+<spike2 x="236" y="155" angle="90" size="1" />
+<spike2 x="236" y="32" angle="90" size="1" />
+<spike2 x="172" y="176" angle="180" size="1" />
+<grab x="-55" y="222" length="100" wheel="false" gun="false" radius="20" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<spike2 x="197" y="317" angle="180" size="3" />
+<pump x="188" y="607" angle="-120" />
+<pump x="118" y="611" angle="-120" />
+<pump x="48" y="613" angle="-120" />
+<pump x="-20" y="617" angle="-120" />
+<pump x="-94" y="614" angle="-120" />
+<star x="20" y="507" />
+<pump x="493" y="204" angle="180" />
+<pump x="248" y="272" angle="0" />
+<star x="432" y="208" />
+<pump x="16" y="444" angle="0" />
+<spike2 x="84" y="477" angle="180" size="1" />
+<grab x="161" y="463" length="100" wheel="false" gun="false" radius="10" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<spike2 x="-54" y="854" angle="180" size="3" />
+<grab x="-13" y="808" length="100" wheel="false" gun="false" radius="2" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<rotatedCircle x="52" y="863" size="100" handleAngle="90" oneHandle="false"  />
+</layer>
+</map>

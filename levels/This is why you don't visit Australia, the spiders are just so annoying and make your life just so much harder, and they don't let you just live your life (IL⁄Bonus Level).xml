@@ -1,0 +1,51 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Created using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+ 
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+ 
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="853" height="960" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+    </layer>
+ 
+    <layer name="Objects">
+        <tutorialText x="260" y="68" locale="en" text="This is why you don't visit Australia, the spiders are just so annoying and make your life just so much harder, and they don't let you just live your life" width="160" />
+        <spike2 x="268" y="1033" angle="90" size="4" />
+        <spike2 x="857" y="900" angle="90" size="4" />
+        <sock x="614" y="639" group="0" angle="-90" />
+        <star x="699" y="656" timeout="-1" />
+        <star x="567" y="220" timeout="-1" />
+        <tutorialText x="257" y="289" locale="en" text="By Pippypips" width="160" />
+        <tutorialText x="260" y="266" locale="en" text="(IL/Bonus Level)" width="160" />
+        <candy x="491" y="214" />
+        <target x="733" y="848" />
+        <spike2 x="650" y="831" angle="180" size="1" />
+        <spike2 x="-70" y="364" angle="180" size="4" />
+        <grab x="488" y="63" length="148" wheel="false" gun="false" radius="-1" moveLength="773" moveVertical="false" moveOffset="446" spider="true" part="L" hidePath="false" kickable="false" kicked="false" />
+        <rotatedCircle x="146" y="146" size="83" handleAngle="90" oneHandle="true"  />
+        <spike2 x="85" y="364" angle="0" size="4" />
+        <spike2 x="265" y="364" angle="0" size="4" />
+        <spike2 x="265" y="342" angle="180" size="4" />
+        <spike2 x="730" y="202" angle="180" size="4" />
+        <spike2 x="858" y="171" angle="140" size="2" />
+        <grab x="608" y="477" length="50" wheel="false" gun="false" radius="180" moveLength="805" moveVertical="false" moveOffset="581" spider="true" part="L" hidePath="false" kickable="false" kicked="false" />
+        <spike2 x="354" y="810" angle="0" size="4" />
+        <spike2 x="354" y="831" angle="0" size="4" />
+        <spike2 x="268" y="933" angle="90" size="4" />
+        <spike2 x="533" y="810" angle="0" size="4" />
+        <spike2 x="711" y="810" angle="0" size="4" />
+        <spike2 x="888" y="810" angle="0" size="4" />
+        <spike2 x="533" y="831" angle="0" size="4" />
+        <spike2 x="443" y="342" angle="180" size="4" />
+        <star x="588" y="820" timeout="-1" />
+        <rotatedCircle x="156" y="572" size="99" handleAngle="90" oneHandle="true"  />
+        <sock x="440" y="358" group="0" angle="-118" />
+        <spike2 x="587" y="271" angle="129" size="4" />
+        <spike2 x="385" y="364" angle="180" size="1" />
+    </layer>
+ 
+</map>

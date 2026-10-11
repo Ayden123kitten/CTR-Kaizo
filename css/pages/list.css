@@ -161,19 +161,8 @@
 
 .play_button {
   cursor: pointer;
-
-  /* background-color: var(--color-primary);
-  color: var(--color-on-primary); */
   color: var(--color-primary);
-
-  /* border-radius: 0.5rem; */
-  /* padding: 1rem;
-  transition: transform 100ms ease;
-  text-align: center; */
 }
-/* .play_button:hover:not(:active) {
-  transform: translateY(-2px);
-} */
 
 .suggestion_link:hover {
   text-decoration: underline;

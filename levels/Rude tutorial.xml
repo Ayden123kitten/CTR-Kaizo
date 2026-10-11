@@ -1,0 +1,89 @@
+<map>
+<layer name="settings">
+<map gridSize="32" width="853" height="480" />
+<gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+</layer>
+<layer name="Objects">
+<candy x="141" y="171" />
+<tutorialText x="330" y="196" locale="en" text="STOP" width="50" />
+<tutorialText x="321" y="166" locale="en" text="/" width="10" />
+<tutorialText x="338" y="151" locale="en" text="_" width="20" />
+<tutorialText x="350" y="151" locale="en" text="_" width="20" />
+<tutorialText x="361" y="151" locale="en" text="_" width="20" />
+<tutorialText x="376" y="167" locale="en" text="\" width="10" />
+<tutorialText x="385" y="196" locale="en" text="|" width="10" />
+<tutorialText x="382" y="180" locale="en" text="\" width="10" />
+<tutorialText x="381" y="213" locale="en" text="/" width="10" />
+<tutorialText x="374" y="227" locale="en" text="/" width="10" />
+<tutorialText x="360" y="225" locale="en" text="_" width="20" />
+<tutorialText x="347" y="225" locale="en" text="_" width="20" />
+<tutorialText x="334" y="225" locale="en" text="_" width="20" />
+<tutorialText x="326" y="151" locale="en" text="_" width="20" />
+<tutorialText x="312" y="195" locale="en" text="|" width="10" />
+<tutorialText x="315" y="179" locale="en" text="/" width="10" />
+<tutorialText x="315" y="213" locale="en" text="\" width="10" />
+<tutorialText x="321" y="227" locale="en" text="\" width="10" />
+<tutorialText x="326" y="225" locale="en" text="_" width="20" />
+<tutorialText x="371" y="173" locale="en" text="\" width="10" />
+<tutorialText x="377" y="196" locale="en" text="|" width="10" />
+<tutorialText x="356" y="157" locale="en" text="_" width="20" />
+<tutorialText x="373" y="213" locale="en" text="/" width="10" />
+<tutorialText x="353" y="220" locale="en" text="_" width="20" />
+<tutorialText x="374" y="180" locale="en" text="\" width="10" />
+<tutorialText x="368" y="222" locale="en" text="/" width="10" />
+<tutorialText x="340" y="220" locale="en" text="_" width="20" />
+<tutorialText x="324" y="213" locale="en" text="\" width="10" />
+<tutorialText x="335" y="220" locale="en" text="_" width="10" />
+<tutorialText x="328" y="222" locale="en" text="\" width="10" />
+<tutorialText x="321" y="195" locale="en" text="|" width="10" />
+<tutorialText x="324" y="181" locale="en" text="/" width="10" />
+<tutorialText x="345" y="157" locale="en" text="_" width="20" />
+<tutorialText x="329" y="173" locale="en" text="/" width="10" />
+<tutorialText x="335.5" y="157" locale="en" text="_" width="15" />
+<tutorialText x="344" y="244" locale="en" text="|" width="10" />
+<tutorialText x="349" y="244" locale="en" text="|" width="10" />
+<tutorialText x="343" y="264" locale="en" text="|" width="10" />
+<tutorialText x="349" y="263" locale="en" text="|" width="10" />
+<tutorialText x="343" y="283" locale="en" text="|" width="10" />
+<tutorialText x="348" y="283" locale="en" text="|" width="10" />
+<tutorialText x="342" y="300" locale="en" text="|" width="10" />
+<tutorialText x="347" y="300" locale="en" text="|" width="10" />
+<spike2 x="399" y="336" angle="180" size="4" />
+<spike2 x="393" y="295" angle="120" size="2" />
+<spike2 x="467" y="266" angle="-165" size="2" />
+<spike2 x="480" y="223" angle="-165" size="2" />
+<spike2 x="459" y="163" angle="120" size="2" />
+<spike2 x="566" y="291" angle="-165" size="2" />
+<spike2 x="581" y="249" angle="-165" size="2" />
+<spike2 x="655" y="217" angle="120" size="2" />
+<spike2 x="601" y="330" angle="120" size="1" />
+<spike2 x="543" y="339" angle="180" size="2" />
+<spike2 x="382" y="120" angle="180" size="4" />
+<spike2 x="571" y="120" angle="180" size="4" />
+<spike2 x="693" y="149" angle="120" size="1" />
+<grab x="499" y="177" length="100" wheel="false" gun="false" radius="1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<grab x="600" y="195" length="100" wheel="false" gun="false" radius="1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<tutorialText x="90" y="125" locale="en" text="dumbass bitch ------->" width="500" />
+<target x="783" y="196" />
+<star x="450" y="235" />
+<star x="505" y="253" />
+<star x="586" y="274" />
+<spike2 x="210" y="336" angle="180" size="4" />
+<spike2 x="195" y="120" angle="180" size="4" />
+<spike2 x="23" y="336" angle="180" size="4" />
+<spike2 x="8" y="120" angle="180" size="4" />
+<spike2 x="696" y="434" angle="-90" size="4" />
+<spike2 x="646" y="338" angle="0" size="2" />
+<spike2 x="761" y="120" angle="180" size="4" />
+<spike2 x="924" y="121" angle="180" size="3" />
+<tutorialText x="776" y="258" locale="en" text="^" width="10" />
+<tutorialText x="776" y="272" locale="en" text="|" width="10" />
+<tutorialText x="137" y="185" locale="en" text="^" width="10" />
+<tutorialText x="137" y="201" locale="en" text="|" width="10" />
+<tutorialText x="92" y="232" locale="en" text="cool candy (very cool)" width="100" />
+<rotatedCircle x="426" y="250" size="2" handleAngle="90" oneHandle="false"  />
+<tutorialText x="730" y="292" locale="en" text="give this green guy the candy" width="100" />
+<grab x="139" y="135" length="10" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<gravitySwitch x="394" y="79" />
+</layer>
+</map>

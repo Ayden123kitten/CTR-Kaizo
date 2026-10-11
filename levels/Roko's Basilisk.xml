@@ -1,0 +1,75 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Created using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+ 
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+ 
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="853" height="480" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+    </layer>
+ 
+    <layer name="Objects">
+        <grab x="145" y="93" length="50" wheel="false" gun="true" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <candy x="47" y="171" />
+        <bubble x="46" y="213" />
+        <spike2 x="19" y="148" angle="90" size="4" />
+        <spike2 x="78" y="113" angle="-90" size="4" />
+        <spike2 x="79" y="275" angle="-150" size="3" />
+        <grab x="259" y="92" length="50" wheel="false" gun="true" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <spike2 x="162" y="249" angle="-150" size="4" />
+        <spike2 x="94" y="359" angle="135" size="3" />
+        <spike2 x="267" y="322" angle="45" size="3" />
+        <spike2 x="252" y="479" angle="0" size="4" />
+        <spike2 x="108" y="444" angle="30" size="3" />
+        <spike2 x="433" y="382" angle="90" size="4" />
+        <spike2 x="323" y="300" angle="90" size="3" />
+        <spike2 x="396" y="478" angle="180" size="2" />
+        
+        <hand x="467" y="208" segmentsCount="1" segment1Angle="180" segment1Length="90" segment1Rotatable="true" segment2Angle="270" segment2Length="50" segment2Rotatable="true" segment3Angle="0" segment3Length="50" segment3Rotatable="true" />
+        <spike2 x="478" y="174" angle="0" size="2" />
+        <spike2 x="434" y="261" angle="90" size="1" />
+        <spike2 x="324" y="132" angle="90" size="4" />
+        <spike2 x="422" y="43" angle="180" size="4" />
+        <spike2 x="524" y="176" angle="90" size="2" />
+        <spike2 x="584" y="41" angle="0" size="3" />
+        <spike2 x="650" y="137" angle="90" size="4" />
+        <spike2 x="479" y="260" angle="135" size="2" />
+        <spike2 x="621" y="228" angle="0" size="1" />
+        <spike2 x="136" y="196" angle="-135" size="1" />
+        <spike2 x="182" y="199" angle="135" size="1" />
+        <spike2 x="226" y="199" angle="-135" size="1" />
+        <spike2 x="268" y="201" angle="135" size="1" />
+        <spike2 x="533" y="367" angle="180" size="4" />
+        <!--<grab x="548" y="93" length="30" wheel="false" gun="false" radius="30" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="true" kicked="false" />-->
+        <grab x="548" y="93" length="30" wheel="false" gun="false" kickable="true" kicked="false" radius="30" invisible="false" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" />
+        <spike2 x="547" y="419" angle="145" size="4" />
+        <spike2 x="746" y="320" angle="-90" size="2" />
+        <target x="718" y="70" />
+        <spike2 x="699" y="245" angle="-150" size="2" />
+        <spike2 x="840" y="301" angle="90" size="3" />
+        <spike2 x="830" y="273" angle="180" size="1" />
+        <spike2 x="562" y="468" angle="180" size="4" />
+        <tutorial04 x="404" locale="en" y="123" angle="165" />
+        <tutorial02 x="100" locale="en" y="246" angle="120" />
+        <tutorial02 x="790" locale="en" y="321" angle="-15" />
+        <tutorial02 x="138" locale="en" y="398" angle="120" />
+        <tutorial02 x="548" locale="en" y="310" angle="90" />
+        <!--<bouncer1 x="222" y="306" angle="-135" size="1" />
+        <pump x="115" y="406" angle="-30" />-->
+        <pump x="374" y="459" angle="-90" />
+        <grab x="325" y="350" length="50" wheel="false" gun="false" radius="50" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <bouncer1 x="700" y="469" angle="0" size="2" />
+        <rocket x="797" y="386" angle="180" impulse="25" impulseFactor="0.6" time="-1" isRotatable="true" />
+        <bouncer1 x="717" y="373" angle="180" size="1" />
+        <bouncer1 x="798" y="469" angle="0" size="2" />
+
+        <star x="775" y="257" path="" moveSpeed="0" timeout="12" />
+        <star x="755" y="197" path="" moveSpeed="0" timeout="14" />
+        <star x="735" y="137" path="" moveSpeed="0" timeout="16" />
+    </layer>
+ 
+</map>

@@ -1,0 +1,38 @@
+<map>
+<layer name="settings">
+<map gridSize="32" width="320" height="480" />
+<gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+</layer>
+<layer name="Objects">
+<target x="-104" y="204" />
+<candy x="435" y="222" />
+<spike2 x="-145" y="324" angle="90" size="4" />
+<spike2 x="-146" y="160" angle="90" size="3" />
+<spike2 x="-59" y="238" angle="105" size="1" />
+<spike2 x="-51" y="180" angle="90" size="1" />
+<spike2 x="-145" y="493" angle="90" size="3" />
+<bubble x="437" y="303" />
+<pump x="504" y="346" angle="-150" />
+<pump x="362" y="275" angle="-150" />
+<pump x="252" y="223" angle="-150" />
+<tutorialText x="48" y="305" locale="en" text="Basketball champion" width="100" />
+<tutorialText x="-144" y="129" locale="en" text="\" width="10" />
+<tutorialText x="-139" y="127" locale="en" text="_" width="20" />
+<tutorialText x="-126" y="127" locale="en" text="_" width="20" />
+<tutorialText x="-154" y="127" locale="en" text="_" width="100" />
+<tutorialText x="-100" y="127" locale="en" text="_" width="20" />
+<tutorialText x="-89" y="127" locale="en" text="_" width="20" />
+<tutorialText x="-75" y="127" locale="en" text="_" width="20" />
+<tutorialText x="-60" y="129" locale="en" text="/" width="10" />
+<tutorialText x="-60" y="115" locale="en" text="\" width="10" />
+<tutorialText x="-74" y="98" locale="en" text="_" width="20" />
+<tutorialText x="-86" y="98" locale="en" text="_" width="20" />
+<tutorialText x="-98" y="98" locale="en" text="_" width="20" />
+<tutorialText x="-109" y="98" locale="en" text="_" width="20" />
+<tutorialText x="-122" y="98" locale="en" text="_" width="20" />
+<tutorialText x="-134" y="98" locale="en" text="_" width="20" />
+<tutorialText x="160" y="207" locale="en" text="?" width="zxcfsadfsa" />
+<tutorialText x="-144" y="113" locale="en" text="/" width="10" />
+<tutorialText x="-139" y="98" locale="en" text="_" width="10" />
+</layer>
+</map>

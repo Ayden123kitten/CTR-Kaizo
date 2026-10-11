@@ -1,0 +1,86 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Created using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+ 
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+ 
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="853" height="480" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+    </layer>
+ 
+    <layer name="Objects">
+        <target x="86" y="414" />
+        <candy x="90" y="109" />
+        <tutorialText x="214" y="42" locale="en" text="Stancer's Hell" width="160" />
+        <pump x="25" y="252" angle="-60" />
+        <bubble x="88" y="108" />
+        <spike2 x="88" y="77" angle="180" size="2" />
+        <spike2 x="96" y="203" angle="180" size="2" />
+        <spike2 x="321" y="201" angle="180" size="4" />
+        <bouncer1 x="243" y="241" angle="-90" size="1" />
+        <spike2 x="278" y="275" angle="180" size="4" />
+        <pump x="208" y="332" angle="-90" />
+        <star x="338" y="162" timeout="2" />
+        <spike2 x="296" y="120" angle="180" size="3" />
+        <spike2 x="371" y="159" angle="90" size="2" />
+        <spike2 x="170" y="81" angle="-150" size="3" />
+        <spike2 x="40" y="140" angle="90" size="3" />
+        <bouncer1 x="90" y="199" angle="0" size="1" path="-3,-118" moveSpeed="20" />
+        <bouncer1 x="358" y="189" angle="-45" size="1" />
+        <spike2 x="109" y="376" angle="180" size="3" />
+        <spike2 x="39" y="287" angle="-90" size="4" />
+        <grab x="101" y="289" length="50" wheel="false" gun="false" radius="10" moveLength="205" moveVertical="false" moveOffset="0" spider="true" part="L" hidePath="false" kickable="false" kicked="false" />
+        <sock x="328" y="340" group="0" angle="180" />
+        <spike2 x="325" y="374" angle="180" size="2" />
+        <spike2 x="378" y="328" angle="90" size="2" />
+        <pump x="304" y="337" angle="-90" />
+        <spike2 x="412" y="276" angle="180" size="2" />
+        <spike2 x="429" y="204" angle="0" size="1" />
+        <sock x="169" y="422" group="1" angle="-90" />
+        <sock x="226" y="425" group="2" angle="-90" />
+        <sock x="648" y="104" group="2" angle="90" />
+        <pump x="302" y="452" angle="-135" />
+        <sock x="459" y="332" group="1" angle="90" />
+        <star x="459" y="392" timeout="11" />
+        <spike2 x="486" y="347" angle="90" size="3" />
+        <spike2 x="434" y="349" angle="90" size="3" />
+        <spike2 x="464" y="471" angle="180" size="1" />
+        <pump x="37" y="39" angle="30" />
+        <pump x="307" y="250" angle="-90" />
+        <spike4 x="321" y="279" angle="-90" size="3" toggled="1" />
+        <pump x="476" y="465" angle="-95" />
+        <spike2 x="274" y="424" angle="90" size="2" />
+        <spike2 x="181" y="470" angle="180" size="4" />
+        <star x="352" y="239" timeout="5" />
+        <sock x="415" y="237" group="0" angle="180" />
+        <spike2 x="457" y="237" angle="90" size="2" />
+        <pump x="310" y="407" angle="-165" />
+        <pump x="440" y="464" angle="-85" />
+        <pump x="162" y="335" angle="90" />
+        <spike2 x="545" y="195" angle="-120" size="1" />
+        <spike2 x="574" y="195" angle="-60" size="1" />
+        <spike2 x="558" y="249" angle="90" size="1" />
+        <spike2 x="633" y="226" angle="90" size="1" />
+        <spike2 x="694" y="226" angle="90" size="1" />
+        <spike2 x="720" y="224" angle="90" size="1" />
+        <spike2 x="772" y="223" angle="90" size="1" />
+        <spike2 x="667" y="199" angle="180" size="1" />
+        <spike2 x="749" y="252" angle="180" size="1" />
+        <spike2 x="665" y="250" angle="180" size="1" />
+        <spike2 x="521" y="358" angle="90" size="2" />
+        <spike2 x="551" y="313" angle="180" size="1" />
+        <spike2 x="549" y="356" angle="180" size="1" />
+        <spike2 x="612" y="359" angle="120" size="2" />
+        <spike2 x="658" y="358" angle="-120" size="2" />
+        <spike2 x="766" y="394" angle="180" size="1" />
+        <spike2 x="629" y="363" angle="180" size="1" />
+        <spike2 x="705" y="351" angle="90" size="2" />
+        <spike2 x="737" y="351" angle="90" size="2" />
+        <tutorialText x="580" y="115" locale="en" text="dont go here or..." width="160" />
+    </layer>
+ 
+</map>
