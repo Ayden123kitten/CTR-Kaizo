@@ -9,9 +9,7 @@ import LevelAuthors from "../components/List/LevelAuthors.js";
 const roleIconMap = {
   owner: "crown",
   admin: "user-gear",
-  helper: "user-shield",
-  dev: "code",
-  trial: "user-lock"
+  moderator: "user-shield",
 };
 
 export default {
