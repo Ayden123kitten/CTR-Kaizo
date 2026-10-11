@@ -1,0 +1,37 @@
+<map>
+<layer name="settings">
+<map gridSize="32" width="320" height="960" />
+<gameDesign special="1" ropePhysicsSpeed="1.0" />
+</layer>
+<layer name="Objects">
+<candy x="-67" y="222" />
+<target x="464" y="850" />
+<pump x="-179" y="222" angle="0" />
+<spike2 x="-72" y="354" angle="0" size="4" />
+<sock x="-193" y="89" group="1" angle="0" />
+<sock x="-18" y="603" group="1" angle="-75" />
+<bouncer1 x="138" y="359" angle="-90" size="2" />
+<spike2 x="209" y="405" angle="90" size="4" />
+<spike2 x="-91" y="699" angle="180" size="4" />
+<spike2 x="103" y="699" angle="180" size="4" />
+<spike2 x="207" y="598" angle="90" size="4" />
+<spike2 x="317" y="698" angle="180" size="4" />
+<pump x="318" y="260" angle="90" />
+<spike2 x="489" y="263" angle="-90" size="4" />
+<spike2 x="500" y="698" angle="180" size="3" />
+<spike2 x="537" y="148" angle="180" size="2" />
+<bubble x="390" y="301" />
+<pump x="271" y="465" angle="0" />
+<sock x="547" y="242" group="0" angle="90" />
+<sock x="-156" y="898" group="0" angle="-90" />
+<bouncer1 x="-53" y="899" angle="0" size="2" />
+<pump x="-235" y="836" angle="0" />
+<star x="23" y="312" />
+<star x="437" y="496" />
+<bouncer1 x="482" y="766" angle="-135" size="1" />
+<bouncer1 x="-65" y="315" angle="0" size="1" />
+<star x="6" y="869" />
+<bouncer1 x="454" y="324" angle="-90" size="1" />
+<pump x="317" y="361" angle="90" />
+</layer>
+</map>

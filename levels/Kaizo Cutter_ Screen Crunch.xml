@@ -1,0 +1,53 @@
+<map>
+<layer name="settings">
+<map gridSize="32" width="320" height="960" />
+<gameDesign ropePhysicsSpeed="1" twoParts="true" nightLevel="false" />
+</layer>
+<layer name="Objects">
+<candyL x="216" y="95" />
+<spike2 x="-2" y="241" angle="0" size="4" />
+<spike2 x="327" y="239" angle="180" size="4" />
+<candyR x="112" y="123" />
+<bubble x="119" y="310" />
+<star x="216" y="47" />
+<spike2 x="300" y="349" angle="90" size="4" />
+<pump x="298" y="333" angle="180" />
+<bubble x="55" y="310" />
+<pump x="28" y="251" angle="45" />
+<spike2 x="111" y="83" angle="180" size="1" />
+<bouncer1 x="114" y="443" angle="0" size="1" />
+<spike4 x="236" y="449" angle="180" size="3" toggled="1" />
+<spike4 x="115" y="468" angle="90" size="3" toggled="1" />
+<star x="47" y="446" />
+<bubble x="53" y="567" />
+<target x="68" y="900" />
+<spike2 x="27" y="858" angle="180" size="4" />
+<spike2 x="135" y="904" angle="180" size="1" />
+<spike2 x="108" y="981" angle="90" size="3" />
+<spike2 x="165" y="983" angle="90" size="3" />
+<spike2 x="115" y="515" angle="180" size="1" />
+<spike2 x="61" y="673" angle="180" size="4" />
+<spike2 x="207" y="674" angle="180" size="2" />
+<gravitySwitch x="136" y="940" />
+<bubble x="275" y="729" />
+<spike2 x="209" y="788" angle="180" size="4" />
+<bouncer1 x="300" y="729" angle="-90" size="1" />
+<star x="46" y="699" />
+<bouncer1 x="12" y="799" angle="90" size="2" />
+<bouncer1 x="195" y="867" angle="-90" size="1" />
+<spike2 x="159" y="240" angle="180" size="1" />
+<spike2 x="-102" y="142" angle="90" size="4" />
+<spike2 x="-40" y="386" angle="90" size="4" />
+<spike2 x="-40" y="573" angle="90" size="4" />
+<spike2 x="-57" y="283" angle="90" size="1" />
+<spike2 x="328" y="477" angle="90" size="4" />
+<spike2 x="328" y="665" angle="90" size="4" />
+<spike2 x="328" y="854" angle="90" size="4" />
+<spike2 x="422" y="138" angle="90" size="4" />
+<grab x="203" y="582" length="" wheel="false" gun="false" radius="10" moveLength="100" moveVertical="false" moveOffset="90" spider="false" part="L" hidePath="false" />
+<pump x="296" y="396" angle="180" />
+<spike2 x="66" y="730" angle="180" size="3" />
+<bouncer1 x="12" y="702" angle="90" size="1" />
+<grab x="237" y="290" length="100" wheel="false" gun="false" radius="25" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+</layer>
+</map>

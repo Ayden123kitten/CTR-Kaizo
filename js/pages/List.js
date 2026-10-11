@@ -1,6 +1,7 @@
 import { store } from "../main.js";
 import { embed } from "../util.js";
 import { score } from "../score.js";
+import { playtestFormURL } from "../playtest.js";
 import { fetchEditors, fetchList } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
@@ -65,7 +66,11 @@ export default {
                         </li>
                         <li v-if="level.download">
                             <div class="type-title-sm">Download</div>
-                            <a :href="level.download" download class="type-label-lg">Download Link</a>
+                            <a :href="level.download" download class="suggestion_link type-label-lg">Download Link</a>
+                        </li>
+                        <li v-if="level.download">
+                          <a class="suggestion_link play_button type-title-sm" @click="playtestFormURL(level.download)">Play</a>
+                          <a class="suggestion_link type-label-lg" href="https://github.com/yell0wsuit/cuttherope-dx">Uses Cut the Rope DX</a>
                         </li>
                     </ul>
                     <h2>Records</h2>
@@ -129,7 +134,8 @@ export default {
     selected: 0,
     errors: [],
     roleMap,
-    store
+    store,
+    playtestFormURL
   }),
   computed: {
     level() {

@@ -1,0 +1,28 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Created using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+ 
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+ 
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="320" height="480" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+    </layer>
+ 
+    <layer name="Objects">
+        <tutorialText x="-100" y="199" locale="en" text="this is getting ridiculous" width="160" />
+        <grab x="160" y="240" length="100" wheel="false" gun="false" radius="100" moveLength="100" moveVertical="false" moveOffset="50" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <candy x="160" y="350" />
+        <spike2 x="140" y="83" angle="90" size="4" />
+        <spike2 x="180" y="83" angle="90" size="4" />
+        <spike2 x="140" y="397" angle="90" size="4" />
+        <spike2 x="180" y="397" angle="90" size="4" />
+        <spike2 x="180" y="240" angle="90" size="4" />
+        <spike2 x="140" y="240" angle="90" size="4" />
+        <target x="160" y="50" />
+    </layer>
+ 
+</map>

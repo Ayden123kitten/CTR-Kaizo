@@ -158,3 +158,12 @@
   transition-delay: 0.3s;
   visibility: visible;
 }
+
+.play_button {
+  cursor: pointer;
+  color: var(--color-primary);
+}
+
+.suggestion_link:hover {
+  text-decoration: underline;
+}

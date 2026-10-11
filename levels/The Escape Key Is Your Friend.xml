@@ -1,0 +1,32 @@
+<map>
+<layer name="settings">
+<map gridSize="32" width="320" height="480" />
+<gameDesign special="1" ropePhysicsSpeed="1.0" />
+</layer>
+<layer name="Objects">
+<target x="158" y="428" />
+<candy x="159" y="108" />
+<spike4 x="162" y="155" angle="180" size="3" toggled="1" />
+<spike4 x="160" y="66" angle="180" size="3" toggled="1" />
+<pump x="237" y="108" angle="180" />
+<spike2 x="196" y="106" angle="90" size="2" />
+<electro x="101" y="85" initialDelay="0.0" offTime="2.0" onTime="2.0" angle="90" size="5" />
+<star x="158" y="384" />
+<star x="158" y="365" />
+<star x="158" y="374" />
+<spike2 x="66" y="223" angle="-135" size="4" />
+<spike2 x="37" y="114" angle="135" size="2" />
+<pump x="9" y="88" angle="45" />
+<grab x="61" y="152" length="100" wheel="false" gun="false" radius="10" moveLength="-1" moveVertical="false" moveOffset="0" spider="true" part="L" hidePath="false" />
+<pump x="205" y="190" angle="165" />
+<pump x="208" y="193" angle="135" />
+<pump x="207" y="192" angle="150" />
+<spike4 x="128" y="283" angle="180" size="3" toggled="1" />
+<sock x="185" y="242" group="0" angle="180" />
+<sock x="277" y="267" group="0" angle="90" />
+<pump x="86" y="244" angle="-10" />
+<grab x="158" y="285" length="100" wheel="false" gun="false" radius="5" moveLength="-1" moveVertical="false" moveOffset="0" spider="true" part="L" hidePath="false" />
+<pump x="277" y="346" angle="-90" />
+<pump x="-20" y="272" angle="180" />
+</layer>
+</map>
