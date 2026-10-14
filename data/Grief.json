@@ -1,10 +1,10 @@
 {
-  "name": "THE EVIL CHUZZLE CASTLE/GRIEF",
+  "name": "THE EVIL CHUZZLE CASTLE / GRIEF",
   "creators": ["Chuzzle Mods"],
   "verifier": "Fachi",
   "verification": "https://youtu.be/tEsC--xccTY?si=KRIQr3WwTvK7W3Dj",
   "description": "",
-  "download": "xml download",
-  "image": "Placeholder",
+  "download": "levels/GRIEF.xml",
+  "image": "images/ChuzzleCastle.webp",
   "records": []
 }
