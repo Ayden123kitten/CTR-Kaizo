@@ -6,5 +6,10 @@
   "description": "Level uses objects only available on Mobile or Cut The Rope DX.",
   "download": "levels/ITS%20TRICKY.xml",
   "image": "images/ITS%20TRICKY.webp",
-  "records": []
+  "records": [
+    {
+      "user": "Yip"
+      "link": "https://youtu.be/4VOoFiDT-QQ"
+    }
+  ]
 }
