@@ -1,0 +1,116 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
+ 
+    Created using Cut the Rope Level Editor:
+    https://adriandrummis.github.io/CutTheRopeEditor/
+ 
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+ 
+<map>
+ 
+    <layer name="settings">
+        <map gridSize="32" width="853" height="960" />
+        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+    </layer>
+ 
+    <layer name="Objects">
+        <gravitySwitch x="303" y="126" />
+        <gravitySwitch x="630" y="279" />
+        <gravitySwitch x="625" y="580" />
+        <spike2 x="454" y="638" angle="90" size="2" />
+        <gravitySwitch x="79" y="767" />
+        <spike2 x="365" y="688" angle="90" size="2" />
+        <spike2 x="280" y="749" angle="180" size="4" />
+        <spike2 x="169" y="750" angle="166" size="2" />
+        <spike2 x="128" y="821" angle="90" size="2" />
+        <spike2 x="322" y="886" angle="90" size="2" />
+        <spike2 x="341" y="876" angle="90" size="2" />
+        <spike2 x="358" y="874" angle="90" size="2" />
+        <spike2 x="672" y="717" angle="90" size="2" />
+        <spike2 x="547" y="925" angle="180" size="2" />
+        <spike2 x="582" y="890" angle="106" size="2" />
+        <spike2 x="552" y="819" angle="33" size="2" />
+        <spike2 x="645" y="807" angle="123" size="2" />
+        <sock x="186" y="552" group="3" angle="90" />
+        <spike2 x="472" y="923" angle="-170" size="2" />
+        <tutorialText x="201" y="619" locale="en" text="THE EVIL CHUZZLE CASTLE" width="160" />
+        <spike2 x="467" y="799" angle="170" size="2" />
+        <spike2 x="422" y="860" angle="90" size="2" />
+        <rotatedCircle x="531" y="869" size="35" handleAngle="90" oneHandle="true"  />
+        <rotatedCircle x="463" y="866" size="33" handleAngle="-167" oneHandle="true"  />
+        <lantern x="544" y="584" candyCaptured="false" />
+        <lantern x="303" y="461" candyCaptured="false" />
+        <lantern x="697" y="269" candyCaptured="false" />
+        <lantern x="137" y="343" candyCaptured="false" />
+        <bouncer1 x="429" y="254" angle="-154" size="1" />
+        <star x="190" y="612" timeout="-1" />
+        <spike2 x="547" y="129" angle="90" size="3" />
+        <spike2 x="543" y="56" angle="180" size="2" />
+        <spike2 x="547" y="197" angle="180" size="2" />
+        <spike2 x="453" y="111" angle="90" size="3" />
+        <spike2 x="396" y="109" angle="180" size="2" />
+        <spike2 x="447" y="242" angle="-151" size="2" />
+        <spike2 x="357" y="106" angle="90" size="3" />
+        <spike2 x="105" y="52" angle="150" size="4" />
+        <spike2 x="182" y="39" angle="-105" size="2" />
+        <spike2 x="63" y="186" angle="66" size="4" />
+        <pump x="231" y="174" angle="-135" />
+        <spike2 x="149" y="268" angle="180" size="2" />
+        <pump x="160" y="216" angle="-135" />
+        <star x="179" y="122" timeout="-1" />
+        <spike2 x="258" y="156" angle="45" size="4" />
+        <spike2 x="238" y="303" angle="45" size="2" />
+        <spike2 x="315" y="341" angle="-174" size="2" />
+        <spike2 x="505" y="333" angle="154" size="2" />
+        <spike2 x="523" y="298" angle="53" size="2" />
+        <spike2 x="359" y="223" angle="180" size="2" />
+        <grab x="353" y="285" length="50" wheel="false" gun="false" radius="50" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" kickable="false" kicked="false" />
+        <pump x="479" y="306" angle="180" />
+        <spike2 x="465" y="335" angle="90" size="2" />
+        <spike2 x="369" y="395" angle="90" size="2" />
+        <spike2 x="507" y="388" angle="180" size="2" />
+        <spike2 x="591" y="390" angle="180" size="2" />
+        <spike2 x="672" y="390" angle="-171" size="2" />
+        <gravitySwitch x="760" y="474" />
+        <pump x="710" y="433" angle="180" />
+        <spike2 x="677" y="477" angle="155" size="2" />
+        <spike2 x="588" y="494" angle="180" size="2" />
+        <spike2 x="507" y="492" angle="-169" size="2" />
+        <spike2 x="460" y="529" angle="90" size="2" />
+        <spike2 x="372" y="491" angle="90" size="2" />
+        <sock x="660" y="431" group="3" angle="180" />
+        <sock x="184" y="662" group="1" angle="-90" />
+        <spike2 x="367" y="590" angle="90" size="2" />
+        <sock x="607" y="709" group="1" angle="180" />
+        <star x="593" y="712" timeout="-1" />
+        <spike2 x="660" y="714" angle="90" size="2" />
+        <spike2 x="609" y="678" angle="180" size="2" />
+        <spike2 x="602" y="743" angle="180" size="2" />
+        <spike2 x="507" y="682" angle="180" size="2" />
+        <spike2 x="502" y="746" angle="180" size="2" />
+        <pump x="387" y="846" angle="-90" />
+        <spike2 x="423" y="777" angle="140" size="2" />
+        <spike2 x="307" y="830" angle="166" size="4" />
+        <pump x="103" y="834" angle="-10" />
+        <candy x="171" y="828" />
+        <grab x="170" y="800" length="11" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="true" part="L" hidePath="false" kickable="false" kicked="false" />
+        <spike2 x="179" y="863" angle="165" size="2" />
+        <target x="145" y="84" />
+        <sock x="78" y="121" group="2" angle="54" />
+        <sock x="81" y="613" group="2" angle="90" />
+        <sock x="672" y="882" group="0" angle="90" />
+        <sock x="669" y="896" group="0" angle="90" />
+        <hiddenElement x="85" y="614" radius="100" />
+        <spike2 x="82" y="668" angle="180" size="2" />
+        <spike2 x="45" y="571" angle="116" size="2" />
+        <spike2 x="97" y="549" angle="39" size="2" />
+        <spike2 x="37" y="618" angle="90" size="2" />
+        <spike2 x="670" y="944" angle="180" size="2" />
+        <spike2 x="713" y="908" angle="73" size="2" />
+        <spike2 x="688" y="815" angle="75" size="2" />
+        <spike2 x="621" y="901" angle="90" size="2" />
+        <spike2 x="131" y="621" angle="90" size="2" />
+        <target x="83" y="626" />
+        <target x="673" y="910" />
+    </layer>
+ 
+</map>
