@@ -2,7 +2,7 @@ import { store } from "../main.js";
 import { embed } from "../util.js";
 import { score } from "../score.js";
 import { playtestFormURL } from "../playtest.js";
-import { fetchEditors, fetchList } from "../content.js";
+import { fetchEditors, fetchList, fetchTags } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
@@ -35,8 +35,8 @@ export default {
         </main>
         <main v-else class="page-list">
             <div class="list-container">
-                <div class="tags-select tags" v-if="level.tags">
-                  <Tag v-for="tag in level.tags" :key="tag" :label="tag" :active="selectedTags.includes(tag)" :interactive="true" @toggle="toggleTag(tag)"></Tag>
+                <div class="tags-select tags" v-if="tags">
+                  <Tag v-for="tag in tags" :key="tag" :label="tag" :active="selectedTags.includes(tag)" :interactive="true" @toggle="toggleTag(tag)"></Tag>
                 </div>
                 <table class="list" v-if="list">
                     <tr v-for="{ level, err, rank } in filteredList" :key="rank">
@@ -137,12 +137,13 @@ export default {
   data: () => ({
     list: [],
     editors: [],
+    tags: [],
+    selectedTags: [],
     loading: true,
     selected: 0,
     errors: [],
     roleMap,
-    store,
-    selectedTags: []
+    store
   }),
   computed: {
     level() {
@@ -170,6 +171,7 @@ export default {
     // Hide loading spinner
     this.list = await fetchList();
     this.editors = await fetchEditors();
+    this.tags = await fetchTags();
 
     // Error handling
     if (!this.list) {
