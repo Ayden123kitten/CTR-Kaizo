@@ -1,11 +1,13 @@
 [
-    "Long",
-    "Short",
-    "Pauses",
-    "Pauseless",
-    "Gravity",
-    "Pumps",
-    "Gimmick",
-    "Precision",
-    "Speed"
+    "long",
+    "short",
+    "pauses",
+    "pauseless",
+    "gravity",
+    "pumps",
+    "gimmick",
+    "precision",
+    "fast",
+    "slow",
+    "complicated"
 ]

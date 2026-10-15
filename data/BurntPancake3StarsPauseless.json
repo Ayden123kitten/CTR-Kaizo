@@ -5,6 +5,9 @@
   "verification": "https://www.youtube.com/watch?v=8_p2h_yQLzM",
   "download": "levels/Burnt%20Pancake.xml",
   "image": "images/Burnt%20Pancake.webp",
+  "tags": [
+    "pauseless", "pumps"
+  ],
   "records": [
     {
       "user": "KONDUCKTOR",

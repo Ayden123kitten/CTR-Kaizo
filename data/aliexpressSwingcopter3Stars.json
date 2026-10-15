@@ -5,6 +5,9 @@
   "verification": "https://www.youtube.com/watch?v=lgfhbLkuBsA",
   "download": "levels/aliexpress%20swingcopter.xml",
   "image": "images/aliexpress%20swingcopter.webp",
+  "tags": [
+    "pauses", "pauseless", "gravity", "slow"
+  ],
   "records": [
     {
       "user": "Limeapple",

@@ -6,6 +6,9 @@
   "description": "Made for Kaizo Level Contest.",
   "download": "levels/gravitation%20hell.xml",
   "image": "images/gravitation%20hell.webp",
+  "tags": [
+    "pauseless", "gravity", "slow"
+  ],
   "records": [
     {
       "user": "MinhPi",

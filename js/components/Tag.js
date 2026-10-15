@@ -1,3 +1,5 @@
+import { capitalize } from "../util.js";
+
 export default {
     props: {
         label: String,
@@ -14,7 +16,10 @@ export default {
             :disabled="interactive === false"
             @click="$emit('toggle')"
         >
-            {{ label }}
+            {{ capitalize(label) }}
         </button>
-    `
+    `,
+    methods: {
+        capitalize
+    }
 };

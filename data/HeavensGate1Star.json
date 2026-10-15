@@ -7,8 +7,7 @@
   "download": "levels/Heaven%27s%20Gate.xml",
   "image": "images/Heaven%27s%20Gate.webp",
   "tags": [
-    "1 Star", "Bubbles", "Discs", "Long", "Magic Hats", "Pauses", "Pixel Perfects", "Pumps", 
-    "Rotating Saws", "Saws", "Sliders", "Spiders", "Spikes", "Trampolines", "Wheel Ropes"
+    "pauses", "pumps", "precision", "slow", "long"
   ],
   "records": []
 }

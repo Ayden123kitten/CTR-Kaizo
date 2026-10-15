@@ -6,6 +6,9 @@
   "descrpton": "Level uses objects only available on Mobile or Cut The Rope DX",
   "download": "levels/Crossing%20border.xml",
   "image": "images/Crossing%20border.webp",
+  "tags": [
+    "pauseless", "gimmick", "precision", "short"
+  ],
   "records": [
     {
       "user": "ploliugoy",

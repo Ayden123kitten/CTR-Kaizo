@@ -6,5 +6,8 @@
   "description": "",
   "download": "levels/GRIEF.xml",
   "image": "images/ChuzzleTower.webp",
+  "tags": [
+    "pauses", "gravity", "fast"
+  ],
   "records": []
 }
