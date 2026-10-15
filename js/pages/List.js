@@ -6,6 +6,7 @@ import { fetchEditors, fetchList } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
+import Tag from "../components/Tag.js";
 
 const roleMap = {
   owner: {
@@ -27,7 +28,7 @@ const roleMap = {
 };
 
 export default {
-  components: { Spinner, LevelAuthors },
+  components: { Spinner, LevelAuthors, Tag },
   template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -57,6 +58,9 @@ export default {
                             <p class="type-label-lg" style="white-space: pre-wrap;">{{ level.description }}</p>
                         </li>
                     </ul>
+                    <div class="tags" v-if="level.tags">
+                      <Tag v-for="tag in level.tags" :key="tag" :label="tag" :active="true" :interactive="false"></Tag>
+                    </div>
                     <iframe v-if="level.verification" class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <img v-if="level.image" class="image" :src="level.image" alt="Level image">
                     <ul class="stats">
@@ -178,6 +182,9 @@ export default {
   methods: {
     embed,
     score,
-    playtestFormURL
+    playtestFormURL,
+    toggleTag(tag) {
+      console.log(tag);
+    }
   }
 };
