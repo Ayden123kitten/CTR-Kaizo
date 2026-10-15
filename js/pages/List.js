@@ -135,7 +135,6 @@ export default {
     errors: [],
     roleMap,
     store,
-    playtestFormURL
   }),
   computed: {
     level() {
@@ -178,6 +177,7 @@ export default {
   },
   methods: {
     embed,
-    score
+    score,
+    playtestFormURL
   }
 };
