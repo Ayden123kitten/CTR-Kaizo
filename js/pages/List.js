@@ -35,14 +35,17 @@ export default {
         </main>
         <main v-else class="page-list">
             <div class="list-container">
+                <div class="tags-select tags" v-if="level.tags">
+                  <Tag v-for="tag in level.tags" :key="tag" :label="tag" :active="selectedTags.includes(tag)" :interactive="true" @toggle="toggleTag(tag)"></Tag>
+                </div>
                 <table class="list" v-if="list">
-                    <tr v-for="([level, err], i) in list">
+                    <tr v-for="{ level, err, rank } in filteredList" :key="rank">
                         <td class="rank">
-                            <p v-if="i + 1 <= 150" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-if="rank + 1 <= 150" class="type-label-lg">#{{ rank + 1 }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
-                        <td class="level" :class="{ 'active': selected == i, 'error': !level }">
-                            <button @click="selected = i">
+                        <td class="level" :class="{ 'active': selected == rank, 'error': !level }">
+                            <button @click="selected = rank">
                                 <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                             </button>
                         </td>
@@ -139,6 +142,7 @@ export default {
     errors: [],
     roleMap,
     store,
+    selectedTags: []
   }),
   computed: {
     level() {
@@ -152,6 +156,14 @@ export default {
       return embed(
         this.toggledShowcase ? this.level.showcase : this.level.verification
       );
+    },
+    filteredList() {
+      return this.list
+        .map(([level, err], i) => ({ level, err, rank: i }))
+        .filter(({ level }) =>
+          !this.selectedTags.length ||
+          this.selectedTags.every(t => level?.tags?.includes(t))
+        );
     }
   },
   async mounted() {
@@ -184,7 +196,11 @@ export default {
     score,
     playtestFormURL,
     toggleTag(tag) {
-      console.log(tag);
+      if (this.selectedTags.includes(tag)) {
+        this.selectedTags = this.selectedTags.filter(t => t !== tag);
+      } else {
+        this.selectedTags.push(tag);
+      }
     }
   }
 };

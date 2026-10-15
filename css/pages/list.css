@@ -9,7 +9,6 @@
 .page-list .meta-container {
   padding-right: 2rem;
 }
-
 .page-list .list {
   table-layout: auto;
 }
@@ -166,4 +165,8 @@
 
 .suggestion_link:hover {
   text-decoration: underline;
+}
+
+.tags-select {
+  padding-bottom: 1rem;
 }
