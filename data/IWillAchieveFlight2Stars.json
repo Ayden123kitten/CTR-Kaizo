@@ -6,6 +6,9 @@
   "description": "Part of the Ascension to Heaven Mod.",
   "download": "levels/I%20Will%20Achieve%20Flight.xml",
   "image": "images/I%20Will%20Achieve%20Flight.webp",
+  "tags": [
+    "pauseless", "gravity", "slow", "long"
+  ],
   "records": [
     {
       "user": "lily~",

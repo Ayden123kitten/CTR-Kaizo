@@ -44,6 +44,16 @@ export async function fetchEditors() {
   }
 }
 
+export async function fetchTags() {
+  try {
+    const editorsResults = await fetch(`${dir}/_tags.json`);
+    const editors = await editorsResults.json();
+    return editors;
+  } catch {
+    return null;
+  }
+}
+
 export async function fetchLeaderboard() {
   const list = await fetchList();
 

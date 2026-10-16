@@ -5,5 +5,8 @@
   "verification": "https://www.youtube.com/watch?v=Cgzk6RmlaJc",
   "download": "levels/Spike%20mayhem.xml",
   "image": "images/Spike%20mayhem.webp",
+  "tags": [
+    "pauses", "gravity", "pumps", "long", "slow"
+  ],
   "records": []
 }

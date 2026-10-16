@@ -5,24 +5,9 @@
   "verification": "https://www.youtube.com/watch?v=nl6T0UsfSEY",
   "description": "Part of the Ascension to Heaven Mod.",
   "download": "levels/Life%2C%20The%20Universe%2C%20and%20Everything.xml",
-    "tags": [
-      "2 Stars",
-      "Bubbles",
-      "Crowded",
-      "Discs",
-      "Long",
-      "Magic Hats",
-      "Pauses",
-      "Pixel Perfects",
-      "Pumps",
-      "Rotating Saws",
-      "Saws",
-      "Sliders",
-      "Spiders",
-      "Spikes",
-      "Trampolines",
-      "Wheel Ropes"
-    ],
+  "tags": [
+    "pauses", "pumps", "precision", "long", "complicated"
+  ],
   "image": "images/Life%2C%20The%20Universe%2C%20and%20Everything.webp",
   "records": []
 }

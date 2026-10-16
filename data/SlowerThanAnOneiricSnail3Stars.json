@@ -6,5 +6,8 @@
   "description": "Part of the Ascension to Heaven Mod.",
   "download": "levels/Slower%20than%20an%20Oneiric%20Snail.xml",
   "image": "images/Slower%20than%20an%20Oneiric%20Snail.webp",
+  "tags": [
+    "pauseless", "pumps", "fast"
+  ],
   "records": []
 }

@@ -6,6 +6,9 @@
   "description": "Made for Kaizo Level Contest 2.",
   "download": "levels/thingamajig%20factory.xml",
   "image": "images/thingamajig%20factory.webp",
+  "tags": [
+    "pauseless", "gravity", "pumps", "fast", "complicated"
+  ],
   "records": [
     {
       "user": "Sami9",

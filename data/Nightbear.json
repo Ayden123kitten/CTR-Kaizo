@@ -6,6 +6,9 @@
   "description": "Level uses objects only available on Mobile or Cut The Rope DX.",
   "download": "levels/Nightbear.xml",
   "image": "images/Nightbear.webp",
+  "tags": [
+    "pauseless", "pumps", "gimmick", "short", "fast"
+  ],
   "records": [
     {
       "user": "popcow",

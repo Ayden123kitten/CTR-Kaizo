@@ -2,10 +2,11 @@ import { store } from "../main.js";
 import { embed } from "../util.js";
 import { score } from "../score.js";
 import { playtestFormURL } from "../playtest.js";
-import { fetchEditors, fetchList } from "../content.js";
+import { fetchEditors, fetchList, fetchTags } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
+import Tag from "../components/Tag.js";
 
 const roleMap = {
   owner: {
@@ -27,21 +28,24 @@ const roleMap = {
 };
 
 export default {
-  components: { Spinner, LevelAuthors },
+  components: { Spinner, LevelAuthors, Tag },
   template: `
         <main v-if="loading">
             <Spinner></Spinner>
         </main>
         <main v-else class="page-list">
             <div class="list-container">
+                <div class="tags-select tags" v-if="tags">
+                  <Tag v-for="tag in tags" :key="tag" :label="tag" :active="selectedTags.includes(tag)" :interactive="true" @toggle="toggleTag(tag)"></Tag>
+                </div>
                 <table class="list" v-if="list">
-                    <tr v-for="([level, err], i) in list">
+                    <tr v-for="{ level, err, rank } in filteredList" :key="rank">
                         <td class="rank">
-                            <p v-if="i + 1 <= 150" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-if="rank + 1 <= 150" class="type-label-lg">#{{ rank + 1 }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
-                        <td class="level" :class="{ 'active': selected == i, 'error': !level }">
-                            <button @click="selected = i">
+                        <td class="level" :class="{ 'active': selected == rank, 'error': !level }">
+                            <button @click="selected = rank">
                                 <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                             </button>
                         </td>
@@ -57,6 +61,9 @@ export default {
                             <p class="type-label-lg" style="white-space: pre-wrap;">{{ level.description }}</p>
                         </li>
                     </ul>
+                    <div class="tags" v-if="level.tags">
+                      <Tag v-for="tag in level.tags" :key="tag" :label="tag" :active="true" :interactive="false"></Tag>
+                    </div>
                     <iframe v-if="level.verification" class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <img v-if="level.image" class="image" :src="level.image" alt="Level image">
                     <ul class="stats">
@@ -130,11 +137,13 @@ export default {
   data: () => ({
     list: [],
     editors: [],
+    tags: [],
+    selectedTags: [],
     loading: true,
     selected: 0,
     errors: [],
     roleMap,
-    store,
+    store
   }),
   computed: {
     level() {
@@ -148,12 +157,21 @@ export default {
       return embed(
         this.toggledShowcase ? this.level.showcase : this.level.verification
       );
+    },
+    filteredList() {
+      return this.list
+        .map(([level, err], i) => ({ level, err, rank: i }))
+        .filter(({ level }) =>
+          !this.selectedTags.length ||
+          this.selectedTags.every(t => level?.tags?.includes(t))
+        );
     }
   },
   async mounted() {
     // Hide loading spinner
     this.list = await fetchList();
     this.editors = await fetchEditors();
+    this.tags = await fetchTags();
 
     // Error handling
     if (!this.list) {
@@ -178,6 +196,13 @@ export default {
   methods: {
     embed,
     score,
-    playtestFormURL
+    playtestFormURL,
+    toggleTag(tag) {
+      if (this.selectedTags.includes(tag)) {
+        this.selectedTags = this.selectedTags.filter(t => t !== tag);
+      } else {
+        this.selectedTags.push(tag);
+      }
+    }
   }
 };

@@ -6,5 +6,8 @@
   "description": "Part of the Ascension to Heaven Mod (Heaven's Gate Beta).",
   "download": "levels/Approaching%20Heaven.xml",
   "image": "images/Approaching%20Heaven.webp",
+  "tags": [
+    "pauses", "pumps", "precision", "slow", "long"
+  ],
   "records": []
 }

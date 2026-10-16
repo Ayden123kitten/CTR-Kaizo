@@ -1,0 +1,30 @@
+.tags {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 8px;
+}
+
+.tag {
+    color: var(--color-primary);
+    background: var(--color-on-primary);
+    border: solid var(--color-primary);
+
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    border-radius: 0.5rem;
+    padding: 5px;
+    text-align: start;
+    word-break: normal;
+    overflow-wrap: anywhere;
+    cursor: default;
+}
+
+.tag.active {
+    color: var(--color-on-primary);
+    background: var(--color-primary);
+    border: solid var(--color-primary);
+}
+
+.tag.interactive {
+    cursor: pointer;
+}

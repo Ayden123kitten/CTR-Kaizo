@@ -6,5 +6,8 @@
   "description": "Buffed version of Kaizo air cushion level.",
   "download": "levels/Glass%20Cannon.xml",
   "image": "images/Glass%20Cannon.webp",
+  "tags": [
+    "pauseless", "pumps", "fast"
+  ],
   "records": []
 }
