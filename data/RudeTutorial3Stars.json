@@ -5,6 +5,9 @@
   "verification": "https://files.catbox.moe/9pvrjw.webp",
   "download": "levels/Rude%20tutorial.xml",
   "image": "images/Rude%20tutorial.webp",
+  "tags": [
+    "pauseless", "gravity", "slow", "short"
+  ],
   "records": [
     {
       "user": "Fachi",

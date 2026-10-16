@@ -6,5 +6,8 @@
   "description": "Experiments level.",
   "download": "levels/Roko%27s%20Basilisk.xml",
   "image": "images/Roko%27s%20Basilisk.webp",
+  "tags": [
+    "gimmick", "precision", "fast"
+  ],
   "records": []
 }

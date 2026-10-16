@@ -6,6 +6,9 @@
   "description": "Made for Kaizo Level Contest 2.",
   "download": "levels/Kaizo%20air%20cushion%20level.xml",
   "image": "images/Kaizo%20air%20cushion%20level.webp",
+  "tags": [
+    "pauses", "pauseless", "pumps", "fast"
+  ],
   "records": [
     {
       "user": "Sami9",

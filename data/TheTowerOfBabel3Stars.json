@@ -6,6 +6,9 @@
   "description": "Mobile Exclusive. Made for the Community Package mod. Not to be confused with the Ascension to Heaven level with the same name.",
   "download": "levels/The%20Tower%20of%20Babel.xml",
   "image": "images/The%20Tower%20of%20Babel.webp",
+  "tags": [
+    "pauseless", "pumps", "precision"
+  ],
   "records": [
     {
       "user": "Fachi",

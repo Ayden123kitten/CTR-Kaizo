@@ -6,5 +6,8 @@
   "description": "Unnerfed version of final boss.",
   "download": "levels/this%20is%20getting%20ridiculous.xml",
   "image": "images/this%20is%20getting%20ridiculous.webp",
+  "tags": [
+    "pauseless", "gimmick", "fast", "short"
+  ],
   "records": []
 }

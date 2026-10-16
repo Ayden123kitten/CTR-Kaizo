@@ -1,6 +1,4 @@
 [
-    "long",
-    "short",
     "pauses",
     "pauseless",
     "gravity",
@@ -9,5 +7,7 @@
     "precision",
     "fast",
     "slow",
+    "long",
+    "short",
     "complicated"
 ]

@@ -6,6 +6,9 @@
   "description": "Made for the Ascension to Heaven mod. Not to be confused with the Community Package level with the same name.",
   "download": "levels/The%20Tower%20of%20Babel%20%28AtH%29.xml",
   "image": "images/The%20Tower%20of%20Babel%20%28AtH%29.webp",
+  "tags": [
+    "pauseless", "pumps", "precision", "fast"
+  ],
   "records": [
     {
       "user": "Felicia",

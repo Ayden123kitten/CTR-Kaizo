@@ -6,6 +6,9 @@
   "description": "Made for the Community Package Mod.",
   "download": "levels/Level1_2Hard.xml",
   "image": "images/Level%201-2%20Hard.webp",
+  "tags": [
+    "pauseless", "precision", "gimmick"
+  ],
   "records": [
     {
       "user": "Limeapple",

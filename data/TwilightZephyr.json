@@ -7,20 +7,7 @@
   "download": "levels/Twilight%20Zephyr.xml",
   "image": "images/Twilight%20Zephyr.webp",
   "tags": [
-    "0 Stars",
-    "Bubbles",
-    "Discs",
-    "Long",
-    "Magic Hats",
-    "Pauses",
-    "Pixel Perfects",
-    "Pumps",
-    "Rotating Saws",
-    "Sliders",
-    "Spiders",
-    "Spikes",
-    "Trampolines",
-    "Wheel Ropes"
+    "pauses", "gravity", "pumps", "gimmick", "precision", "long"
   ],
   "records": []
 }

@@ -6,5 +6,8 @@
   "description": "",
   "download": "levels/Yip%20Spike%20Attack.xml",
   "image": "images/Yip%20Spike%20Attack.webp",
+  "tags": [
+    "pauseless", "gravity", "fast"
+  ],
   "records": []
 }
