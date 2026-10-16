@@ -6,6 +6,9 @@
   "description": "foobar",
   "download": "xml download",
   "image": "catbox image link",
+  "tags": [
+
+  ],
   "records": [
     {
       "user": "example",
