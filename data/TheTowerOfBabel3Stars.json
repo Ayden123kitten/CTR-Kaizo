@@ -7,12 +7,18 @@
   "download": "levels/The%20Tower%20of%20Babel.xml",
   "image": "images/The%20Tower%20of%20Babel.webp",
   "tags": [
-    "pauseless", "pumps", "precision"
+    "pauseless",
+    "pumps",
+    "precision"
   ],
   "records": [
     {
       "user": "Fachi",
       "link": "https://www.youtube.com/watch?v=9yRiTOsoLXA"
+    },
+    {
+      "user": "Yip",
+      "link": "https://www.youtube.com/watch?v=UpOKGAHW6dI"
     }
   ]
 }
