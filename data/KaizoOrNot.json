@@ -5,5 +5,10 @@
   "verification": "httpswww.youtube.com/watch?v=dyZMW0b5DQg",
   "download": "levels/Kaizo%20Or%20Not_.xml",
   "image": "images/Kaizo%20Or%20Not_.webp",
-  "records": []
+  "records": [
+    {
+      "user": "Yip",
+      "link": "https://www.youtube.com/watch?v=0pqRFh3rBgE"
+    }
+  ]
 }
