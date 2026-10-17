@@ -1,0 +1,13 @@
+{
+  "name": "Starstruck Passable",
+  "creators": ["Yip"],
+  "verifier": "Yip",
+  "verification": "https://youtu.be/dQw4w9WgXcQ?si=YOabyMfv_tiXckKp",
+  "description": "For this level, pretend the stars are spikes. I reccomend playing this in the original decomp. That decomp crashes if you collect more than 3 stars.",
+  "download": "levels/Starstruck.xml",
+  "image": "images/Starstruck.webp",
+  "tags": [
+
+  ],
+  "records": []
+}
