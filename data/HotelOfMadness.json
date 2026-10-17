@@ -5,5 +5,8 @@
   "verification": "",
   "download": "levels/Hotel%20of%20Madness.xml",
   "image": "images/Hotel%20of%20Madness.webp",
+  "tags": {
+    "pauseless", "fast", "pumps"
+  },
   "records": []
 }
