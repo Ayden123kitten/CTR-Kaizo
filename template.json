@@ -4,8 +4,8 @@
   "verifier": "verifier name",
   "verification": "https://youtu.be/dQw4w9WgXcQ?si=YOabyMfv_tiXckKp",
   "description": "foobar",
-  "download": "xml download",
-  "image": "catbox image link",
+  "download": "levels/levelname.xml",
+  "image": "images/levelname.webp",
   "tags": [
 
   ],
