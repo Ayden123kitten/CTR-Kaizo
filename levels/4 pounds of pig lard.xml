@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <layer name="settings">
+    <map gridSize="32" width="670" height="670" levelName="4" />
+    <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+  </layer>
+  <layer name="Objects">
+    <target x="333" y="352" targetType="15" />
+    <ants x="31" y="113" path="120,0" moveSpeed="300" />
+    <candy x="46" y="50" isDriven="false" candyNumber="0" />
+    <bubble x="258" y="178" />
+    <spike4 x="236" y="195" angle="45" size="4" toggled="false" />
+    <spike4 x="266" y="162" angle="-139" size="4" toggled="false" />
+    <sock x="321" y="235" group="0" angle="-135" />
+    <sock x="262" y="57" group="0" angle="0" />
+    <spike2 x="201" y="55" angle="91" size="2" toggled="false" />
+    <grab x="383" y="104" length="100" wheel="false" gun="false" radius="10" moveLength="-1" moveVertical="false" moveOffset="0" spider="true" kickable="false" kicked="false" hidePath="false" invisible="false" breakable="true" />
+    <hand x="619" y="485" segmentsCount="1" segment1Angle="0" segment1Length="90" segment1Rotatable="true" />
+    <spike2 x="330" y="314" angle="179" size="2" toggled="false" />
+    <spike2 x="274" y="364" angle="91" size="2" toggled="false" />
+    <spike2 x="388" y="370" angle="74" size="2" toggled="false" />
+    <spike3 x="467" y="389" angle="-28" size="3" toggled="false" />
+    <bubble x="488" y="290" />
+    <spike4 x="484" y="100" angle="90" size="4" toggled="false" />
+    <spike4 x="537" y="100" angle="90" size="4" toggled="false" />
+    <sock x="509" y="40" group="1" angle="88" />
+    <sock x="612" y="45" group="1" angle="90" />
+    <spike4 x="649" y="103" angle="89" size="4" toggled="false" />
+    <rocket x="323" y="605" angle="-91" impulse="20" impulseFactor="0.6" time="-1" isRotatable="false" />
+    <spike4 x="544" y="263" angle="87" size="4" toggled="false" />
+    <spike4 x="648" y="279" angle="91" size="4" toggled="false" />
+    <gap x="505" y="480" angle="0" radius="50" activeTime="1.0" index="1" />
+    <gap x="40" y="186" angle="0" radius="50" activeTime="1.0" index="2" />
+    <bouncer1 x="27" y="278" size="1" angle="41" />
+    <pump x="137" y="160" angle="90" />
+    <spike4 x="98" y="383" angle="55" size="4" toggled="false" />
+    <spike2 x="197" y="502" angle="40" size="2" toggled="false" />
+    <spike4 x="233" y="332" angle="71" size="4" toggled="false" />
+    <spike4 x="86" y="144" angle="-1" size="4" toggled="false" />
+    <spike2 x="315" y="419" angle="0" size="2" toggled="2" />
+    <spike2 x="597" y="125" angle="0" size="2" toggled="1" />
+  </layer>
+</map>
