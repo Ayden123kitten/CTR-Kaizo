@@ -7,7 +7,7 @@
   "download": "levels/Starstruck.xml",
   "image": "images/Starstruck.webp",
   "tags": [
-
+"precision", "gravity", "gimmick", "pauseless", "short"
   ],
   "records": []
 }
