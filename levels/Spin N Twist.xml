@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <layer name="settings">
+    <map gridSize="32" width="320" height="480" />
+    <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+  </layer>
+  <layer name="Objects">
+    <target x="163" y="405" />
+    <tutorialText x="173" y="213" locale="en" text="wer" width="10" />
+    <tutorialText x="169" y="211" locale="en" text="wer" width="10" />
+    <tutorialText x="166" y="209" locale="en" text="wer" width="10" />
+    <candy x="62" y="202" candyNumber="0" />
+    <grab x="62" y="100" length="10" wheel="true" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+    <rotatedCircle x="154" y="102" size="100" handleAngle="0" oneHandle="false" />
+    <star x="54" y="356" />
+    <star x="291" y="436" />
+    <star x="140" y="218" />
+    <spike2 x="255" y="250" angle="65" size="2" />
+    <spike3 x="21" y="133" angle="100" size="3" />
+    <spike3 x="6" y="245" angle="90" size="3" />
+    <spike3 x="111" y="218" angle="70" size="3" />
+    <spike1 x="268" y="327" angle="110" size="1" />
+    <spike1 x="114" y="353" angle="-160" size="1" />
+    <spike1 x="169" y="347" angle="145" size="1" />
+    <spike3 x="22" y="364" angle="80" size="3" />
+    <spike2 x="70" y="388" angle="130" size="2" />
+    <spike1 x="138" y="191" angle="-170" size="1" />
+    <spike1 x="176" y="218" angle="-115" size="1" />
+    <spike1 x="260" y="378" angle="-100" size="1" />
+    <spike1 x="297" y="463" angle="-20" size="1" />
+    <spike1 x="298" y="409" angle="15" size="1" />
+    <spike1 x="194" y="355" angle="90" size="1" />
+    <spike1 x="198" y="467" angle="90" size="1" />
+    <hiddenElement x="305" y="235" radius="100" />
+    <spike1 x="26" y="242" angle="-140" size="1" />
+    <spike1 x="27" y="287" angle="-45" size="1" />
+    <tutorialText x="155" y="257" locale="en" text="Soul Crushing?" width="10" />
+    <tutorialText x="154" y="269" locale="en" text="Soul Crushing?" width="10" />
+    <tutorialText x="409" y="225" locale="en" text="Soul Crushing?" width="10" />
+    <tutorialText x="394" y="169" locale="en" text="Soul Crushing?" width="10" />
+    <tutorialText x="-247" y="153" locale="en" text="Soul Crushing?" width="1000" />
+    <tutorialText x="-34" y="413" locale="en" text="Spin n Twist" width="200" />
+    <tutorialText x="-33" y="435" locale="en" text="by Карапет" width="200" />
+  </layer>
+</map>
