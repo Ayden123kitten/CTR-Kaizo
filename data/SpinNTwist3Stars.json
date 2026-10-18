@@ -1,11 +1,11 @@
 {
-  "name": "Your Level Name",
+  "name": "Spin N Twist 3 Stars",
   "creators": ["Karapet"],
   "verifier": "HopNodNow",
   "verification": "https://www.youtube.com/shorts/8-Lqrmm9k20",
-  "description": "foobar",
-  "download": "levels/levelname.xml",
-  "image": "images/levelname.webp",
+  "description": "Made for the Community Package Mod.",
+  "download": "levels/Spin%20N%20Twist.xml",
+  "image": "images/Spin%20N%20Twist.webp",
   "tags": [
 "slow", "gimmick", "pauseless"
   ],
