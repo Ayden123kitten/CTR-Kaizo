@@ -1,0 +1,13 @@
+{
+  "name": "Your Level Name",
+  "creators": ["Karapet"],
+  "verifier": "HopNodNow",
+  "verification": "https://www.youtube.com/shorts/8-Lqrmm9k20",
+  "description": "foobar",
+  "download": "levels/levelname.xml",
+  "image": "images/levelname.webp",
+  "tags": [
+"slow", "gimmick", "pauseless"
+  ],
+  "records": []
+}
