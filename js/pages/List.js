@@ -35,8 +35,13 @@ export default {
         </main>
         <main v-else class="page-list">
             <div class="list-container">
-                <div class="tags-select tags" v-if="tags">
-                  <Tag v-for="tag in tags" :key="tag" :label="tag" :active="selectedTags.includes(tag)" :interactive="true" @toggle="toggleTag(tag)"></Tag>
+                <div class="search">
+                  <input class="search-bar" type="id" placeholder="Search & filter by tags.." @focus="searchBarFocus()" @blur="searchBarBlur()" @input="search"/>
+                  <Transition name="slide">
+                    <div class="tags" v-if="tags" v-show="showTags || selectedTags.length > 0" @mousedown.prevent>
+                      <Tag v-for="tag in tags" :key="tag" :label="tag" :active="selectedTags.includes(tag)" :interactive="true" @toggle="toggleTag(tag)"></Tag>
+                    </div>
+                  </Transition>
                 </div>
                 <table class="list" v-if="list">
                     <tr v-for="{ level, err, rank } in filteredList" :key="rank">
@@ -139,6 +144,8 @@ export default {
     editors: [],
     tags: [],
     selectedTags: [],
+    showTags: false,
+    searchQuery: "",
     loading: true,
     selected: 0,
     errors: [],
@@ -161,9 +168,10 @@ export default {
     filteredList() {
       return this.list
         .map(([level, err], i) => ({ level, err, rank: i }))
-        .filter(({ level }) =>
-          !this.selectedTags.length ||
-          this.selectedTags.every(t => level?.tags?.includes(t))
+        .filter(({ level, rank }) =>
+          (!this.selectedTags.length || this.selectedTags.every(t => level?.tags?.includes(t))) &&
+          (!this.searchQuery.length || level.name.toLocaleLowerCase().includes(this.searchQuery) ||
+          (rank+1).toString() == this.searchQuery)
         );
     }
   },
@@ -203,6 +211,16 @@ export default {
       } else {
         this.selectedTags.push(tag);
       }
+    },
+    searchBarFocus() {
+      this.showTags = true;
+    },
+    searchBarBlur() {
+      this.showTags = false;
+    },
+    search(e) {
+      const query = e.target.value;
+      this.searchQuery = query.trim().toLocaleLowerCase();
     }
   }
 };

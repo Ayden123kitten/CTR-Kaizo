@@ -167,6 +167,46 @@
   text-decoration: underline;
 }
 
-.tags-select {
+.search {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  background-color: var(--color-background);
+  border-radius: 12px;
+  padding: 1rem;
   padding-bottom: 1rem;
+}
+
+.search-bar {
+  position: relative;
+  z-index: 2;
+
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  text-align: start;
+
+  box-sizing: border-box;
+  border: 0px;
+  border-bottom: 3px solid transparent;
+  outline: none;
+  padding: 5px;
+  cursor: text;
+
+  transition: border-bottom 0.1s;
+}
+
+.search-bar:hover, .search-bar:focus {
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.slide-enter-active {
+  transition: opacity 0.2s, transform 0.3s;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  opacity: 0;
+  transform: translateY(-12px);
 }
