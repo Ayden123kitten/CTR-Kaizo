@@ -18,8 +18,8 @@ const router = VueRouter.createRouter({
 });
 
 // Function to update the active tab underline
-function updateActiveTab(path) {
-  if (/^\/\d+$/.test(path)) path = "/";
+function updateActiveTab(route) {
+  const path = router.meta.tab ?? route.path;
 
   const tabs = document.querySelectorAll(".nav__tab");
   tabs.forEach((tab) => {
@@ -40,11 +40,11 @@ function updateActiveTab(path) {
 
 // Run the function every time the route changes
 router.afterEach((to) => {
-  updateActiveTab(to.path);
+  updateActiveTab(to);
 });
 
 app.use(router);
 app.mount("#app");
 
 // Run once on the very first page load so the starting tab is underlined
-updateActiveTab(router.currentRoute.value.path);
+updateActiveTab(router.currentRoute.value);
