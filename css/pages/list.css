@@ -1,4 +1,6 @@
-.page-list .list-container,
+.page-list .list-container {
+  padding-block-end: 2rem;
+}
 .page-list .level-container,
 .page-list .meta-container {
   padding-block: 2rem;
