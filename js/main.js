@@ -19,6 +19,8 @@ const router = VueRouter.createRouter({
 
 // Function to update the active tab underline
 function updateActiveTab(path) {
+  if (/^\/\d+$/.test(path)) path = "/";
+
   const tabs = document.querySelectorAll(".nav__tab");
   tabs.forEach((tab) => {
     const href = tab.getAttribute("href");
