@@ -31,7 +31,7 @@ export default {
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == rank, 'error': !level }">
-                            <button @click="selected = rank">
+                            <button @click="$router.push('/' + (level?.path ?? err))">
                                 <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                             </button>
                         </td>
@@ -97,13 +97,22 @@ export default {
     showTags: false,
     searchQuery: "",
     loading: true,
-    selected: 0,
     errors: [],
     store
   }),
   computed: {
+    selected() {
+      const id = this.$route.params.id;
+      if (!id) return 0;
+
+      if (/^\d+$/.test(id)) return Number(id) - 1;
+
+      return this.list.findIndex(
+        ([level, err]) => (level?.path ?? err).toLocaleLowerCase() === id.toLocaleLowerCase()
+      );
+    },
     level() {
-      return this.list[this.selected][0];
+      return this.list[this.selected]?.[0];
     },
     video() {
       if (!this.level.showcase) {
