@@ -1,10 +1,15 @@
 {
-  "name": "Kaizo Or Not? (Updated, Pauseless)",
+  "name": "Kaizo Or Not? (Updated)",
   "creators": ["playstationrb"],
   "verifier": "Yip",
   "verification": "https://www.youtube.com/watch?v=0pqRFh3rBgE",
   "description": "An updated version of Kaizo or Not.",
   "download": "levels/KON%20fixedstars.xml",
   "image": "levels/KON%20fixedstars.webp",
-  "records": []
+  "records": [
+    {
+      "user": "Fachi",
+      "link": "https://www.youtube.com/watch?v=L-fUf8-6QYc"
+    }
+  ]
 }
