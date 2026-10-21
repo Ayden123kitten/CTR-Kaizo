@@ -69,8 +69,6 @@ export default {
                     <div class="tags" v-if="level.tags">
                       <Tag v-for="tag in level.tags" :key="tag" :label="tag" :active="true" :interactive="false"></Tag>
                     </div>
-                    <iframe v-if="level.verification" class="video" id="videoframe" :src="video" frameborder="0"></iframe>
-                    <img v-if="level.image" class="image" :src="level.image" alt="Level image">
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
@@ -101,7 +99,12 @@ export default {
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
                 </div>
             </div>
-            
+            <div class="level-preview">
+              <div v-if="level" class="level-preview-content">
+                <iframe v-if="level.verification" class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+                <img v-if="level.image" class="image" :src="level.image" alt="Level image">
+              </div>
+            </div>
         </main>
     `,
   data: () => ({

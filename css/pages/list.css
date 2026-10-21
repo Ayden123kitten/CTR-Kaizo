@@ -1,6 +1,7 @@
 .page-list {
   grid-template-columns: 
     minmax(16rem, 1fr)
+    minmax(16rem, 2fr)
     minmax(16rem, 2fr);
 }
 
@@ -51,7 +52,7 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding-right: 2rem;
+  /* padding-right: 2rem; */
   max-width: 48rem;
 }
 .page-list .level-container .level .level-authors {
@@ -59,14 +60,6 @@
   grid-template-columns: max-content 1fr;
   grid-auto-rows: max-content;
   gap: 1rem;
-}
-.page-list .level-container .level .video {
-  aspect-ratio: 16/9;
-}
-.page-list .level-container .level .image {
-  display: block;
-  margin-top: 1rem;
-  max-width: 100%;
 }
 .page-list .level-container .level .stats {
   display: flex;
@@ -99,6 +92,26 @@
 }
 .page-list .level-container .level .records a:hover {
   text-decoration: underline;
+}
+
+.page-list .level-preview {
+  padding-block: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+.page-list .level-preview .level-preview-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.page-list .level-preview .video {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+.page-list .level-preview .image {
+  display: block;
+  max-width: 100%;
 }
 
 .play_button {
