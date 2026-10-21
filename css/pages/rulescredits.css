@@ -1,5 +1,6 @@
 .page-rules-credits {
     align-items: baseline;
+    padding-top: 1rem;
     grid-template-columns:
         minmax(0, 0.5fr)
         minmax(16rem, 1fr)
