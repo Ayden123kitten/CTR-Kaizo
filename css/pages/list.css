@@ -114,13 +114,37 @@
   max-width: 100%;
 }
 
-.play_button {
-  cursor: pointer;
-  color: var(--color-primary);
+.page-list .level-play {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
-
-.suggestion_link:hover {
-  text-decoration: underline;
+.page-list .button {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: fit-content;
+  text-align: start;
+  white-space: nowrap;
+  padding-block: 10px;
+  padding-inline: 0px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: transform 100ms ease;
+  
+}
+.page-list .button:hover:not(:active) {
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+.page-list .button.primary {
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+}
+.page-list .button.secondary {
+  background-color: var(--color-background-highlight);
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
 }
 
 .search {

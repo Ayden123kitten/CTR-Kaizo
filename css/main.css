@@ -3,6 +3,7 @@ header.dark {
   color-scheme: dark;
   --color-background: #1c1b1f;
   --color-on-background: white;
+  --color-background-highlight: #273128;
   --color-background-hover: #27262c;
   --color-on-background-hover: white;
   --color-primary: #3f6509;

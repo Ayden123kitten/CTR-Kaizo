@@ -2,33 +2,14 @@ import { store } from "../main.js";
 import { embed } from "../util.js";
 import { score } from "../score.js";
 import { playtestFormURL } from "../playtest.js";
-import { fetchEditors, fetchList, fetchTags } from "../content.js";
+import { fetchList, fetchTags } from "../content.js";
 
+import LevelAuthors from "../components/List/LevelAuthors.js"
 import Spinner from "../components/Spinner.js";
-import LevelAuthors from "../components/List/LevelAuthors.js";
 import Tag from "../components/Tag.js";
 
-const roleMap = {
-  owner: {
-    icon: "crown",
-    tooltip: "Owner"
-  },
-  admin: {
-    icon: "user-gear",
-    tooltip: "Admin"
-  },
-  moderator: {
-    icon: "user-shield",
-    tooltip: "Moderator"
-  },
-  developer: {
-    icon: "code",
-    tooltip: "Developer"
-  }
-};
-
 export default {
-  components: { Spinner, LevelAuthors, Tag },
+  components: { Spinner, Tag, LevelAuthors },
   template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -69,18 +50,20 @@ export default {
                     <div class="tags" v-if="level.tags">
                       <Tag v-for="tag in level.tags" :key="tag" :label="tag" :active="true" :interactive="false"></Tag>
                     </div>
+                    <div class="level-play">
+                      <button class="button primary type-label-lg" @click="playtestFormURL(level.download)">
+                        <img :src="\`/assets/play.svg\`">
+                        Play in browser
+                      </button>
+                      <a class="button secondary type-label-lg" :href="level.download" download>
+                        <img :src="\`/assets/download-green.svg\`">
+                        Download
+                      </a>
+                    </div>
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
                             <p>{{ score(selected + 1) }}</p>
-                        </li>
-                        <li v-if="level.download">
-                            <div class="type-title-sm">Download</div>
-                            <a :href="level.download" download class="suggestion_link type-label-lg">Download Link</a>
-                        </li>
-                        <li v-if="level.download">
-                          <a class="suggestion_link play_button type-title-sm" @click="playtestFormURL(level.download)">Play</a>
-                          <a class="suggestion_link type-label-lg" href="https://github.com/yell0wsuit/cuttherope-dx">Uses Cut the Rope DX</a>
                         </li>
                     </ul>
                     <h2>Records</h2>
@@ -109,7 +92,6 @@ export default {
     `,
   data: () => ({
     list: [],
-    editors: [],
     tags: [],
     selectedTags: [],
     showTags: false,
@@ -117,7 +99,6 @@ export default {
     loading: true,
     selected: 0,
     errors: [],
-    roleMap,
     store
   }),
   computed: {
@@ -146,7 +127,6 @@ export default {
   async mounted() {
     // Hide loading spinner
     this.list = await fetchList();
-    this.editors = await fetchEditors();
     this.tags = await fetchTags();
 
     // Error handling
@@ -162,9 +142,6 @@ export default {
             return `Failed to load level. (${err}.json)`;
           })
       );
-      if (!this.editors) {
-        this.errors.push("Failed to load list editors.");
-      }
     }
 
     this.loading = false;
