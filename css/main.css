@@ -3,11 +3,15 @@ header.dark {
   color-scheme: dark;
   --color-background: #1c1b1f;
   --color-on-background: white;
+  --color-on-background-light: #909090;
+  --color-background-highlight: #273128;
+
   --color-background-hover: #27262c;
   --color-on-background-hover: white;
+
   --color-primary: #3f6509;
-  --color-primary-disabled: #1f213c;
   --color-on-primary: white;
+
   --color-error: #de0000;
   --color-on-error: white;
 }
@@ -26,7 +30,6 @@ main {
   background-color: var(--color-background);
   color: var(--color-on-background);
   display: grid;
-  grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 2fr) minmax(16em, 1fr);
   column-gap: 2rem;
 }
 
