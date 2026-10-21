@@ -1,9 +1,17 @@
 :root {
   --color-background: white;
   --color-on-background: black;
+  --color-on-background-light: #757575;
   --color-background-highlight: white;
+
+  --color-background-hover: #eaeaea;
+  --color-on-background-hover: black;
+
   --color-primary: #3f6509;
   --color-on-primary: white;
+
+  --color-error: #de0000;
+  --color-on-error: white;
 }
 
 .nav {
