@@ -1,0 +1,105 @@
+.page-rules-credits {
+    align-items: baseline;
+    grid-template-columns:
+        minmax(0, 0.5fr)
+        minmax(16rem, 1fr)
+        minmax(16rem, 2fr)
+        minmax(0, 0.5fr);
+}
+
+.page-rules-credits .credits { 
+    grid-column: 2; 
+}
+.page-rules-credits .rules {
+    grid-column: 3; 
+}
+
+.page-rules-credits a {
+    cursor: pointer;
+}
+.page-rules-credits a:hover {
+  text-decoration: underline;
+}
+
+.page-rules-credits .credits,
+.page-rules-credits .rules  {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.page-rules-credits .credits .editors {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.page-rules-credits .credits .editors li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.page-rules-credits .credits .editors img {
+  height: 1.25rem;
+}
+
+.page-rules-credits .credits .editors-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.page-rules-credits .credits .editors-container li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.page-rules-credits .credits .editors-container li img {
+  height: 1.25rem;
+}
+
+.page-rules-credits .credits .special-thanks {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.page-rules-credits .credits .special-thanks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.tooltip {
+  cursor: pointer;
+}
+.tooltiptext {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+
+  visibility: hidden;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  text-align: center;
+
+  padding: 5px;
+  border-radius: 6px;
+
+  position: absolute;
+  transform: translateX(0%) translateY(-110%);
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  transition-delay: 0.3s;
+  visibility: visible;
+}
+
+.page-rules-credits .credits .errors {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.page-rules-credits .credits .errors .error {
+  padding: 1rem;
+  background-color: var(--color-error);
+  color: var(--color-on-error);
+  border-radius: 0.5rem;
+}

@@ -101,42 +101,7 @@ export default {
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
                 </div>
             </div>
-            <div class="meta-container">
-                <div class="meta">
-                    <div class="errors" v-show="errors.length > 0">
-                        <p class="error" v-for="error of errors">{{ error }}</p>
-                    </div>
-                    <template v-if="editors">
-                        <h3>List Editors</h3>
-                        <ol class="editors">
-                            <li v-for="editor in editors">
-                                <div class="tooltip">
-                                    <span class="tooltiptext">{{ roleMap[editor.role].tooltip }}</span>
-                                    <img :src="\`/assets/\${roleMap[editor.role].icon}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
-                                </div>
-                                <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
-                                <p v-else>{{ editor.name }}</p>
-                            </li>
-                        </ol>
-                    </template>
-                    <h3>Submission Requirements</h3>
-                        <p>
-                        Submissions must be done on video and uploaded to YouTube. Video must at least be 480p at 30fps. However, higher resolutions are preferred.
-                        </p>
-                        <p>
-                        Have either source audio or clicks/taps in the video. Editing the audio without these will not count.
-                        </p>
-                        <p>
-                        No forms of external software or tools are to be used during the verification. This also includes any practice or debug options that the mod itself may provide.
-                        </p>
-                        <p>
-                        Any form of cheesing the level (that is, completing the level not intended from the creator) are allowed, but may be reranked and all submissions obsolete if a verification more intentional to the level creator's vision is completed. As to how we determine whether a completion has less cheese is subjective.
-                        </p>
-                        <p>
-                        Paused and Pauseless completions are to be ranked separately in two different entries if both have been completed separately.
-                        </p>
-                </div>
-            </div>
+            
         </main>
     `,
   data: () => ({
