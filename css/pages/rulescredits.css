@@ -32,7 +32,7 @@
 .page-rules-credits .credits .editors {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 1.7rem;
 }
 .page-rules-credits .credits .editors li {
   display: flex;
@@ -60,7 +60,7 @@
 .page-rules-credits .credits .special-thanks {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1.7rem;
 }
 .page-rules-credits .credits .special-thanks-container {
   display: flex;
