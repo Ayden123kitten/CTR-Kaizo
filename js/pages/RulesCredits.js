@@ -34,7 +34,7 @@ export default {
 				<p class="error" v-for="error of errors">{{ error }}</p>
 			</div>
 			<div v-if="editors" class="editors">
-				<h3>List Editors</h3>
+				<h3>Staff</h3>
 				<ol class="editors-container">
 					<li v-for="editor in editors">
 						<div class="tooltip">
@@ -47,17 +47,17 @@ export default {
 				</ol>
 			</div>
 			<div class="special-thanks">
-				<h3>Special thanks</h3>
+				<h3>Special Thanks</h3>
 				<div class="special-thanks-container">
 					<p class="type-label-lg">
 						<a
 							href="https://github.com/yell0wsuit/cuttherope-dx"
-						>Cut the Rope: DX</a> — modern browser version of the game
+						>Cut the Rope: DX</a> — Modern browser version of the game
 					</p>
 					<p class="type-label-lg">
 						<a
 							href="https://github.com/TheShittyList/GDListTemplate"
-						>GD Shitty List Template</a> — original template of the website
+						>GD Shitty List Template</a> — Original template of the website
 					</p>
 				</div>
 			</div>
@@ -96,7 +96,7 @@ export default {
 	this.editors = await fetchEditors();
 
 	if (!this.editors) {
-		this.errors.push("Failed to load list editors.");
+		this.errors.push("Failed to load staff.");
 	}
 
 	this.loading = false;
