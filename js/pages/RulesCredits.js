@@ -75,7 +75,7 @@ export default {
 			No forms of external software or tools are to be used during the verification. This also includes any practice or debug options that the mod itself may provide.
 			</p>
 			<p>
-			Any form of cheesing the level (that is, completing the level not intended from the creator) are allowed, but may be reranked and all submissions obsolete if a verification more intentional to the level creator's vision is completed. As to how we determine whether a completion has less cheese is subjective.
+			Any form of cheesing the level (completing the level in a method that is not intended by the creator) are allowed, but may be reranked and all submissions obsolete if a verification more intentional to the level creator's vision is completed. As to how we determine whether a completion has less cheese is subjective.
 			</p>
 			<p>
 			Paused and Pauseless completions are to be ranked separately in two different entries if both have been completed separately.
