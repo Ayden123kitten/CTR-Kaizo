@@ -52,7 +52,7 @@ export default {
 					<p class="type-label-lg">
 						<a
 							href="https://github.com/yell0wsuit/cuttherope-dx"
-						>Cut the Rope: DX</a> — Modern browser version of the game
+						>Cut the Rope: DX</a> — Modern multi-platform version of the game
 					</p>
 					<p class="type-label-lg">
 						<a
