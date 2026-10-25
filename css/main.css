@@ -30,63 +30,55 @@ main {
   background-color: var(--color-background);
   color: var(--color-on-background);
   display: grid;
-  column-gap: 2rem;
-}
-
-header {
-  position: relative; /* Creates the boundary for the pinned items */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 2rem;
-  height: 4rem;
-  background-color: var(--color-primary);
-  color: var(--color-on-primary);
-  width: 100%;
-  box-sizing: border-box;
-}
-
-header .logo {
-  position: absolute; /* Pins to the left */
-  left: 2rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  white-space: nowrap;
-}
-
-header .nav {
-  position: absolute; /* Pins to the exact bottom center */
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  column-gap: 2rem;
-  height: 100%; /* Stretches up to the top of the header */
-}
-
-header .nav__actions {
-  position: absolute; /* Pins to the right */
-  right: 2rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-header .logo img {
-  height: 2rem;
-  width: auto;
-}
-
-main {
-  height: 0;
-  flex: 1;
-  display: grid;
   grid-template-rows: minmax(0, 1fr);
   column-gap: 2rem;
+  flex: 1;
+  height: 0;
 }
 main > div {
   overflow-y: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 4rem;
+  padding-inline: 1rem;
+  box-sizing: border-box;
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+  width: 100%;
+}
+
+header .logo__icon {
+  height: 32px;
+}
+
+header .logo,
+header .nav__actions {
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+
+header .nav {
+  align-self: flex-end;
+}
+
+header .logo { 
+  gap: 0.5rem; 
+  white-space: nowrap; 
+}
+
+header .nav__actions { 
+  gap: 0.5rem; 
+}
+
+header .nav { 
+  column-gap: 2rem; 
 }
 
 .spinner {

@@ -32,6 +32,7 @@
         <img src="/list_icon.png" alt="Icon" class="logo__icon" />
         <h2>Cut The Rope Kaizo Levels List</h2>
       </div>
+      
       <nav class="nav">
         <router-link class="nav__tab" to="/">
           <span class="type-label-lg">List</span>
@@ -43,6 +44,7 @@
           <span class="type-label-lg">Rules & Credits</span>
         </router-link>
       </nav>
+
       <div class="nav__actions">
         <button class="nav__icon" @click.prevent="store.toggleDark()">
           <img
@@ -60,6 +62,13 @@
           >Submit Record</a
         >
       </div>
+      <!-- <div class="top">
+        
+      </div>
+
+      <div class="bottom">
+        
+      </div> -->
     </header>
     <router-view :class="{ dark: store.dark }"></router-view>
   </body>
