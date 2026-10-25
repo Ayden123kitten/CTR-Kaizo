@@ -8,69 +8,69 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="320" height="480" />
+        <map gridSize="32" width="854" height="480" />
         <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
     </layer>
  
     <layer name="Objects">
-        <bubble x="58" y="366" />
-        <candy x="389" y="97" />
-        <sock x="-141" y="91" group="3" angle="90" />
-        <spike2 x="350" y="145" angle="90" size="3" />
-        <gap x="-3" y="128" angle="180" activeTime="0" radius="50" index="1" />
-        <spike4 x="233" y="104" angle="0" size="3" toggled="2" />
-        <pump x="348" y="60" angle="180" />
-        <spike4 x="-7" y="101" angle="90" size="3" toggled="1" />
-        <spike2 x="86" y="314" angle="90" size="4" />
-        <electro x="1" y="267" initialDelay="0" offTime="0.5" onTime="1" angle="63" size="5" />
-        <spike2 x="245" y="310" angle="0" size="2" />
-        <electro x="-1" y="267" initialDelay="0" offTime="0.5" onTime="1" angle="-69" size="5" />
-        <spike2 x="212" y="39" angle="180" size="4" />
-        <pump x="-7" y="61" angle="90" />
-        <spike2 x="-29" y="180" angle="90" size="4" />
-        <spike2 x="52" y="99" angle="180" size="4" />
-        <spike4 x="28" y="236" angle="0" size="3" toggled="2" />
-        <spike2 x="-29" y="340" angle="90" size="4" />
-        <spike2 x="295" y="122" angle="90" size="1" />
-        <tutorial06 x="497" locale="en" y="145" />
-        <pump x="435" y="278" angle="180" />
-        <spike2 x="420" y="225" angle="90" size="4" />
-        <spike2 x="388" y="58" angle="0" size="1" />
-        <spike2 x="421" y="101" angle="90" size="1" />
-        <bouncer1 x="304" y="306" angle="0" size="1" />
-        <grab x="388" y="52" length="50" wheel="false" gun="false" radius="50" moveLength="0" moveVertical="false" moveOffset="0" spider="true" part="100" hidePath="false" kickable="false" kicked="false" />
-        <bubble x="260" y="194" />
-        <tutorialText x="418" y="54" locale="en" text="ITS TRICKY" width="160" />
-        <tutorialText x="421" y="75" locale="en" text="By Snow Pickle" width="160" />
-        <spike2 x="345" y="310" angle="0" size="3" />
-        <spike2 x="124" y="127" angle="135" size="1" />
-        <pump x="117" y="116" angle="180" />
-        <sock x="61" y="385" group="0" angle="-90" />
-        <spike2 x="29" y="213" angle="90" size="2" />
-        <sock x="1" y="335" group="1" angle="-90" />
-        <sock x="161" y="71" group="0" angle="0" />
-        <spike2 x="29" y="315" angle="90" size="4" />
-        <spike2 x="153" y="277" angle="45" size="2" />
-        <bouncer1 x="113" y="215" angle="90" size="1" />
-        <sock x="-141" y="338" group="1" angle="-90" />
-        <spike2 x="219" y="101" angle="180" size="3" />
-        <sock x="157" y="418" group="20" angle="0" />
-        <spike2 x="-170" y="266" angle="90" size="4" />
-        <target x="-139" y="124" />
-        <spike2 x="-115" y="203" angle="90" size="1" />
-        <spike2 x="-113" y="321" angle="90" size="1" />
-        <spike4 x="264" y="221" angle="0" size="4" toggled="1" />
-        <sock x="-125" y="258" group="20" angle="180" />
-        <pump x="-187" y="256" angle="0" />
-        <sock x="437" y="410" group="3" angle="180" />
-        <star x="398" y="410" timeout="-1" />
-        <star x="193" y="411" timeout="-1" />
-        <star x="298" y="409" timeout="-1" />
-        <spike2 x="231" y="447" angle="180" size="4" />
-        <spike2 x="371" y="446" angle="180" size="4" />
-        <spike2 x="226" y="376" angle="180" size="4" />
-        <spike2 x="107" y="165" angle="90" size="3" />
-        <spike2 x="385" y="376" angle="180" size="4" />
+        <bubble x="325" y="366" />
+        <candy x="656" y="97" />
+        <sock x="126" y="91" group="3" angle="90" />
+        <spike2 x="617" y="145" angle="90" size="3" />
+        <gap x="264" y="128" angle="180" activeTime="0" radius="50" index="1" />
+        <spike4 x="500" y="104" angle="0" size="3" toggled="2" />
+        <pump x="615" y="60" angle="180" />
+        <spike4 x="260" y="101" angle="90" size="3" toggled="1" />
+        <spike2 x="353" y="314" angle="90" size="4" />
+        <electro x="268" y="267" initialDelay="0" offTime="0.5" onTime="1" angle="63" size="5" />
+        <spike2 x="512" y="310" angle="0" size="2" />
+        <electro x="266" y="267" initialDelay="0" offTime="0.5" onTime="1" angle="-69" size="5" />
+        <spike2 x="479" y="39" angle="180" size="4" />
+        <pump x="260" y="61" angle="90" />
+        <spike2 x="238" y="180" angle="90" size="4" />
+        <spike2 x="319" y="99" angle="180" size="4" />
+        <spike4 x="295" y="236" angle="0" size="3" toggled="2" />
+        <spike2 x="238" y="340" angle="90" size="4" />
+        <spike2 x="562" y="122" angle="90" size="1" />
+        <tutorial06 x="764" locale="en" y="145" />
+        <pump x="702" y="278" angle="180" />
+        <spike2 x="687" y="225" angle="90" size="4" />
+        <spike2 x="655" y="58" angle="0" size="1" />
+        <spike2 x="688" y="101" angle="90" size="1" />
+        <bouncer1 x="571" y="306" angle="0" size="1" />
+        <grab x="655" y="52" length="50" wheel="false" gun="false" radius="50" moveLength="0" moveVertical="false" moveOffset="0" spider="true" part="100" hidePath="false" kickable="false" kicked="false" />
+        <bubble x="527" y="194" />
+        <tutorialText x="685" y="54" locale="en" text="ITS TRICKY" width="160" />
+        <tutorialText x="688" y="75" locale="en" text="By Snow Pickle" width="160" />
+        <spike2 x="612" y="310" angle="0" size="3" />
+        <spike2 x="391" y="127" angle="135" size="1" />
+        <pump x="384" y="116" angle="180" />
+        <sock x="328" y="385" group="0" angle="-90" />
+        <spike2 x="296" y="213" angle="90" size="2" />
+        <sock x="268" y="335" group="1" angle="-90" />
+        <sock x="428" y="71" group="0" angle="0" />
+        <spike2 x="296" y="315" angle="90" size="4" />
+        <spike2 x="420" y="277" angle="45" size="2" />
+        <bouncer1 x="380" y="215" angle="90" size="1" />
+        <sock x="126" y="338" group="1" angle="-90" />
+        <spike2 x="486" y="101" angle="180" size="3" />
+        <sock x="424" y="418" group="20" angle="0" />
+        <spike2 x="97" y="266" angle="90" size="4" />
+        <target x="128" y="124" />
+        <spike2 x="152" y="203" angle="90" size="1" />
+        <spike2 x="154" y="321" angle="90" size="1" />
+        <spike4 x="531" y="221" angle="0" size="4" toggled="1" />
+        <sock x="142" y="258" group="20" angle="180" />
+        <pump x="80" y="256" angle="0" />
+        <sock x="704" y="410" group="3" angle="180" />
+        <star x="665" y="410" timeout="-1" />
+        <star x="460" y="411" timeout="-1" />
+        <star x="565" y="409" timeout="-1" />
+        <spike2 x="498" y="447" angle="180" size="4" />
+        <spike2 x="638" y="446" angle="180" size="4" />
+        <spike2 x="493" y="376" angle="180" size="4" />
+        <spike2 x="374" y="165" angle="90" size="3" />
+        <spike2 x="652" y="376" angle="180" size="4" />
     </layer>
  
 </map>

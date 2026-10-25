@@ -1,72 +1,63 @@
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
- 
-    Created using Cut the Rope Level Editor:
-    https://adriandrummis.github.io/CutTheRopeEditor/
- 
-<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
- 
+<?xml version="1.0" encoding="utf-8"?>
 <map>
- 
-    <layer name="settings">
-        <map gridSize="32" width="320" height="480" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
-    </layer>
- 
-    <layer name="Objects">
-        <candy x="-213" y="185" />
-        <spike2 x="312" y="350" angle="45" size="1" />
-        <spike2 x="410" y="420" angle="45" size="4" />
-        <spike2 x="460" y="340" angle="90" size="1" />
-        <spike4 x="525" y="310" angle="-90" size="2" toggled="2" />
-        <bouncer1 x="540" y="450" angle="-5" size="1" />
-        <spike2 x="-40" y="160" angle="90" size="4" />
-        <spike4 x="375" y="225" angle="-90" size="3" toggled="2" />
-        <spike2 x="370" y="310" angle="180" size="4" />
-        <spike2 x="350" y="400" angle="90" size="4" />
-        <target x="50" y="175" />
-        <bouncer1 x="320" y="275" angle="5" size="1" />
-        <sock x="275" y="440" group="0" angle="180" />
-        <spike2 x="275" y="310" angle="90" size="4" />
-        <bouncer1 x="-40" y="430" angle="90" size="1" />
-        <gravitySwitch x="-216" y="433" />
-        <spike2 x="-250" y="370" angle="0" size="4" />
-        <bouncer1 x="-225" y="330" angle="10" size="1" />
-        <grab x="-212" y="100" length="50" wheel="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" />
-        <spike4 x="-100" y="310" angle="135" size="4" toggled="1" />
-        <spike2 x="-160" y="460" angle="90" size="4" />
-        <spike2 x="-40" y="460" angle="90" size="4" />
-        <spike2 x="50" y="370" angle="0" size="4" />
-        <spike4 x="50" y="310" angle="-45" size="4" toggled="1" />
-        <spike2 x="50" y="250" angle="180" size="4" />
-        <star x="-100" y="175" timeout="-1" />
-        <spike2 x="50" y="310" angle="135" size="1" />
-        <spike2 x="50" y="310" angle="45" size="1" />
-        <grab x="200" y="310" length="50" wheel="false" radius="50" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" />
-        <spike2 x="312" y="350" angle="135" size="1" />
-        <spike2 x="15" y="455" angle="0" size="1" />
-        <star x="12" y="425" timeout="-1" />
-        <spike2 x="16" y="395" angle="0" size="1" />
-        <spike2 x="465" y="130" angle="90" size="4" />
-        <spike2 x="-100" y="175" angle="45" size="1" />
-        <star x="515" y="173" timeout="-1" />
-        <spike2 x="535" y="125" angle="180" size="3" />
-        <spike2 x="370" y="75" angle="0" size="4" />
-        <spike2 x="565" y="175" angle="90" size="2" />
-        <spike2 x="595" y="225" angle="180" size="1" />
-        <spike2 x="315" y="390" angle="180" size="1" />
-        <spike2 x="440" y="330" angle="45" size="1" />
-        <sock x="415" y="370" group="1" angle="45" />
-        <spike2 x="411" y="420" angle="135" size="1" />
-        <sock x="315" y="150" group="0" angle="90" />
-        <spike2 x="275" y="130" angle="90" size="4" />
-        <sock x="220" y="190" group="1" angle="-135" />
-        <spike2 x="205" y="135" angle="45" size="2" />
-        <spike2 x="160" y="175" angle="45" size="2" />
-        <spike2 x="275" y="-50" angle="90" size="4" />
-        <spike2 x="465" y="-50" angle="90" size="4" />
-        <tutorialText x="-50" y="0" locale="en" text="aliexpress swingcopter" width="160" />
-        <spike2 x="210" y="250" angle="180" size="3" />
-        <spike2 x="-40" y="-20" angle="90" size="4" />
-    </layer>
- 
+  <layer name="settings">
+    <map gridSize="32" width="854" height="480" />
+    <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+  </layer>
+  <layer name="Objects">
+    <candy x="77" y="185" candyNumber="0" />
+    <spike1 x="602" y="350" angle="45" size="1" />
+    <spike4 x="700" y="420" angle="45" size="4" />
+    <spike1 x="750" y="340" angle="90" size="1" />
+    <spike2 x="815" y="310" angle="-90" size="2" toggled="2" />
+    <bouncer1 x="830" y="450" angle="-5" size="1" />
+    <spike4 x="250" y="160" angle="90" size="4" />
+    <spike3 x="665" y="225" angle="-90" size="3" toggled="2" />
+    <spike4 x="660" y="310" angle="180" size="4" />
+    <spike4 x="640" y="400" angle="90" size="4" />
+    <target x="340" y="175" />
+    <bouncer1 x="610" y="275" angle="5" size="1" />
+    <sock x="565" y="440" group="0" angle="180" />
+    <spike4 x="565" y="310" angle="90" size="4" />
+    <bouncer1 x="250" y="430" angle="90" size="1" />
+    <gravitySwitch x="74" y="433" />
+    <spike4 x="40" y="370" angle="0" size="4" />
+    <bouncer1 x="65" y="330" angle="10" size="1" />
+    <grab x="78" y="100" length="50" wheel="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" />
+    <spike4 x="190" y="310" angle="135" size="4" toggled="1" />
+    <spike4 x="130" y="460" angle="90" size="4" />
+    <spike4 x="250" y="460" angle="90" size="4" />
+    <spike4 x="340" y="370" angle="0" size="4" />
+    <spike4 x="340" y="310" angle="-45" size="4" toggled="1" />
+    <spike4 x="340" y="250" angle="180" size="4" />
+    <star x="190" y="175" timeout="-1" />
+    <spike1 x="340" y="310" angle="135" size="1" />
+    <spike1 x="340" y="310" angle="45" size="1" />
+    <grab x="490" y="310" length="50" wheel="false" radius="50" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="100" hidePath="false" />
+    <spike1 x="602" y="350" angle="135" size="1" />
+    <spike1 x="305" y="455" angle="0" size="1" />
+    <star x="302" y="425" timeout="-1" />
+    <spike1 x="306" y="395" angle="0" size="1" />
+    <spike4 x="755" y="130" angle="90" size="4" />
+    <spike1 x="190" y="175" angle="45" size="1" />
+    <star x="805" y="173" timeout="-1" />
+    <spike3 x="825" y="125" angle="180" size="3" />
+    <spike4 x="660" y="75" angle="0" size="4" />
+    <spike2 x="855" y="175" angle="90" size="2" />
+    <spike1 x="885" y="225" angle="180" size="1" />
+    <spike1 x="605" y="390" angle="180" size="1" />
+    <spike1 x="730" y="330" angle="45" size="1" />
+    <sock x="705" y="370" group="1" angle="45" />
+    <spike1 x="701" y="420" angle="135" size="1" />
+    <sock x="605" y="150" group="0" angle="90" />
+    <spike4 x="565" y="130" angle="90" size="4" />
+    <sock x="510" y="190" group="1" angle="-135" />
+    <spike2 x="495" y="135" angle="45" size="2" />
+    <spike2 x="450" y="175" angle="45" size="2" />
+    <spike4 x="565" y="-50" angle="90" size="4" />
+    <spike4 x="755" y="-50" angle="90" size="4" />
+    <tutorialText x="240" y="0" locale="en" text="aliexpress swingcopter" width="160" />
+    <spike3 x="500" y="250" angle="180" size="3" />
+    <spike4 x="250" y="-20" angle="90" size="4" />
+  </layer>
 </map>

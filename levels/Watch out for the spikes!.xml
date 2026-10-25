@@ -1,31 +1,31 @@
 <map>
 <layer name="settings">
-<map gridSize="32" width="320" height="480" />
+<map gridSize="32" width="854" height="480" />
 <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
 </layer>
 <layer name="Objects">
-<spike2 x="22" y="247" angle="180" size="4" />
-<spike2 x="15" y="107" angle="180" size="4" />
-<grab x="-127" y="104" length="4" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-<candy x="-127" y="171" />
-<pump x="-215" y="166" angle="0" />
-<target x="498" y="187" />
-<spike2 x="277" y="157" angle="-150" size="1" />
-<spike2 x="227" y="160" angle="150" size="1" />
-<spike2 x="174" y="176" angle="180" size="1" />
-<spike2 x="330" y="168" angle="180" size="1" />
-<spike2 x="123" y="107" angle="180" size="1" />
-<spike2 x="175" y="108" angle="0" size="1" />
-<spike2 x="213" y="247" angle="180" size="4" />
-<gravitySwitch x="43" y="372" />
-<spike2 x="229" y="96" angle="165" size="1" />
-<spike2 x="308" y="102" angle="-165" size="2" />
-<spike2 x="396" y="183" angle="-165" size="2" />
-<spike2 x="390" y="269" angle="-165" size="4" />
-<star x="314" y="134" />
-<star x="253" y="117" />
-<star x="199" y="141" />
-<spike2 x="404" y="125" angle="-165" size="2" />
-<spike2 x="514" y="263" angle="150" size="2" />
+<spike2 x="289" y="247" angle="180" size="4" />
+<spike2 x="282" y="107" angle="180" size="4" />
+<grab x="140" y="104" length="4" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+<candy x="140" y="171" />
+<pump x="52" y="166" angle="0" />
+<target x="765" y="187" />
+<spike2 x="544" y="157" angle="-150" size="1" />
+<spike2 x="494" y="160" angle="150" size="1" />
+<spike2 x="441" y="176" angle="180" size="1" />
+<spike2 x="597" y="168" angle="180" size="1" />
+<spike2 x="390" y="107" angle="180" size="1" />
+<spike2 x="442" y="108" angle="0" size="1" />
+<spike2 x="480" y="247" angle="180" size="4" />
+<gravitySwitch x="310" y="372" />
+<spike2 x="496" y="96" angle="165" size="1" />
+<spike2 x="575" y="102" angle="-165" size="2" />
+<spike2 x="663" y="183" angle="-165" size="2" />
+<spike2 x="657" y="269" angle="-165" size="4" />
+<star x="581" y="134" />
+<star x="520" y="117" />
+<star x="466" y="141" />
+<spike2 x="671" y="125" angle="-165" size="2" />
+<spike2 x="781" y="263" angle="150" size="2" />
 </layer>
 </map>

@@ -8,31 +8,31 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="320" height="480" />
+        <map gridSize="32" width="854" height="480" />
         <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
     </layer>
  
     <layer name="Objects">
-        <star x="378" y="162" timeout="-1" />
-        <spike2 x="220" y="63" angle="45" size="4" />
-        <star x="235" y="162" timeout="-1" />
-        <star x="-67" y="283" timeout="-1" />
-        <target x="378" y="44" />
-        <spike2 x="180" y="431" angle="135" size="3" />
-        <pipe x="264" y="422" angle="0" />
-        <spike2 x="235" y="283" angle="90" size="4" />
-        <spike2 x="285" y="225" angle="90" size="4" />
-        <candy x="-170" y="102" />
-        <grab x="-170" y="56" length="10" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
-        <pipe x="-170" y="178" angle="0" />
-        <pump x="378" y="306" angle="-90" />
-        <grab x="95" y="222" length="50" wheel="true" gun="false" radius="134" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
-        <bouncer1 x="-66" y="397" angle="30" size="1" />
-        <ghost x="200" y="246" bouncer="true" bubble="false" grab="false" radius="156" angle="0" />
-        <pipe x="378" y="422" angle="-90" />
-        <spike2 x="170" y="267" angle="90" size="3" />
-        <pipe x="-67" y="178" angle="180" />
-        <pump x="144" y="170" angle="0" />
+        <star x="645" y="162" timeout="-1" />
+        <spike2 x="487" y="63" angle="45" size="4" />
+        <star x="502" y="162" timeout="-1" />
+        <star x="200" y="283" timeout="-1" />
+        <target x="645" y="44" />
+        <spike2 x="447" y="431" angle="135" size="3" />
+        <pipe x="531" y="422" angle="0" />
+        <spike2 x="502" y="283" angle="90" size="4" />
+        <spike2 x="552" y="225" angle="90" size="4" />
+        <candy x="97" y="102" />
+        <grab x="97" y="56" length="10" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <pipe x="97" y="178" angle="0" />
+        <pump x="645" y="306" angle="-90" />
+        <grab x="362" y="222" length="50" wheel="true" gun="false" radius="134" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <bouncer1 x="201" y="397" angle="30" size="1" />
+        <ghost x="467" y="246" bouncer="true" bubble="false" grab="false" radius="156" angle="0" />
+        <pipe x="645" y="422" angle="-90" />
+        <spike2 x="437" y="267" angle="90" size="3" />
+        <pipe x="200" y="178" angle="180" />
+        <pump x="411" y="170" angle="0" />
     </layer>
  
 </map>
