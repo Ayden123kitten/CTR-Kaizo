@@ -61,10 +61,11 @@
   grid-auto-rows: max-content;
   gap: 1rem;
 }
+
 .page-list .level-container .level .stats {
   display: flex;
   justify-content: space-evenly;
-  text-align: center;
+  text-align: left;
   gap: 2rem;
 }
 .page-list .level-container .level .stats li {

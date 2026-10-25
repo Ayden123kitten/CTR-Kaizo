@@ -42,10 +42,8 @@ export default {
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
-                    <ul class="stats" v-if="level.description">
-                        <li>
-                            <p class="type-label-lg type-color-light" style="white-space: pre-wrap;">{{ level.description }}</p>
-                        </li>
+                    <ul class="description" v-if="level.description">
+                        <p class="type-label-lg type-color-light" style="white-space: pre-wrap;">{{ level.description }}</p>
                     </ul>
                     <div class="tags" v-if="level.tags">
                       <Tag v-for="tag in level.tags" :key="tag" :label="tag" :active="true" :interactive="false"></Tag>
