@@ -51,6 +51,7 @@ header {
   background-color: var(--color-primary);
   color: var(--color-on-primary);
   width: 100%;
+  min-width: max-content;
 }
 
 header .logo__icon {
