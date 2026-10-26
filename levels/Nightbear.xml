@@ -1,51 +1,42 @@
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
- 
-    Created using Cut the Rope Level Editor:
-    https://adriandrummis.github.io/CutTheRopeEditor/
- 
-<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
- 
+<?xml version="1.0" encoding="utf-8"?>
 <map>
- 
-    <layer name="settings">
-        <map gridSize="32" width="320" height="480" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="true" />
-    </layer>
- 
-    <layer name="Objects">
-        <target x="401" y="266" />
-        <tutorialText x="322" y="177" locale="en" text="Nightbear" width="160" />
-        <candy x="-118" y="92" />
-        <grab x="-47" y="76" length="30" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
-        <spike2 x="3" y="114" angle="-135" size="1" />
-        <grab x="46" y="160" length="30" wheel="false" gun="false" radius="-1" moveLength="150" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" bindBulb="true" bulbNumber="1" kickable="false" kicked="false" />
-        <spike2 x="99" y="135" angle="0" size="3" />
-        <lightBulb x="44" y="230" litRadius="50" bulbNumber="1" />
-        <spike2 x="212" y="179" angle="90" size="2" />
-        <spike2 x="178" y="109" angle="105" size="1" />
-        <spike2 x="203" y="109" angle="-105" size="1" />
-        <spike2 x="102" y="247" angle="180" size="3" />
-        <spike2 x="29" y="347" angle="90" size="4" />
-        <spike2 x="212" y="284" angle="90" size="2" />
-        <spike2 x="155" y="326" angle="180" size="3" />
-        <pump x="264" y="281" angle="180" />
-        <bubble x="180" y="281" />
-        <pump x="-19" y="391" angle="0" />
-        <bubble x="73" y="387" />
-        <spike2 x="102" y="434" angle="180" size="3" />
-        <spike2 x="201" y="348" angle="135" size="1" />
-        <spike2 x="176" y="344" angle="90" size="1" />
-        <spike2 x="270" y="329" angle="180" size="2" />
-        <spike2 x="248" y="414" angle="165" size="3" />
-        <bubble x="235" y="382" />
-        <pump x="173" y="343" angle="15" />
-        <spike2 x="314" y="467" angle="90" size="3" />
-        <spike2 x="317" y="278" angle="90" size="2" />
-        <spike2 x="269" y="230" angle="-165" size="2" />
-        <star x="103" y="284" timeout="-1" />
-        <spike2 x="-19" y="22" angle="90" size="3" />
-        <lightBulb x="465" y="271" litRadius="68" bulbNumber="2" />
-        <grab x="465" y="174" length="50" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" bindBulb="true" bulbNumber="2" kickable="false" kicked="false" />
-    </layer>
- 
+  <layer name="settings">
+    <map gridSize="32" width="640" height="480" />
+    <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="true" />
+  </layer>
+  <layer name="Objects">
+    <target x="543" y="266" />
+    <tutorialText x="464" y="177" locale="en" text="Nightbear" width="160" />
+    <candy x="24" y="92" candyNumber="0" />
+    <grab x="95" y="76" length="30" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+    <spike1 x="145" y="114" angle="-135" size="1" />
+    <grab x="188" y="160" length="30" wheel="false" gun="false" radius="-1" moveLength="150" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" bindBulb="true" bulbNumber="0" kickable="false" kicked="false" />
+    <spike3 x="241" y="135" angle="0" size="3" />
+    <lightBulb x="186" y="230" litRadius="50" bulbNumber="0" />
+    <spike2 x="354" y="179" angle="90" size="2" />
+    <spike1 x="320" y="109" angle="105" size="1" />
+    <spike1 x="345" y="109" angle="-105" size="1" />
+    <spike3 x="244" y="247" angle="180" size="3" />
+    <spike4 x="171" y="347" angle="90" size="4" />
+    <spike2 x="354" y="284" angle="90" size="2" />
+    <spike3 x="297" y="326" angle="180" size="3" />
+    <pump x="406" y="281" angle="180" />
+    <bubble x="322" y="281" />
+    <pump x="123" y="391" angle="0" />
+    <bubble x="215" y="387" />
+    <spike3 x="244" y="434" angle="180" size="3" />
+    <spike1 x="343" y="348" angle="135" size="1" />
+    <spike1 x="318" y="344" angle="90" size="1" />
+    <spike2 x="412" y="329" angle="180" size="2" />
+    <spike3 x="390" y="414" angle="165" size="3" />
+    <bubble x="377" y="382" />
+    <pump x="315" y="343" angle="15" />
+    <spike3 x="456" y="467" angle="90" size="3" />
+    <spike2 x="459" y="278" angle="90" size="2" />
+    <spike2 x="411" y="230" angle="-165" size="2" />
+    <star x="245" y="284" timeout="-1" />
+    <spike3 x="123" y="22" angle="90" size="3" />
+    <lightBulb x="607" y="271" litRadius="68" bulbNumber="1" />
+    <grab x="607" y="174" length="50" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" bindBulb="true" bulbNumber="1" kickable="false" kicked="false" />
+  </layer>
 </map>
