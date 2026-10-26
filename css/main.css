@@ -71,7 +71,27 @@ header .nav {
 
 header .logo { 
   gap: 0.5rem; 
-  white-space: nowrap; 
+  /* white-space: nowrap; */
+}
+
+@media (max-width: 1275px) {
+  header .logo .title {
+    white-space: pre-line;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    /* word-wrap: break-word; */
+    -webkit-font-smoothing: subpixel-antialiased;
+    padding-left: 5px;
+  }
+}
+@media (max-width: 1140px) {
+  header .logo .title { 
+    display: none; 
+  }
 }
 
 header .nav__actions { 
