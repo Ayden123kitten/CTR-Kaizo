@@ -8,60 +8,60 @@
 <map>
  
     <layer name="settings">
-        <map gridSize="32" width="320" height="480" />
+        <map gridSize="32" width="853" height="480" />
         <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
     </layer>
  
     <layer name="Objects">
-        <gravitySwitch x="160" y="440" />
-        <spike4 x="-80" y="240" angle="-90" size="3" toggled="1" />
-        <spike4 x="400" y="240" angle="180" size="3" toggled="1" />
-        <spike2 x="-160" y="60" angle="90" size="2" />
-        <candy x="-240" y="60" />
-        <grab x="-140" y="60" length="70" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
-        <spike2 x="360" y="460" angle="135" size="1" />
-        <spike2 x="360" y="380" angle="45" size="1" />
-        <spike2 x="-80" y="400" angle="90" size="1" />
-        <spike2 x="100" y="480" angle="0" size="4" />
-        <spike2 x="280" y="480" angle="180" size="4" />
-        <spike2 x="460" y="480" angle="180" size="4" />
-        <spike2 x="160" y="260" angle="180" size="2" />
-        <spike2 x="-40" y="480" angle="180" size="2" path="RC" moveSpeed="" />
-        <spike2 x="-180" y="480" angle="180" size="4" />
-        <spike2 x="580" y="420" angle="90" size="2" />
-        <target x="520" y="420" />
-        <sock x="-200" y="420" group="1" angle="0" />
-        <sock x="520" y="240" group="0" angle="180" />
-        <sock x="-200" y="240" group="1" angle="0" />
-        <spike2 x="-220" y="180" angle="0" size="2" />
-        <spike2 x="-220" y="360" angle="180" size="2" />
-        <spike2 x="-220" y="300" angle="180" size="2" />
-        <spike4 x="160" y="340" angle="0" size="3" toggled="1" />
-        <sock x="520" y="140" group="0" angle="180" />
-        <spike2 x="540" y="180" angle="0" size="2" />
-        <spike2 x="540" y="120" angle="0" size="2" />
-        <spike2 x="540" y="300" angle="0" size="2" />
-        <spike2 x="540" y="360" angle="180" size="2" />
-        <spike2 x="60" y="380" angle="-158" size="2" />
-        <spike2 x="260" y="380" angle="156" size="2" />
-        <spike2 x="160" y="400" angle="180" size="2" />
-        <spike2 x="260" y="100" angle="-158" size="2" />
-        <spike2 x="160" y="80" angle="180" size="2" />
-        <spike2 x="60" y="100" angle="158" size="2" />
-        <spike2 x="160" y="220" angle="180" size="2" />
-        <spike2 x="400" y="360" angle="0" size="4" />
-        <spike2 x="-80" y="360" angle="180" size="4" />
-        <spike2 x="400" y="300" angle="0" size="4" />
-        <spike2 x="-80" y="300" angle="180" size="4" />
-        <spike2 x="400" y="120" angle="0" size="4" />
-        <spike4 x="160" y="140" angle="90" size="3" toggled="1" />
-        <spike2 x="400" y="180" angle="180" size="4" />
-        <spike2 x="-80" y="120" angle="180" size="4" />
-        <spike2 x="-80" y="180" angle="180" size="4" />
-        <spike2 x="260" y="200" angle="159" size="2" path="RC" moveSpeed="" />
-        <spike2 x="60" y="200" angle="22" size="2" />
-        <spike2 x="60" y="280" angle="-23" size="2" />
-        <spike2 x="260" y="280" angle="-159" size="2" path="RC" moveSpeed="" />
+        <gravitySwitch x="427" y="440" />
+        <spike4 x="187" y="240" angle="-90" size="3" toggled="1" />
+        <spike4 x="667" y="240" angle="180" size="3" toggled="1" />
+        <spike2 x="107" y="60" angle="90" size="2" />
+        <candy x="27" y="60" />
+        <grab x="127" y="60" length="70" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+        <spike2 x="627" y="460" angle="135" size="1" />
+        <spike2 x="627" y="380" angle="45" size="1" />
+        <spike2 x="187" y="400" angle="90" size="1" />
+        <spike2 x="367" y="480" angle="0" size="4" />
+        <spike2 x="547" y="480" angle="180" size="4" />
+        <spike2 x="727" y="480" angle="180" size="4" />
+        <spike2 x="427" y="260" angle="180" size="2" />
+        <spike2 x="227" y="480" angle="180" size="2" path="RC" moveSpeed="" />
+        <spike2 x="87" y="480" angle="180" size="4" />
+        <spike2 x="847" y="420" angle="90" size="2" />
+        <target x="787" y="420" />
+        <sock x="67" y="420" group="1" angle="0" />
+        <sock x="787" y="240" group="0" angle="180" />
+        <sock x="67" y="240" group="1" angle="0" />
+        <spike2 x="47" y="180" angle="0" size="2" />
+        <spike2 x="47" y="360" angle="180" size="2" />
+        <spike2 x="47" y="300" angle="180" size="2" />
+        <spike4 x="427" y="340" angle="0" size="3" toggled="1" />
+        <sock x="787" y="140" group="0" angle="180" />
+        <spike2 x="807" y="180" angle="0" size="2" />
+        <spike2 x="807" y="120" angle="0" size="2" />
+        <spike2 x="807" y="300" angle="0" size="2" />
+        <spike2 x="807" y="360" angle="180" size="2" />
+        <spike2 x="327" y="380" angle="-158" size="2" />
+        <spike2 x="527" y="380" angle="156" size="2" />
+        <spike2 x="427" y="400" angle="180" size="2" />
+        <spike2 x="527" y="100" angle="-158" size="2" />
+        <spike2 x="427" y="80" angle="180" size="2" />
+        <spike2 x="327" y="100" angle="158" size="2" />
+        <spike2 x="427" y="220" angle="180" size="2" />
+        <spike2 x="667" y="360" angle="0" size="4" />
+        <spike2 x="187" y="360" angle="180" size="4" />
+        <spike2 x="667" y="300" angle="0" size="4" />
+        <spike2 x="187" y="300" angle="180" size="4" />
+        <spike2 x="667" y="120" angle="0" size="4" />
+        <spike4 x="427" y="140" angle="90" size="3" toggled="1" />
+        <spike2 x="667" y="180" angle="180" size="4" />
+        <spike2 x="187" y="120" angle="180" size="4" />
+        <spike2 x="187" y="180" angle="180" size="4" />
+        <spike2 x="527" y="200" angle="159" size="2" path="RC" moveSpeed="" />
+        <spike2 x="327" y="200" angle="22" size="2" />
+        <spike2 x="327" y="280" angle="-23" size="2" />
+        <spike2 x="527" y="280" angle="-159" size="2" path="RC" moveSpeed="" />
     </layer>
  
 </map>

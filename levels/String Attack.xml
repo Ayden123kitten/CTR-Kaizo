@@ -1,59 +1,50 @@
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - >
- 
-    Created using Cut the Rope Level Editor:
-    https://adriandrummis.github.io/CutTheRopeEditor/
- 
-<- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
- 
+<?xml version="1.0" encoding="utf-8"?>
 <map>
- 
-    <layer name="settings">
-        <map gridSize="32" width="500" height="500" />
-        <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
-    </layer>
- 
-    <layer name="Objects">
-        <spike4 x="130" y="250" angle="180" size="3" toggled="1" />
-        <grab x="-50" y="130" length="50" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
-        <candy x="-50" y="150" />
-        <gap x="170" y="130" angle="0" activeTime="1" radius="50" index="3" />
-        <tutorialText x="488" y="29" locale="en" text="he is happy because of cheese" width="160" />
-        <spike2 x="406" y="301" angle="0" size="2" />
-        <spike2 x="276" y="301" angle="180" size="4" />
-        <spike2 x="511" y="139" angle="90" size="2" />
-        <star x="510" y="230" timeout="-1" />
-        <spike2 x="510" y="270" angle="90" size="2" />
-        <pump x="590" y="350" angle="180" />
-        <pump x="370" y="390" angle="-90" />
-        <pump x="230" y="390" angle="-90" />
-        <tutorial07 x="570" locale="en" y="110" />
-        <tutorial03 x="570" locale="en" y="150" angle="0" />
-        <spike2 x="570" y="310" angle="180" size="2" />
-        <spike2 x="630" y="270" angle="90" size="2" />
-        <target x="570" y="250" />
-        <pump x="450" y="150" angle="56" />
-        <bubble x="490" y="350" />
-        <pump x="130" y="310" angle="0" />
-        <spike2 x="50" y="190" angle="90" size="2" />
-        <spike2 x="50" y="290" angle="90" size="4" />
-        <spike2 x="130" y="290" angle="90" size="4" />
-        <spike4 x="-90" y="250" angle="90" size="3" toggled="1" />
-        <pump x="-50" y="-10" angle="90" />
-        <spike4 x="-10" y="310" angle="180" size="3" toggled="2" />
-        <pump x="-110" y="70" angle="0" />
-        <star x="-50" y="70" timeout="9" />
-        <star x="90" y="330" timeout="4" />
-        <bubble x="90" y="330" />
-        <spike2 x="-70" y="410" angle="90" size="4" />
-        <spike2 x="-30" y="410" angle="90" size="4" />
-        <pump x="-50" y="430" angle="-90" />
-        <spike2 x="130" y="110" angle="90" size="4" />
-        <spike2 x="10" y="150" angle="180" size="1" />
-        <gap x="90" y="130" angle="0" activeTime="1" radius="50" index="2" />
-        <spike2 x="-30" y="230" angle="90" size="4" />
-        <spike2 x="-70" y="230" angle="90" size="4" />
-        <spike2 x="90" y="390" angle="180" size="2" />
-        <gap x="-50" y="250" angle="0" activeTime="1" radius="50" index="1" />
-    </layer>
- 
+  <layer name="settings">
+    <map gridSize="32" width="853" height="480" />
+    <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+  </layer>
+  <layer name="Objects">
+    <spike3 x="307" y="260" angle="180" size="3" toggled="1" />
+    <grab x="127" y="140" length="50" wheel="false" gun="false" radius="-1" moveLength="0" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" kickable="false" kicked="false" />
+    <candy x="127" y="160" candyNumber="0" />
+    <gap x="347" y="140" angle="0" activeTime="1" radius="50" index="3" />
+    <tutorialText x="665" y="39" locale="en" text="he is happy because of cheese" width="160" />
+    <spike2 x="583" y="311" angle="0" size="2" />
+    <spike4 x="453" y="311" angle="180" size="4" />
+    <spike2 x="688" y="149" angle="90" size="2" />
+    <star x="687" y="240" timeout="-1" />
+    <spike2 x="687" y="280" angle="90" size="2" />
+    <pump x="767" y="360" angle="180" />
+    <pump x="547" y="400" angle="-90" />
+    <pump x="407" y="400" angle="-90" />
+    <tutorial07 x="747" locale="en" y="120" />
+    <tutorial03 x="747" locale="en" y="160" angle="0" />
+    <spike2 x="747" y="320" angle="180" size="2" />
+    <spike2 x="807" y="280" angle="90" size="2" />
+    <target x="747" y="260" />
+    <pump x="627" y="160" angle="56" />
+    <bubble x="667" y="360" />
+    <pump x="307" y="320" angle="0" />
+    <spike2 x="227" y="200" angle="90" size="2" />
+    <spike4 x="227" y="300" angle="90" size="4" />
+    <spike4 x="307" y="300" angle="90" size="4" />
+    <spike3 x="87" y="260" angle="90" size="3" toggled="1" />
+    <pump x="127" y="0" angle="90" />
+    <spike3 x="167" y="320" angle="180" size="3" toggled="2" />
+    <pump x="67" y="80" angle="0" />
+    <star x="127" y="80" timeout="9" />
+    <star x="267" y="340" timeout="4" />
+    <bubble x="267" y="340" />
+    <spike4 x="107" y="420" angle="90" size="4" />
+    <spike4 x="147" y="420" angle="90" size="4" />
+    <pump x="127" y="440" angle="-90" />
+    <spike4 x="307" y="120" angle="90" size="4" />
+    <spike1 x="187" y="160" angle="180" size="1" />
+    <gap x="267" y="140" angle="0" activeTime="1" radius="50" index="2" />
+    <spike4 x="147" y="240" angle="90" size="4" />
+    <spike4 x="107" y="240" angle="90" size="4" />
+    <spike2 x="267" y="400" angle="180" size="2" />
+    <gap x="127" y="260" angle="0" activeTime="1" radius="50" index="1" />
+  </layer>
 </map>

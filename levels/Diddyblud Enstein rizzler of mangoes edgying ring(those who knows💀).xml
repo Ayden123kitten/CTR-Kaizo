@@ -1,6 +1,6 @@
 <map>
 <layer name="settings">
-<map gridSize="32" width="854" height="480" />
+<map gridSize="32" width="853" height="480" />
 <gameDesign ropePhysicsSpeed="1.0" />
 </layer>
 <layer name="Objects">

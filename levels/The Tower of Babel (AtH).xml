@@ -1,6 +1,6 @@
 <map>
 <layer name="settings">
-<map gridSize="32" width="854" height="960" name = "The Tower of Babel"/>
+<map gridSize="32" width="853" height="960" name = "The Tower of Babel"/>
 <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
 </layer>
 <layer name="Objects">

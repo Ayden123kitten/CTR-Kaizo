@@ -1,206 +1,206 @@
 <map>
 	<layer name="settings">
-		<map gridSize="32" width="320" height="480" />
+		<map gridSize="32" width="853" height="480" />
 		<gameDesign ropePhysicsSpeed="1.0" />
 	</layer>
 	<layer name="Objects">
-		<candy x="-112" y="57" />
-		<target x="301" y="204" />
-		<sock x="-150" y="85" group="0" angle="90" />
-		<sock x="-146" y="122" group="0" angle="-90" />
-		<sock x="-150" y="85" group="1" angle="90" />
-		<sock x="-146" y="122" group="1" angle="-90" />
-		<sock x="-150" y="85" group="2" angle="90" />
-		<sock x="-146" y="122" group="2" angle="-90" />
-		<sock x="-150" y="85" group="3" angle="90" />
-		<sock x="-146" y="122" group="3" angle="-90" />
-		<sock x="-150" y="85" group="4" angle="90" />
-		<sock x="-146" y="122" group="4" angle="-90" />
-		<sock x="-150" y="85" group="5" angle="90" />
-		<sock x="-146" y="122" group="5" angle="-90" />
-		<sock x="-150" y="85" group="6" angle="90" />
-		<sock x="-146" y="122" group="6" angle="-90" />
-		<sock x="-150" y="85" group="7" angle="90" />
-		<sock x="-146" y="122" group="7" angle="-90" />
-		<sock x="-150" y="85" group="8" angle="90" />
-		<sock x="-146" y="122" group="8" angle="-90" />
-		<sock x="-150" y="85" group="9" angle="90" />
-		<sock x="-146" y="122" group="9" angle="-90" />
-		<sock x="-150" y="85" group="10" angle="90" />
-		<sock x="-146" y="122" group="10" angle="-90" />
-		<sock x="-150" y="85" group="11" angle="90" />
-		<sock x="-146" y="122" group="11" angle="-90" />
-		<sock x="-150" y="85" group="12" angle="90" />
-		<sock x="-146" y="122" group="12" angle="-90" />
-		<sock x="-150" y="85" group="13" angle="90" />
-		<sock x="-146" y="122" group="13" angle="-90" />
-		<sock x="-150" y="85" group="14" angle="90" />
-		<sock x="-146" y="122" group="14" angle="-90" />
-		<sock x="-150" y="85" group="15" angle="90" />
-		<sock x="-146" y="122" group="15" angle="-90" />
-		<sock x="-150" y="85" group="16" angle="90" />
-		<sock x="-146" y="122" group="16" angle="-90" />
-		<sock x="-150" y="85" group="17" angle="90" />
-		<sock x="-146" y="122" group="17" angle="-90" />
-		<sock x="-150" y="85" group="18" angle="90" />
-		<sock x="-146" y="122" group="18" angle="-90" />
-		<sock x="-150" y="85" group="19" angle="90" />
-		<sock x="-146" y="122" group="19" angle="-90" />
-		<sock x="-151" y="88" group="20" angle="90" />
-		<sock x="-146" y="122" group="20" angle="-90" />
-		<grab x="-156" y="488" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-215" y="484" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-203" y="483" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-242" y="476" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-223" y="484" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-133" y="487" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-197" y="502" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-146" y="487" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-176" y="485" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-195" y="483" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-253" y="470" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-260" y="458" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-262" y="441" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-233" y="478" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-267" y="433" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-271" y="421" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-271" y="407" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-272" y="397" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-223" y="491" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-173" y="493" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-121" y="490" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-114" y="489" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-106" y="474" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-271" y="387" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-139" y="491" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-125" y="486" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-180" y="489" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-120" y="484" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-210" y="481" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-232" y="480" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-218" y="486" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-123" y="496" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-215" y="491" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-133" y="484" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-278" y="414" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-165" y="486" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-190" y="487" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-185" y="486" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<tutorialText x="-236" y="349" locale="en" text="if your candy isn't feeling well, perhaps it should take a nap" width="200" />
-		<electro x="-3" y="167" initialDelay="" offTime="0" onTime="65535" angle="90" size="5" />
-		<pump x="-52" y="112" angle="180" />
-		<bouncer1 x="-2" y="33" angle="-90" size="2" />
-		<spike4 x="303" y="129" angle="-15" size="3" toggled="1" />
-		<spike4 x="241" y="219" angle="90" size="3" toggled="1" />
-		<spike4 x="315" y="53" angle="-15" size="3" toggled="1" />
-		<electro x="-1" y="166" initialDelay="" offTime="0" onTime="65535" angle="180" size="5" />
-		<gravitySwitch x="156" y="260" />
-		<spike2 x="190" y="261" angle="90" size="1" />
-		<spike2 x="120" y="260" angle="90" size="1" />
-		<spike2 x="155" y="227" angle="180" size="1" />
-		<spike2 x="194" y="49" angle="45" size="1" />
-		<grab x="-184" y="482" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-170" y="484" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-159" y="483" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-149" y="479" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-186" y="484" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-177" y="483" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-170" y="480" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-154" y="482" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-140" y="475" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-192" y="477" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-218" y="480" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-181" y="478" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-233" y="472" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-251" y="461" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-184" y="476" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-128" y="479" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-98" y="473" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-112" y="477" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-122" y="476" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<spike4 x="-4" y="470" angle="180" size="3" toggled="2" />
-		<spike4 x="126" y="469" angle="180" size="3" toggled="2" />
-		<spike4 x="253" y="469" angle="180" size="3" toggled="2" />
-		<spike4 x="384" y="468" angle="180" size="3" toggled="2" />
-		<spike4 x="506" y="467" angle="180" size="3" toggled="2" />
-		<spike4 x="577" y="396" angle="-90" size="3" toggled="2" />
-		<spike4 x="577" y="267" angle="-90" size="3" toggled="2" />
-		<spike4 x="576" y="143" angle="-90" size="3" toggled="2" />
-		<spike4 x="577" y="22" angle="-90" size="3" toggled="2" />
-		<spike4 x="505" y="9" angle="0" size="3" toggled="2" />
-		<spike4 x="383" y="7" angle="0" size="3" toggled="2" />
-		<spike4 x="259" y="9" angle="0" size="3" toggled="2" />
-		<spike4 x="15" y="9" angle="0" size="3" toggled="2" />
-		<spike4 x="138" y="10" angle="0" size="3" toggled="2" />
-		<spike4 x="-108" y="9" angle="0" size="3" toggled="2" />
-		<spike4 x="-231" y="11" angle="0" size="3" toggled="2" />
-		<spike4 x="-264" y="87" angle="90" size="3" toggled="2" />
-		<spike4 x="-309" y="194" angle="135" size="3" toggled="2" />
-		<spike4 x="-260" y="332" angle="90" size="3" toggled="2" />
-		<bouncer1 x="-188" y="178" angle="0" size="1" />
-		<bubble x="-233" y="222" />
-		<star x="-1" y="169" />
-		<pump x="-229" y="222" angle="0" />
-		<spike2 x="-182" y="290" angle="180" size="2" />
-		<bouncer1 x="-48" y="306" angle="75" size="2" />
-		<bouncer1 x="1" y="269" angle="-105" size="1" />
-		<spike4 x="241" y="336" angle="90" size="3" toggled="1" />
-		<pump x="191" y="352" angle="-165" />
-		<spike2 x="248" y="436" angle="180" size="4" />
-		<spike2 x="-17" y="414" angle="90" size="1" />
-		<spike2 x="-16" y="414" angle="180" size="1" />
-		<spike2 x="-159" y="182" angle="0" size="1" />
-		<spike2 x="185" y="189" angle="150" size="1" />
-		<star x="68" y="106" />
-		<bouncer1 x="34" y="110" angle="90" size="1" />
-		<spike2 x="16" y="43" angle="90" size="1" />
-		<bouncer1 x="155" y="294" angle="180" size="1" />
-		<spike4 x="241" y="47" angle="90" size="1" toggled="1" />
-		<bouncer1 x="538" y="109" angle="-90" size="2" />
-		<spike4 x="367" y="195" angle="90" size="3" toggled="1" />
-		<spike2 x="249" y="207" angle="90" size="2" />
-		<spike2 x="302" y="138" angle="-15" size="2" />
-		<spike2 x="248" y="38" angle="90" size="1" />
-		<spike2 x="249" y="328" angle="90" size="3" />
-		<spike2 x="307" y="46" angle="165" size="3" />
-		<spike2 x="305" y="378" angle="180" size="1" />
-		<bubble x="488" y="220" />
-		<bubble x="517" y="264" />
-		<bubble x="486" y="303" />
-		<bubble x="516" y="344" />
-		<bubble x="485" y="384" />
-		<bubble x="481" y="462" />
-		<pump x="543" y="304" angle="180" />
-		<spike2 x="376" y="239" angle="90" size="1" />
-		<spike4 x="-304" y="225" angle="-135" size="3" toggled="2" />
-		<spike2 x="38" y="203" angle="135" size="1" />
-		<bouncer1 x="22" y="270" angle="105" size="1" />
-		<spike2 x="306" y="378" angle="90" size="1" />
-		<spike2 x="167" y="457" angle="90" size="1" />
-		<spike2 x="330" y="458" angle="90" size="1" />
-		<spike2 x="356" y="201" angle="90" size="3" />
-		<spike2 x="366" y="270" angle="180" size="1" />
-		<bouncer1 x="384" y="182" angle="90" size="2" />
-		<bubble x="453" y="424" />
-		<bubble x="415" y="390" />
-		<spike2 x="410" y="293" angle="90" size="1" />
-		<spike2 x="410" y="295" angle="180" size="1" />
-		<star x="301" y="270" timeout="20" />
-		<tutorialText x="209" y="68" locale="en" text=". , / \ ` '" width="200" />
-		<pump x="448" y="422" angle="-135" />
-		<bouncer1 x="551" y="189" angle="-120" size="1" />
-		<bouncer1 x="553" y="26" angle="-60" size="1" />
-		<grab x="-111" y="474" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-103" y="472" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-107" y="472" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-113" y="476" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-93" y="471" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-94" y="463" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-96" y="462" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-99" y="464" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-104" y="468" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-224" y="473" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-		<grab x="-186" y="160" length="100" wheel="false" gun="false" radius="15" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<candy x="155" y="57" />
+		<target x="568" y="204" />
+		<sock x="117" y="85" group="0" angle="90" />
+		<sock x="121" y="122" group="0" angle="-90" />
+		<sock x="117" y="85" group="1" angle="90" />
+		<sock x="121" y="122" group="1" angle="-90" />
+		<sock x="117" y="85" group="2" angle="90" />
+		<sock x="121" y="122" group="2" angle="-90" />
+		<sock x="117" y="85" group="3" angle="90" />
+		<sock x="121" y="122" group="3" angle="-90" />
+		<sock x="117" y="85" group="4" angle="90" />
+		<sock x="121" y="122" group="4" angle="-90" />
+		<sock x="117" y="85" group="5" angle="90" />
+		<sock x="121" y="122" group="5" angle="-90" />
+		<sock x="117" y="85" group="6" angle="90" />
+		<sock x="121" y="122" group="6" angle="-90" />
+		<sock x="117" y="85" group="7" angle="90" />
+		<sock x="121" y="122" group="7" angle="-90" />
+		<sock x="117" y="85" group="8" angle="90" />
+		<sock x="121" y="122" group="8" angle="-90" />
+		<sock x="117" y="85" group="9" angle="90" />
+		<sock x="121" y="122" group="9" angle="-90" />
+		<sock x="117" y="85" group="10" angle="90" />
+		<sock x="121" y="122" group="10" angle="-90" />
+		<sock x="117" y="85" group="11" angle="90" />
+		<sock x="121" y="122" group="11" angle="-90" />
+		<sock x="117" y="85" group="12" angle="90" />
+		<sock x="121" y="122" group="12" angle="-90" />
+		<sock x="117" y="85" group="13" angle="90" />
+		<sock x="121" y="122" group="13" angle="-90" />
+		<sock x="117" y="85" group="14" angle="90" />
+		<sock x="121" y="122" group="14" angle="-90" />
+		<sock x="117" y="85" group="15" angle="90" />
+		<sock x="121" y="122" group="15" angle="-90" />
+		<sock x="117" y="85" group="16" angle="90" />
+		<sock x="121" y="122" group="16" angle="-90" />
+		<sock x="117" y="85" group="17" angle="90" />
+		<sock x="121" y="122" group="17" angle="-90" />
+		<sock x="117" y="85" group="18" angle="90" />
+		<sock x="121" y="122" group="18" angle="-90" />
+		<sock x="117" y="85" group="19" angle="90" />
+		<sock x="121" y="122" group="19" angle="-90" />
+		<sock x="116" y="88" group="20" angle="90" />
+		<sock x="121" y="122" group="20" angle="-90" />
+		<grab x="111" y="488" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="52" y="484" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="64" y="483" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="25" y="476" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="44" y="484" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="134" y="487" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="70" y="502" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="121" y="487" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="91" y="485" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="72" y="483" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="14" y="470" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="7" y="458" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="5" y="441" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="34" y="478" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="0" y="433" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="-4" y="421" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="-4" y="407" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="-5" y="397" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="44" y="491" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="94" y="493" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="146" y="490" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="153" y="489" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="161" y="474" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="-4" y="387" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="128" y="491" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="142" y="486" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="87" y="489" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="147" y="484" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="57" y="481" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="35" y="480" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="49" y="486" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="144" y="496" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="52" y="491" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="134" y="484" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="-11" y="414" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="102" y="486" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="77" y="487" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="82" y="486" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<tutorialText x="31" y="349" locale="en" text="if your candy isn't feeling well, perhaps it should take a nap" width="200" />
+		<electro x="264" y="167" initialDelay="" offTime="0" onTime="65535" angle="90" size="5" />
+		<pump x="215" y="112" angle="180" />
+		<bouncer1 x="265" y="33" angle="-90" size="2" />
+		<spike4 x="570" y="129" angle="-15" size="3" toggled="1" />
+		<spike4 x="508" y="219" angle="90" size="3" toggled="1" />
+		<spike4 x="582" y="53" angle="-15" size="3" toggled="1" />
+		<electro x="266" y="166" initialDelay="" offTime="0" onTime="65535" angle="180" size="5" />
+		<gravitySwitch x="423" y="260" />
+		<spike2 x="457" y="261" angle="90" size="1" />
+		<spike2 x="387" y="260" angle="90" size="1" />
+		<spike2 x="422" y="227" angle="180" size="1" />
+		<spike2 x="461" y="49" angle="45" size="1" />
+		<grab x="83" y="482" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="97" y="484" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="108" y="483" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="118" y="479" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="81" y="484" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="90" y="483" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="97" y="480" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="113" y="482" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="127" y="475" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="75" y="477" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="49" y="480" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="86" y="478" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="34" y="472" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="16" y="461" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="83" y="476" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="139" y="479" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="169" y="473" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="155" y="477" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="145" y="476" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<spike4 x="263" y="470" angle="180" size="3" toggled="2" />
+		<spike4 x="393" y="469" angle="180" size="3" toggled="2" />
+		<spike4 x="520" y="469" angle="180" size="3" toggled="2" />
+		<spike4 x="651" y="468" angle="180" size="3" toggled="2" />
+		<spike4 x="773" y="467" angle="180" size="3" toggled="2" />
+		<spike4 x="844" y="396" angle="-90" size="3" toggled="2" />
+		<spike4 x="844" y="267" angle="-90" size="3" toggled="2" />
+		<spike4 x="843" y="143" angle="-90" size="3" toggled="2" />
+		<spike4 x="844" y="22" angle="-90" size="3" toggled="2" />
+		<spike4 x="772" y="9" angle="0" size="3" toggled="2" />
+		<spike4 x="650" y="7" angle="0" size="3" toggled="2" />
+		<spike4 x="526" y="9" angle="0" size="3" toggled="2" />
+		<spike4 x="282" y="9" angle="0" size="3" toggled="2" />
+		<spike4 x="405" y="10" angle="0" size="3" toggled="2" />
+		<spike4 x="159" y="9" angle="0" size="3" toggled="2" />
+		<spike4 x="36" y="11" angle="0" size="3" toggled="2" />
+		<spike4 x="3" y="87" angle="90" size="3" toggled="2" />
+		<spike4 x="-42" y="194" angle="135" size="3" toggled="2" />
+		<spike4 x="7" y="332" angle="90" size="3" toggled="2" />
+		<bouncer1 x="79" y="178" angle="0" size="1" />
+		<bubble x="34" y="222" />
+		<star x="266" y="169" />
+		<pump x="38" y="222" angle="0" />
+		<spike2 x="85" y="290" angle="180" size="2" />
+		<bouncer1 x="219" y="306" angle="75" size="2" />
+		<bouncer1 x="268" y="269" angle="-105" size="1" />
+		<spike4 x="508" y="336" angle="90" size="3" toggled="1" />
+		<pump x="458" y="352" angle="-165" />
+		<spike2 x="515" y="436" angle="180" size="4" />
+		<spike2 x="250" y="414" angle="90" size="1" />
+		<spike2 x="251" y="414" angle="180" size="1" />
+		<spike2 x="108" y="182" angle="0" size="1" />
+		<spike2 x="452" y="189" angle="150" size="1" />
+		<star x="335" y="106" />
+		<bouncer1 x="301" y="110" angle="90" size="1" />
+		<spike2 x="283" y="43" angle="90" size="1" />
+		<bouncer1 x="422" y="294" angle="180" size="1" />
+		<spike4 x="508" y="47" angle="90" size="1" toggled="1" />
+		<bouncer1 x="805" y="109" angle="-90" size="2" />
+		<spike4 x="634" y="195" angle="90" size="3" toggled="1" />
+		<spike2 x="516" y="207" angle="90" size="2" />
+		<spike2 x="569" y="138" angle="-15" size="2" />
+		<spike2 x="515" y="38" angle="90" size="1" />
+		<spike2 x="516" y="328" angle="90" size="3" />
+		<spike2 x="574" y="46" angle="165" size="3" />
+		<spike2 x="572" y="378" angle="180" size="1" />
+		<bubble x="755" y="220" />
+		<bubble x="784" y="264" />
+		<bubble x="753" y="303" />
+		<bubble x="783" y="344" />
+		<bubble x="752" y="384" />
+		<bubble x="748" y="462" />
+		<pump x="810" y="304" angle="180" />
+		<spike2 x="643" y="239" angle="90" size="1" />
+		<spike4 x="-37" y="225" angle="-135" size="3" toggled="2" />
+		<spike2 x="305" y="203" angle="135" size="1" />
+		<bouncer1 x="289" y="270" angle="105" size="1" />
+		<spike2 x="573" y="378" angle="90" size="1" />
+		<spike2 x="434" y="457" angle="90" size="1" />
+		<spike2 x="597" y="458" angle="90" size="1" />
+		<spike2 x="623" y="201" angle="90" size="3" />
+		<spike2 x="633" y="270" angle="180" size="1" />
+		<bouncer1 x="651" y="182" angle="90" size="2" />
+		<bubble x="720" y="424" />
+		<bubble x="682" y="390" />
+		<spike2 x="677" y="293" angle="90" size="1" />
+		<spike2 x="677" y="295" angle="180" size="1" />
+		<star x="568" y="270" timeout="20" />
+		<tutorialText x="476" y="68" locale="en" text=". , / \ ` '" width="200" />
+		<pump x="715" y="422" angle="-135" />
+		<bouncer1 x="818" y="189" angle="-120" size="1" />
+		<bouncer1 x="820" y="26" angle="-60" size="1" />
+		<grab x="156" y="474" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="164" y="472" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="160" y="472" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="154" y="476" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="174" y="471" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="173" y="463" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="171" y="462" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="168" y="464" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="163" y="468" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="43" y="473" length="-1" wheel="true" gun="false" radius="00" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
+		<grab x="81" y="160" length="100" wheel="false" gun="false" radius="15" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
         
 	</layer>
 </map>
