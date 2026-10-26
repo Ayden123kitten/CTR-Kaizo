@@ -3,7 +3,7 @@
   "creators": ["playstationrb"],
   "verifier": "Limeapple",
   "verification": "https://www.youtube.com/watch?v=8XHf0S1C29Y",
-  "download": "images/Welcome%20To%20Hell.webp",
+  "download": "levels/Welcome%20To%20Hell.xml",
   "image": "images/Welcome%20To%20Hell.webp",
   "tags": [
     "pauseless", "gravity", "slow", "long", "complicated"
