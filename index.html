@@ -34,13 +34,16 @@
       </div>
       
       <nav class="nav">
-        <router-link class="nav__tab" to="/">
+        <router-link class="nav__tab" to="/"
+                    :class="{ 'is-active': $route.meta.tab === 'list' }">
           <span class="type-label-lg">List</span>
         </router-link>
-        <router-link class="nav__tab" to="/leaderboard">
+        <router-link class="nav__tab" to="/leaderboard"
+                    :class="{ 'is-active': $route.meta.tab === 'leaderboard' }">
           <span class="type-label-lg">Leaderboard</span>
         </router-link>
-        <router-link class="nav__tab" to="/rules-credits">
+        <router-link class="nav__tab" to="/rules-credits"
+                    :class="{ 'is-active': $route.meta.tab === 'rules' }">
           <span class="type-label-lg">Rules & Credits</span>
         </router-link>
       </nav>
